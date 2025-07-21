@@ -1,21 +1,43 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import OreliaMagie from '../../assets/images/skillkarten/Wüstensand.png'
-import OreliaPose from '../../assets/images/westria/Orelia.jpg'
-import OreliaVerletzt from '../../assets/images/westria/Orelia verletzt.png'
-import Djagami1 from '../../assets/images/westria/Djagami_links.png'
-import Djagami2 from '../../assets/images/westria/Djagami.png'
-import Djagami3 from '../../assets/images/westria/Djagami_rechts.png'
+import ParallaxHeader from '../../components/ParallaxHeader/ParallaxHeader';
+import CharacterSection from '../../components/CharacterSection/CharacterSection';
+
+// Assets
+import backgroundImage from '../../assets/images/Wüste.png';
+import foregroundImage from '../../assets/images/Wüste_Vordergrund.png';
+import OreliaMagie from '../../assets/images/skillkarten/Wüstensand.png';
+import OreliaPose from '../../assets/images/westria/Orelia.jpg';
+import OreliaVerletzt from '../../assets/images/westria/Orelia verletzt.png';
+import Djagami1 from '../../assets/images/westria/Djagami_links.png';
+import Djagami2 from '../../assets/images/westria/Djagami.png';
+import Djagami3 from '../../assets/images/westria/Djagami_rechts.png';
+
 import './WestriaPage.css';
 
 const WestriaPage = () => {
+  // Strukturierte Bild-Daten
+  const oreliaImages = [
+    { src: OreliaMagie, alt: "Orelia Magie", zoomClass: "" },
+    { src: OreliaPose, alt: "Orelia Pose", zoomClass: "zoomed" },
+    { src: OreliaVerletzt, alt: "Orelia Verletzt", zoomClass: "" }
+  ];
+
+  const djagamiImages = [
+    { src: Djagami1, alt: "Djagami Links", zoomClass: "djagami1-zoomed" },
+    { src: Djagami2, alt: "Djagami Mitte", zoomClass: "djagami-zoomed" },
+    { src: Djagami3, alt: "Djagami Rechts", zoomClass: "" }
+  ];
+
   return (
     <div className="westria-page">
-      <div className='westria-header'>
-        <div className='background'></div>
-        <div className='foreground'></div>
-        <div className="title-text"> WESTRIA </div>
-      </div>
+      <ParallaxHeader 
+        title="WESTRIA"
+        backgroundImage={backgroundImage}
+        foregroundImage={foregroundImage}
+        height="500px"
+      />
+
       <Container>
         <div className="westria-content">
           <h1>Western meets Fantasy</h1>
@@ -49,43 +71,22 @@ const WestriaPage = () => {
               </p>
             </div>
           </div>
-          <div className="westria-intro theme-gray" style={{ backgroundColor: 'rgba(208, 207, 205, 1)' }}>
-            <h3 style={{ textAlign: 'center' }}>Orelia Dust</h3>
-            <p>
-              Ein junges Mädchen, dsaa ihren Stamm hinter sich gelassen hat und nun mit ihrem treuen Kamelstrauß und Begleiter Kasu <br></br>
-              durch die gnadenlose Wüste zieht. Auf der Suche nach einem geheimnisvollen Ort, den sie bisher nur in ihren Träumen gesehen hat.
-            </p>
-            <div className="westria-sections">
-              <div className="westria-section" >
-                <img src={OreliaMagie} alt="Orelia Magie" className="westria-image" />
-              </div>
-              <div className="westria-section" >
-                <img src={OreliaPose} alt="Orelia Pose" className="westria-image zoomed" />
-              </div>
-              <div className="westria-section" >
-                <img src={OreliaVerletzt} alt="Orelia Magie" className="westria-image" />
-              </div>
-            </div>
-          </div>
-          <div className="westria-intro theme-blue" style={{ backgroundColor: 'rgba(198, 185, 243, 1)' }}>
-            <h3 style={{ textAlign: 'center' }}>Djagami</h3>
-            <p>
-              Er ist ein Schatten unter der Sonne, sein Gesicht verhüllt von einer Maske, die das bleiche Antlitz einer Mondkrähe zeigt.<br></br> 
-              Mit geheimnisvollen Kräften streift er durch die Wüste und kennt Geheimnisse, von denen andere nicht einmal zu träumen wagen. <br></br>
-              Unweit von Maginoa, der Stadt der tausend Wunder, kreuzen sich seine Schritte mit Orelias.
-            </p>
-            <div className="westria-sections">
-              <div className="westria-section" >
-                <img src={Djagami1} alt="Djagami_links" className="westria-image djagami1-zoomed" />
-              </div>
-              <div className="westria-section" >
-                <img src={Djagami2} alt="Djagami_mitte" className="westria-image djagami-zoomed" />
-              </div>
-              <div className="westria-section" >
-                <img src={Djagami3} alt="Djagami_rechts" className="westria-image" />
-              </div>
-            </div>
-          </div>
+
+          <CharacterSection
+            title="Orelia Dust"
+            description="Ein junges Mädchen, das ihren Stamm hinter sich gelassen hat und nun mit ihrem treuen Kamelstrauß und Begleiter Kasu durch die gnadenlose Wüste zieht. Auf der Suche nach einem geheimnisvollen Ort, den sie bisher nur in ihren Träumen gesehen hat."
+            theme="gray"
+            backgroundColor="rgba(208, 207, 205, 1)"
+            images={oreliaImages}
+          />
+
+          <CharacterSection
+            title="Djagami"
+            description="Er ist ein Schatten unter der Sonne, sein Gesicht verhüllt von einer Maske, die das bleiche Antlitz einer Mondkrähe zeigt. Mit geheimnisvollen Kräften streift er durch die Wüste und kennt Geheimnisse, von denen andere nicht einmal zu träumen wagen. Unweit von Maginoa, der Stadt der tausend Wunder, kreuzen sich seine Schritte mit Orelias."
+            theme="blue"
+            backgroundColor="rgba(198, 185, 243, 1)"
+            images={djagamiImages}
+          />
         </div>
       </Container>
     </div>
