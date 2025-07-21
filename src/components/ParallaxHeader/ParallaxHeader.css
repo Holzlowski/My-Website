@@ -7,9 +7,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */    /* ✅ Kann Probleme machen */
   overflow: hidden;
-  perspective: 10px;
+  /* perspective: 10px; */               /* ✅ Kann Probleme machen */
 }
 
 .parallax-background {
@@ -17,25 +17,40 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 120%;                           /* ✅ Etwas größer für Scroll-Bewegung */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transform: translateZ(-10px) scale(2);
+  background-color: #c4a484;              
+  /* transform: translateZ(-10px) scale(2); */  /* ✅ 3D Transform entfernt */
   z-index: 1;
+  opacity: 0;                             
+  transition: opacity 0.5s ease-in-out;   
+}
+
+.parallax-background.loaded {
+  opacity: 1;                             
 }
 
 .parallax-foreground {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: -50px;                                                         /* ✅ Zurück auf 0, da width=100% */
+  width: 100%;                             
+  height: 120%;                           
   background-size: cover;
-  background-position: center;
+  background-position: center top;        /* ✅ Oben ausrichten */
   background-repeat: no-repeat;
-  transform: translateZ(-5px) scale(1.5);
+  background-color: rgba(160, 140, 110, 0.3); 
   z-index: 2;
+  opacity: 0;                             
+  transition: opacity 0.7s ease-in-out;
+
+  /* Alle möglichen CSS-Überschreibungen verhindern */
+  transform: none !important;             /* ✅ Erst mal alles zurücksetzen */
+}
+
+.parallax-foreground.loaded {
+  opacity: 1;                             
 }
 
 .parallax-title {
