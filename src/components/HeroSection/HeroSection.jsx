@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarImage from '../../assets/images/Avatar.png';
+import avatarImage from '../../assets/images/Träumer.png';
 import karte1 from '../../assets/images/skillkarten/Wüstensand.png';
 import karte2 from '../../assets/images/skillkarten/Alchemielabor.png';
 import karte3 from '../../assets/images/skillkarten/Äpfel3D.jpg';

@@ -1,12 +1,13 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import baumLogo from '../../assets/images/BaumLogo.png'; // Logo importieren
-import logoName from '../../assets/images/LogoName.png'; // Optional: Logo-Name importieren
+import logoName from '../../assets/images/LogoName.png'; 
+import { Link } from 'react-router-dom';
+
 
 function NavigationBar() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" fixed='top'>
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand as={Link} to="/">
                     <img 
                         src={logoName} 
                         alt="Baum Logo" 
@@ -16,9 +17,9 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav"> 
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#contact">Kontakt</Nav.Link>
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/westria">Westria</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Kontakt</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
