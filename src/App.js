@@ -23,7 +23,7 @@ function App() {
             </>
           } />
           <Route path="/westria" element={<WestriaPage />} />
-          <Route path="/3D" element={<ThreeDPage />} />
+          <Route path="/3D-Design" element={<ThreeDPage />} />
         </Routes>
       </Router>
     </>

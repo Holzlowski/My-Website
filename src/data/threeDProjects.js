@@ -26,7 +26,7 @@ import Dice1 from '../assets/images/threeD-design/ZweitBilder/Dice1.png';
 
 export const threeDProjects = [
     {
-        title: "Alchemielabor",
+        title: "Das Alchemielabor",
         media:[
             {
                 type: "image",
@@ -37,10 +37,10 @@ export const threeDProjects = [
                 videoId: "rwiGuym6VLI"  
             }
         ],
-        description: "Magisches Labor mit Tränken, Büchern und mystischen Gegenständen."
+        description: "Mit Blender und dem Grease Pencil erstellt. Ein magisches Labor voller Tränke, Bücher, mystischer Gegenstände und kleinen Easter Eggs. Niemand weiß, was der Alchemist hier wirklich braut."
     },
     {
-        title: "Village",
+        title: "Das Dorf ",
         media:[
             {
                 type: "image",
@@ -51,10 +51,10 @@ export const threeDProjects = [
                 videoId: "P_Zf9Ou7EHk"
             }
         ],
-        description: "Ein detailliertes 3D-Dorf mit mittelalterlicher Architektur und atmosphärischer Beleuchtung."
+        description: "Ebenfalls in Blender mit Grease Pencil erstellt. Irgendwo hier lebt der Alchemist, während die anderen Dorfbewohner dabei sind, alles für das nächste Fest vorzubereiten."
     },
     {
-        title: "Haus",
+        title: "Das Haus",
         media: [
             {
                 type: "image",
@@ -65,10 +65,10 @@ export const threeDProjects = [
                 videoId: "itsc93CjdkU"
             }
         ],
-        description: "Architektur-Visualisierung mit photorealistischen Materialien und Beleuchtung."
+        description: "Ein kleiner Teil des großen Dorfes. Hier faziniert mich am meisten die Mischung aus 3D-Design und 2D-Grease Pencil Elementen, die dem Ganzen einen einzigartigen Look verleihen."
     },
     {
-        title: "Packung",
+        title: "Meine eigene Trinkpackung",
         media: [
             {
                 type: "image",
@@ -79,20 +79,20 @@ export const threeDProjects = [
                 videoId: "V9kREiAzmvE" 
             }
         ],
-        description: "3D-Produktverpackung mit professioneller Beleuchtung für Marketing-Zwecke."
+        description: "Mein erster Versuch mit Grease Pencil in Blender. Geschmack: Sonnenschein mit Bohnen. Welche eine kleine Anlehnung an die Rocket Beans darstellen soll, aber mit charmanten Hinterteilen."
     },
     {
-        title: "Topfpflanzen",
+        title: "Coole Topfpflanzen",
         image: Topfpflanzen,
-        description: "Realistische Topfpflanzen mit proceduralen Materialien und organischen Formen."
+        description: "In dieser simplen Szene habe ich mit den verschiedenen Modifiern und Effekten herumexperimentiert. Links wurde ein Lichteffekt genutzt und rechts wurden die Blätter verpixelt."
     },
     {
-        title: "Schokokuchen",
+        title: "Lecker Schokokuchen",
         image: Schokokuchen2,
-        description: "Appetitlicher Schokoladenkuchen mit realistischen Texturen und Beleuchtung."
+        description: "Hier wurde wieder der Grease-Pencil benutzt, um ein leckeres Stück Schokokuchen zu gestalten. Außerdem habe ich hier mit Outlines herumgespielt, um einen Toon-Look zu erzielen."
     },
     {
-        title: "Oger",
+        title: "Der Oger",
         media: [
             {
                 type: "image",
@@ -103,10 +103,10 @@ export const threeDProjects = [
                 videoId: "tebHxohfFnI"
             }
         ],
-        description: "Fantasy-Kreatur mit Sculpting-Techniken und organischen Texturen."
+        description: "Hier habe ich einen Kurs von Grant Abbitt gefolgt, um meine Fähigkeiten im Charakterdesign zu verbessern. Das Resultat ist ein stampfender Oger, der mich ein wenig an Shrek erinnert."
     },
     {
-        title: "Orao",
+        title: "Orao Dust",
         media: [
             {
                 type: "image",
@@ -117,10 +117,10 @@ export const threeDProjects = [
                 src: OraoSketch
             }
         ],
-        description: "Charakterdesign mit detailliertem Modeling und künstlerischer Beleuchtung."
+        description: "Einst der Hauptcharakter meiner Geschichte Westria. Damals hatte ich versucht, ihn in 3D zu modellieren, leider habe ich das Projekt nicht weiterverfolgt. Aber es hat bis dahin Spaß gemacht."
     },
     {
-        title: "Mecka",
+        title: "Der Mecha",
         media: [
             {
                 type: "image",
@@ -131,31 +131,31 @@ export const threeDProjects = [
                 videoId: "WkC2ECLgoMA"
             }
         ],
-        description: "Futuristischer Mech-Roboter mit Hard-Surface Modeling und Metallic-Materialien."
+        description: "Dieser Mecha gehörte ebenfalls zum Kurs, aus dem auch der Oger stammt. Jedoch habe ich da mit der Beleuchtung und dem Schattenwurf herumexperimentieren können."
     },
     {
-        title: "Little Shag",
+        title: "Die kleine Hütte",
         image: LittleShag,
-        description: "Niedlicher Charakter mit Cartoon-Styling und expressiven Features."
+        description: "Eine kleine gemütliche Hütte im Low-Poly-Stil. Jedoch sollte man aufpassen, was in der umliegende Dunkelheit lauert."
     },
     {
-        title: "Hero Tree",
+        title: "Der Heldenbaum",
         image: HeroTree,
-        description: "Majestätischer Baum mit komplexer Geometrie und organischen Materialien."
+        description: "Ein kleiner Baum inmitten eines dunklen Waldes. Der letzte seiner Art. Das Licht der Abenddämmerung lässt sein Blätterkleid leuchten, wie Feuer."
     },
     {
-        title: "Landscape",
+        title: "Die weite Ebene",
         image: Landscape,
-        description: "Weitläufige Landschaftsszene mit Terrain-Modeling und natürlicher Vegetation."
+        description: "Eine weitläufige Landschaft mit sanften Hügeln, einer Teil einer Ruine und sehr viel Gras. So viel Gras. Ich habe noch nie soviel Gras in einer Szene gehabt."
     },
     
     {
-        title: "Kamehaus",
+        title: "Das Kamehaus",
         image: Kamehaus2,
-        description: "Anime-inspiriertes Haus mit stilisierten Proportionen und warmer Atmosphäre."
+        description: "Ich liebe Animes und mit Dragonball hat alles angefangen. Ich habe mir oft vorgestellt im Haus von Muten Roshi zu leben. Genau deshalb habe ich diese Szene erstellt."
     },
     {
-        title: "Frog",
+        title: "Der Froschkrieger",
         media: [
             {
                 type: "image",
@@ -166,15 +166,15 @@ export const threeDProjects = [
                 src: FrogArt
             }
         ],
-        description: "Niedlicher Frosch-Charakter mit detaillierter Anatomie und organischen Texturen."
+        description: "Ich folge auf Instagram einem Künstler mit dem Namen Robbiegoldieart. Dieser hatte eine coole Froschfigur erstellt, die ich unbedingt in 3D nachmodelliert Wollte."
     },
     {
-        title: "First Door",
+        title: "Die erste Tür",
         image: FirstDoor,
-        description: "Mysteriöse Tür mit atmosphärischen Licht-Effekten und Fantasy-Elementen."
+        description: "Als der NFT-Hype los ging, wollte mein Bruder unbedingt da mitmachen und mit mir Türen erstellen, die in verschiedene Welten führen. Dies sollte die Anfangstür sein."
     },
     {
-        title: "Flying Car",
+        title: "Das fliegende Auto",
         media: [
             {
                 type: "image",
@@ -182,13 +182,13 @@ export const threeDProjects = [
             },
             {
                 type: "youtube",
-                videoId: "Jv72HIyqVZ4"
+                videoId: "gbYjRPkMysE"
             }
         ],
-        description: "Futuristisches fliegendes Auto mit Sci-Fi Design und aerodynamischen Formen."
+        description: "Dies gehörte auch zu einem Blender Kurs, den ich spannend fand. Dabei habe ich aber das Auto komplett neu gestaltet und diesem einem schnittigen Look verpasst. Vorsicht Stein!"
     },
     {
-        title: "Dice",
+        title: "Die Würfel",
         media: [
             {
                 type: "image",
@@ -199,10 +199,10 @@ export const threeDProjects = [
                 src: Dice1
             }
         ],
-        description: "Realistische Würfel mit Subsurface Scattering und präzisen Details."
+        description: "Da ich ein Pen & Paper Spieler bin, liebe ich natürlich Würfel in jeder Farbe und Form. Hier habe ich versucht, sie so realistisch wie möglich aussehen zu lassen."
     },
     {
-        title: "Army",
+        title: "Die unendliche Armee",
         media: [
             {
                 type: "image",
@@ -213,16 +213,16 @@ export const threeDProjects = [
                 videoId: "aeLoxsGNOIU"
             }
         ],
-        description: "Militärische Charaktere mit Ausrüstung und taktischen Details."
+        description: "Eine kleine Armee aus Low-Poly verschiedenen Modellen, die bereit für den Kampf sind. Hier habe ich es mit After Effects geschafft, einen unendlichen Strom dieser Maschinen zu erzeugen."
     },
     {
-        title: "DH",
+        title: "Meine Initialen",
         image: DH,
-        description: "Abstraktes 3D-Kunstwerk mit experimentellen Formen und Materialien."
+        description: "Dieses schöne Stück Kunst habe ich in Cinema4D erstellt. Ich habe meine Initialien noch nie so cool gesehen."
     },
     {
-        title: "Donut",
+        title: "Der Donut",
         image: Donut,
-        description: "Klassisches Blender-Tutorial Projekt mit Glasur und Streuseln."
+        description: "Die meisten, die mit Blender anfangen, erstellen aus guten Gründen einen Donut. Ich liebe die Apfel-Glasur mit den Streuseln so sehr."
     }
 ];

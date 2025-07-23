@@ -19,7 +19,7 @@ function NavigationBar() {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/westria">Westria</Nav.Link>
-                        <Nav.Link as={Link} to="/3D">3D</Nav.Link>
+                        <Nav.Link as={Link} to="/3D-Design">3D-Design</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -13,7 +13,13 @@ const ProjectsSection = (
         <Container className="projects-container">
             <div >
                 <h2>{pageTitle}</h2>
-                <p>{pageDescription}</p>
+                {Array.isArray(pageDescription) ? (
+                    pageDescription.map((paragraph, index) => (
+                        <p key={index}>{paragraph}</p>
+                    ))
+                ) : (
+                    <p>{pageDescription}</p>
+                )}
             </div>
             <Row>
                 {projects.map((project, index) => (
@@ -64,7 +70,7 @@ const ProjectsSection = (
                             )}
                             <Card.Body>
                                 <Card.Title>{project.title}</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='project-description'>
                                     {project.description}
                                 </Card.Text>
                             </Card.Body>
