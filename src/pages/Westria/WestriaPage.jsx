@@ -4,8 +4,8 @@ import ParallaxHeader from '../../components/ParallaxHeader/ParallaxHeader';
 import CharacterSection from '../../components/CharacterSection/CharacterSection';
 
 // Assets
-import backgroundImage from '../../assets/images/Wüste.png';
-import foregroundImage from '../../assets/images/Wüste_Vordergrund.png';
+import backgroundImage from '../../assets/images/westria/Wüste.png';
+import foregroundImage from '../../assets/images/westria/Wüste_Vordergrund.png';
 import OreliaMagie from '../../assets/images/skillkarten/Wüstensand.png';
 import OreliaPose from '../../assets/images/westria/Orelia.jpg';
 import OreliaVerletzt from '../../assets/images/westria/Orelia verletzt.png';

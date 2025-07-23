@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import ContentSection from './components/ContentSection/ContentSection';
 import BackgroundImage from './components/BackgroundImage/BackgroundImage';
 import WestriaPage from './pages/Westria/WestriaPage';
+import ThreeDPage from './pages/ThreeD/ThreeDPage';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             </>
           } />
           <Route path="/westria" element={<WestriaPage />} />
+          <Route path="/3D" element={<ThreeDPage />} />
         </Routes>
       </Router>
     </>

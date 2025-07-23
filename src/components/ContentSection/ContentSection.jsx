@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import baumLogo from '../../assets/images/logo.png';
+import baumLogo from '../../assets/images/Bäumchen.png';
 import charakterBild from '../../assets/images/Ich.png';
 import './ContentSection.css';
 

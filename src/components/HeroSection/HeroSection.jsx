@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import avatarImage from '../../assets/images/Träumer.png';
 import karte1 from '../../assets/images/skillkarten/Wüstensand.png';
 import karte2 from '../../assets/images/skillkarten/Alchemielabor.png';
@@ -8,9 +8,46 @@ import karte5 from '../../assets/images/skillkarten/Programmieren.png';
 import './HeroSection.css';
 
 const HeroSection = () => {
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [loadedImages, setLoadedImages] = useState(0);
+  
+  const totalImages = 6; // Avatar + 5 Karten
+  
+  useEffect(() => {
+    const imageUrls = [avatarImage, karte1, karte2, karte3, karte4, karte5];
+    let loadedCount = 0;
+    
+    imageUrls.forEach((src) => {
+      const img = new Image();
+      img.onload = () => {
+        loadedCount++;
+        setLoadedImages(loadedCount);
+        if (loadedCount === totalImages) {
+          setImagesLoaded(true);
+        }
+      };
+      img.onerror = () => {
+        loadedCount++;
+        setLoadedImages(loadedCount);
+        if (loadedCount === totalImages) {
+          setImagesLoaded(true);
+        }
+      };
+      img.src = src;
+    });
+  }, []);
   return (
     <section className="hero-section fullscreen-bg">
-      <div className="rotating-cards">
+      {/* Loading Indicator */}
+      {!imagesLoaded && (
+        <div className="loading-overlay">
+          <div className="loading-spinner"></div>
+          <p>Bilder laden... ({loadedImages}/{totalImages})</p>
+        </div>
+      )}
+      
+      {/* Main Content */}
+      <div className={`rotating-cards ${imagesLoaded ? 'loaded' : 'loading'}`}>
         <div className='card-orbit'>
           <div className="avatar-wrapper">
             <img src={avatarImage} alt="Mein Avatar" className='avatar-center' />
