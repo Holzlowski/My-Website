@@ -19,6 +19,7 @@ import Alchemielabor from '../assets/images/threeD-design/Bilder/Alchemielabor.p
 import Frog from '../assets/images/threeD-design/Bilder/Frog.png';
 import FlyingCar from '../assets/images/threeD-design/Bilder/Flying Car.png';
 import DH from '../assets/images/threeD-design/Bilder/DH.jpg';
+import Murmeln from '../assets/images/threeD-design/Bilder/Murmeln.jpg';
 
 import OraoSketch from '../assets/images/threeD-design/ZweitBilder/OraoRef.jpeg';
 import FrogArt from '../assets/images/threeD-design/ZweitBilder/Frog.PNG';
@@ -216,6 +217,20 @@ export const threeDProjects = [
         description: "Eine kleine Armee aus Low-Poly verschiedenen Modellen, die bereit für den Kampf sind. Hier habe ich es mit After Effects geschafft, einen unendlichen Strom dieser Maschinen zu erzeugen."
     },
     {
+        title: "Die Murmeln",
+        media: [
+            {
+                type: "image",
+                src: Murmeln,
+            },
+            {
+                type: "youtube",
+                videoId: "nTdlzHPiMaE" 
+            }
+        ],
+        description: "Dies war eines meiner ersten Projekte in Cinema4D. Ich mag den Glanz der Perlen sehr und fand spannend mit Kraftffeldern zu arbeiten."
+    },
+    {
         title: "Meine Initialen",
         image: DH,
         description: "Dieses schöne Stück Kunst habe ich in Cinema4D erstellt. Ich habe meine Initialien noch nie so cool gesehen."
@@ -223,6 +238,6 @@ export const threeDProjects = [
     {
         title: "Der Donut",
         image: Donut,
-        description: "Die meisten, die mit Blender anfangen, erstellen aus guten Gründen einen Donut. Ich liebe die Apfel-Glasur mit den Streuseln so sehr."
+        description: "Die meisten, die mit Blender anfangen, erstellen aus guten Gründen einen Donut. Ich liebe die Waldmeister-Glasur mit den Streuseln so sehr."
     }
 ];

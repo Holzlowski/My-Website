@@ -73,6 +73,11 @@ const ProjectsSection = (
                                 <Card.Text className='project-description'>
                                     {project.description}
                                 </Card.Text>
+                                {project.link && (
+                                    <Card.Link href={project.link} target="_blank" rel="noopener noreferrer">
+                                        Zum Respository
+                                    </Card.Link>
+                                )}
                             </Card.Body>
                         </Card>
                     </Col>
