@@ -33,10 +33,16 @@ const ParallaxHeader = ({
       if (headerRef.current) {
         const scrolled = window.pageYOffset;
         const background = headerRef.current.querySelector('.parallax-background');
+        const foreground = headerRef.current.querySelector('.parallax-foreground');
         
         if (background) {
           // Hintergrund scrollt langsam nach unten
           background.style.transform = `translateY(${scrolled * 0.3}px)`;
+        }
+        
+        if (foreground) {
+          // Vordergrund scrollt im gleichen Verhältnis wie Hintergrund
+          foreground.style.transform = `translateY(${scrolled * 0.3}px)`;
         }
       }
     };

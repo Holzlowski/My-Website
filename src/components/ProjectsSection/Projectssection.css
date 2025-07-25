@@ -25,6 +25,19 @@
     transform: translateY(-5px);
 }
 
+/* Hover-Effekt für klickbare Bilder */
+.hover-effect img:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.hover-effect .card-img-top:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
 /* Carousel in Karten stylen */
 .carousel {
     border-radius: 0.375rem 0.375rem 0 0;  /* Abgerundete Ecken oben */

@@ -7,6 +7,7 @@ import WestriaPage from './pages/Westria/WestriaPage';
 import ThreeDPage from './pages/ThreeD/ThreeDPage';
 import DigitalArt from './pages/DigitalArt/DigitalArtPage';
 import GameDevelopmentPage from './pages/GameDevelopment/GameDevelopmentPage';
+import ProgrammingPage from './pages/Programming/ProgrammingPage';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <ContentSection />
             </>
           } />
+          <Route path="/Programming" element={<ProgrammingPage />} />
           <Route path="/Game-Development" element={<GameDevelopmentPage />} />
           <Route path="/DigitalArt" element={<DigitalArt />} />
           <Route path="/3D-Design" element={<ThreeDPage />} />
