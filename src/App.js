@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/Meine-Webseite">
         {/* Navigation */}
         <NavigationBar className="fixed-navbar" />
         <Routes>
