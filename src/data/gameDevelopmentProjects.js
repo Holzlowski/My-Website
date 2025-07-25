@@ -12,7 +12,7 @@ import TankRaider from '../assets/images/gameDevelopment/TankRaider.jpg';
 export const gameDevelopmentProjects = [
     {
         title: "Arkmon",
-        description: "Diese Idee kam mir in einem Traum. Es ist stark an Pokémon angelehnt, nur dass die Kämpfe nicht so statisch sind wie im Original. Die Grundidee ist, dass man seine Monster auf einem Gridfeld kämpfen lässt und die Attacken mit ihren Eigenschaften das Kampffeld beeinflussen kann.",
+        description: "Die Idee zu diesem Spiel kam mir in einem Traum. Es ist stark von Pokémon inspiriert, aber mit dynamischeren Kämpfen auf einem Gridfeld, bei denen Attacken das Spielfeld selbst beeinflussen können. Das Spiel befindet sich noch in der Entwicklungsphase, allerdings steht das Grundgerüst bereits: Dialogsystem mit Verzweigungen, ein funktionierendes Gridsystem und erste einfache Kämpfe sind schon spielbar.",
         media: [
             {
                 type: "image",
@@ -28,7 +28,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Could It Be More Unreal?",
-        description: "Dieses Projekt wurde für die IMI-Showtime konzipiert. Unser Ziel war eine Gameplay Demo in der zurzeit brandaktuellem Unreal Engine 5 Version zu erstellen. Mit dieser wollten wie die neuesten Features der Engine präsentieren. Hierbei hab ich größtenteils die Level-Architektur erstellt.",
+        description: "Dieses Projekt entstand für die IMI-Showtime. Unser Ziel war es, eine Gameplay-Demo in der damals brandneuen Unreal Engine 5 zu entwickeln und die neuesten Features zu präsentieren. Mein Fokus lag auf der Level-Architektur, wobei ich intensiv mit Megascans und dem Beleuchtungssystem Lumen gearbeitet habe.",
         media: [
             {
                 type: "image",
@@ -42,7 +42,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Dwarf Digger",
-        description: "In diesem Spiel schlüpfen die Spieler in die Rolle von einer Zwergin, die in einer Mine nach wertvollen Ressourcen gräbt. Das Spiel kombiniert Elemente von Puzzle und Strategie, da die Spieler ihre Werkzeuge und Fähigkeiten geschickt einsetzen müssen, um die tiefsten Ebenen der Mine zu erreichen.",
+        description: "In diesem Spiel schlüpfen die Spieler in die Rolle einer Zwergin, die in einer Mine nach wertvollen Ressourcen gräbt. Dwarf Digger kombiniert Puzzle- und Strategie-Elemente: Nur wer seine Werkzeuge und Fähigkeiten clever einsetzt, erreicht die tiefsten Ebenen der Mine. Der Prototyp ist bereits spielbar, benötigt aber noch weitere Entwicklungszeit, um sein volles Potenzial zu entfalten.",
         media:[
             {
                 type: "image",
@@ -57,7 +57,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Escape The Pandemic",
-        description: "Dieses Spiel entstand in der Corona-Pandemie und wird am Handy gespielt. Die Erkundung des Levels erfolgt durch das Bewegen des Handys. Das Ziel ist es in einem Labor Rätsel zu lösen, um das Gegenmittel gegen das Virus zu finden. Hier habe ich mich um Gameplay-Mechaniken wie die Bewegung des Spielers gekümmert und Ideen für die Rätsel entwickelt.",
+        description: "Dieses mobile Spiel entstand während der Corona-Pandemie. Die Spieler erkunden das Level, indem sie ihr Handy bewegen, und müssen in einem Labor verschiedene Rätsel lösen, um das Gegenmittel gegen das Virus zu finden. Mein Beitrag lag vor allem in der Entwicklung der Gameplay-Mechaniken, insbesondere der Spielerbewegung, sowie in der Konzeption der Rätsel.",
         media: [
             {
                 type: "image",
@@ -71,7 +71,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Gravity Galaxy",
-        description: "Dieser Prototyp war Teil meiner Masterarbeit und erforscht die Möglichkeiten von Schwerkraft in einem intergalaktischen Setting. Dabei wurde ich stark von Mario Galaxy inspiriert. Das Ziel war es jegliche Formen von Planeten zu erkunden, während auch unterschiedliche Gravitationseffekte berücksichtigt werden.",
+        description: "Dieser spielbare Prototyp entstand im Rahmen meiner Masterarbeit und untersucht die Möglichkeiten von Schwerkraft in einem intergalaktischen Setting. Inspiriert von Mario Galaxy war das Ziel, unterschiedliche Planetenformen zu erkunden und dabei verschiedene Gravitationseffekte in das Gameplay zu integrieren.",
         media: [
             {
                 type: "image",
@@ -86,7 +86,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Hungry Games",
-        description: "Dies war ebenfalls für die IMI-Showtime konzipiert und stellt ein Multiplayer-Spiel dar, indem 32 Spieler in die Rolle von Tieren schlüpfen, die sich mit Waffen und unterschiedlichen Fähigkeiten bekämpfen. Das Tier, das die meisten anderen frisst, gewinnt. Hier habe ich das Charakter-Design und die Animationen erstellt sowie einige der Gameplay-Mechaniken entwickelt.",
+        description: "Dieses Multiplayer-Spiel wurde für die IMI-Showtime entwickelt. Bis zu 32 Spieler schlüpfen in die Rolle von Tieren, die sich mit Waffen und speziellen Fähigkeiten bekämpfen. Gewinner ist das Tier, das die meisten Gegner „verspeist“. Mein Beitrag lag im Charakter-Design, in der Animation sowie in der Entwicklung einiger Gameplay-Mechaniken.",
         media: [
             {
                 type: "image",
@@ -101,7 +101,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "My First RPG",
-        description: "Für dieses Spiel habe ich einen Kurs verfolgt, um die Grundlagen der RPG-Entwicklung zu erlernen. Von Level-up, über aufsammelbaren Power-Ups bis hin zu Leveltransitions habe ich hier einiges lernen können.",
+        description: "Dieses Projekt entstand im Rahmen eines Kurses, den ich genutzt habe, um die Grundlagen der RPG-Entwicklung zu erlernen. Dabei habe ich zentrale Mechaniken wie Level-Ups, sammelbare Power-Ups und Leveltransitions umgesetzt und konnte so wertvolle Erfahrungen in der Spieleentwicklung sammeln.",
         media: [
             {
                 type: "image",
@@ -116,7 +116,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Tank Raider",
-        description: "Ein actiongeladenes Spiel, in dem man einen Panzer spielt, der sich durch ein Kampffeld voller besessener gegnerischer Panzer und anderen Wesen kämpfen muss. Hier haben wir eine zufällige Level-Generierung implementiert, um jedes Mal ein neues Erlebnis zu bieten. Hier habe ich das Charakter und Gegner-Design sowie Gameplay-Mechaniken entwickelt.",
+        description: "Ein actionreiches Spiel, in dem die Spieler einen Panzer steuern, der sich durch ein Kampffeld voller feindlicher Panzer und mysteriöser Kreaturen kämpft. Dank der implementierten zufälligen Level-Generierung ist jedes Spiel ein neues Erlebnis. Mein Beitrag umfasste das Charakter- und Gegner-Design sowie die Entwicklung zentraler Gameplay-Mechaniken.",
         media: [
             {
                 type: "image",
@@ -130,7 +130,7 @@ export const gameDevelopmentProjects = [
     },
     {
         title: "Animals",
-        description: "Die ist Teil meiner Bachelorarbeit, wo ich mein Wissen über Computerspiel-KI weiterentwickeln wollte. Hier habe ich der KI Eigenschaften von Tieren wie Sichtfeld, Geruch und Hunger gegeben. Je nachdem wie die Tiere sich fühlen oder zum Beispiel der Wind weht, verhalten sie sich unterschiedlich.",
+        description: "Dieses Projekt war Teil meiner Bachelorarbeit und diente dazu, mein Wissen über Computerspiel-KI zu vertiefen. Die KI der Tiere verfügt über Eigenschaften wie Sichtfeld, Geruch und Hunger. Ihr Verhalten passt sich dynamisch an, etwa abhängig davon, wie sie sich fühlen oder wie der Wind weht.",
         media: [
             {
                 type: "image",

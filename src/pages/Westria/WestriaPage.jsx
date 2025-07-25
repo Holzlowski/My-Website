@@ -44,10 +44,10 @@ const WestriaPage = () => {
 
           <div className="westria-intro">
             <p>
-              Willkommen in Westria, einer Welt, an der ich über Jahre hinweg gearbeitet habe und die sich noch immer weiterentwickelt.
-              Ursprünglich sollte diese Geschichte als Manga erzählt werden, damals noch gemeinsam mit einem sehr guten Freund, der wirklich überragend gut zeichnen konnte.
-              Leider haben wir uns zerstritten, doch wollte ich all die Mühen und Ideen nicht einfach aufgeben.
-              Deshalb habe ich beschlossen, aus der gemeinsamen Geschichte meine ganz eigene zu machen und sie nun in Schriftform weiterzuerzählen.
+              Willkommen in Westria, einer Welt, an der ich über viele Jahre gearbeitet habe und die sich bis heute weiterentwickelt. 
+              Ursprünglich sollte die Geschichte als Manga erzählt werden, gemeinsam mit einem sehr guten Freund, der unglaublich talentiert zeichnen konnte. 
+              Leider haben wir uns zerstritten, doch wollte ich all die Mühe und Ideen nicht einfach aufgeben. 
+              Deshalb habe ich beschlossen, aus unserer gemeinsamen Geschichte meine ganz eigene zu machen und sie nun in Schriftform weiterzuerzählen.
             </p>
           </div>
 
@@ -55,19 +55,18 @@ const WestriaPage = () => {
             <div className="westria-section">
               <h3>Die Welt</h3>
               <p>
-                Westria ist ein Land, in dem sich die Wüsten ausbreiten, Wasser kostbar ist und wilde Magie über die Dünen weht.
-                Eine Welt in der Rocacci, kleine Katzenwesen, durch das Meer aus Sand streifen, um Wasser zu verteilen oder
-                Goater, Ziegenmenschen, aus den Bergen kommen, um ihr Dasein als mürrische Barkeeper zu fristen.
+                Westria ist ein Land, in dem sich endlose Wüsten ausbreiten, Wasser kostbar wie Gold ist und wilde Magie über die Dünen weht. 
+                Hier streifen die Rocacci, kleine Katzenwesen, durch das Sandmeer, um Wasser zu verteilen, 
+                während die Goater, zähe Ziegenmenschen aus den Bergen, ihr mürrisches Dasein als Barkeeper fristen.
               </p>
             </div>
 
             <div className="westria-section">
               <h3>Geschichten</h3>
               <p>
-                Westrias Geschichte erstreckt sich über zahllose Jahre, durchzogen von Geheimnissen und Legenden,
-                die tief im Sand vergraben liegen. Das Land selbst, ebenso wie seine Bewohner, musste unzählige Prüfungen bestehen,
-                um zu dem zu werden, was es heute ist. Doch diese Erzählung richtet ihren Blick auf ein Mädchen aus dem Stamm der Dust.
-                Ihr Name ist Orelia.
+                Die Geschichte Westrias spannt sich über unzählige Jahre und ist durchzogen von Geheimnissen und Legenden, die tief im Sand vergraben liegen. 
+                Das Land und seine Bewohner haben viele Prüfungen durchlebt, um das zu werden, was sie heute sind. 
+                Doch diese Erzählung richtet ihren Blick auf ein Mädchen aus dem Stamm der Dust. Ihr Name ist Orelia.
               </p>
             </div>
           </div>
@@ -82,7 +81,7 @@ const WestriaPage = () => {
 
           <CharacterSection
             title="Djagami"
-            description="Er ist ein Schatten unter der Sonne, sein Gesicht verhüllt von einer Maske, die das bleiche Antlitz einer Mondkrähe zeigt. Mit geheimnisvollen Kräften streift er durch die Wüste und kennt Geheimnisse, von denen andere nicht einmal zu träumen wagen. Unweit von Maginoa, der Stadt der tausend Wunder, kreuzen sich seine Schritte mit Orelias."
+            description="Ein Schatten unter der sengenden Sonne, sein Gesicht verborgen hinter einer Maske, die das schaurige Antlitz einer Mondkrähe zeigt. Mit geheimnisvollen Kräften durchstreift er die Wüste und kennt Geheimnisse, von denen andere nicht einmal zu träumen wagen. Unweit von Maginoa, der Stadt der tausend Wunder, kreuzen sich seine Wege mit denen Orelias."
             theme="blue"
             backgroundColor="rgba(198, 185, 243, 1)"
             images={djagamiImages}

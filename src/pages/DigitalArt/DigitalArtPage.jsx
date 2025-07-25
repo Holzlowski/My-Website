@@ -7,7 +7,7 @@ const DigitalArt = () => {
             projects={designProjects}
             pageTitle="Digital Art"
             pageDescription={[
-                "In meiner Ausbildung zum Mediengestalter habe ich Photoshop für mich entdeckt und in meinem Praktikum konnte ich ein wenig mit After Effects experimentieren."
+                "Während meiner Ausbildung zum Mediengestalter habe ich Photoshop für mich entdeckt und erste kreative Projekte umgesetzt. In meinem Praktikum hatte ich außerdem die Gelegenheit, mit After Effects zu experimentieren und so mein digitales Repertoire zu erweitern."
             ]}
             cardsPerRow={3}
         />

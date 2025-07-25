@@ -14,13 +14,13 @@ import MeineWebseite from '../assets/images/programming/MeineWebseite.png';
 export const programmingProjects = [
     {
         title: "PnP Planner",
-        description: "Ein Figma Prototyp zur Erstellung und Verwaltung von Pen & Paper Runden. Hierbei habe von der Idee bis zum Prototypen viel mitgewirkt.",
+        description: "Ein interaktiver Figma-Prototyp zur Planung und Verwaltung von Pen-&-Paper-Runden. Ich war von der Ideenfindung über die Konzeption bis hin zur finalen Umsetzung des Prototyps maßgeblich beteiligt.",
         image: PnPPlaner,
         link: "https://www.figma.com/proto/ApqVE9q6eDFiFAf1T3nSAH/Pen---Paper-Planner?node-id=283-5240&starting-point-node-id=306%3A4740&t=Y27zVeTFBrKZorAo-1"
     },
     {
         title: "Spell Dashboard",
-        description: "Ein Dashboard, an dem ich beim Fraunhofer Institut gearbeitet habe. Mit diesem Tool können Widgets erstellt werden, mit denen man Daten von Sensoren durch Widgets visualisieren kann. Außerdem ist es damit möglich freiwillige Ersthelfer in Gefahrensituatioen zu mobilisieren. Leider sind diese Bilder nur alte Mockups, da ich keine Bilder vom richtigen Projekt besitze.",
+        description: "Ein Dashboard-Projekt, an dem ich während meiner Zeit beim Fraunhofer Institut mitgearbeitet habe. Mit diesem Tool können individuelle Widgets erstellt werden, um Sensordaten in Echtzeit zu visualisieren. Zudem ermöglicht es die Koordination und Mobilisierung freiwilliger Ersthelfer in Gefahrensituationen. Da ich keine Bilder des finalen Projekts habe, sind hier nur ältere Mockups zu sehen.",
         media: [
             {
                 type: "image",
@@ -34,12 +34,12 @@ export const programmingProjects = [
     },
     {
         title: "Meine Webseite",
-        description: "Meine persönliche Webseite, auf der ich meine Projekte und Erfahrungen präsentiere. Für die Entwicklung habe ich React und Bootstrap verwendet.",
+        description: "Meine Portfolio-Webseite, entwickelt mit React und Bootstrap. Sie zeigt meine Projekte aus 3D-Design, Programmierung und digitaler Kunst sowie interaktive Galerien.",
         image: MeineWebseite
     },
     {
         title: "Password Manager",
-        description: "Ein Projekt zur Verwaltung von Passwörtern mit Funktionen zur sicheren Speicherung und Verschlüsselung. Für die Implementierung habe ich Angular verwendet und Firebase für die Datenbankanbindung.",
+        description: "Ein Webprojekt zur sicheren Verwaltung von Passwörtern, inklusive Verschlüsselung und sicherer Speicherung. Die Implementierung erfolgte mit Angular für das Frontend und Firebase für die Datenbankanbindung.",
         media: [
             {
                 type: "image",
@@ -54,13 +54,13 @@ export const programmingProjects = [
     },
     {
         title: "Drum Kit",
-        description: "Ein interaktives Drum Kit, das es Benutzern ermöglicht, verschiedene Schlagzeugklänge zu spielen und zu kombinieren.",
+        description: "Ein interaktives Web-Drum-Kit, mit dem Nutzer verschiedene Schlagzeug-Sounds spielen, kombinieren und eigene Beats ausprobieren können.",
         image: DrumKit,
         link: "https://github.com/Holzlowski/Drum-Kit"
     },
     {
         title: "TinDog",
-        description: "Aus Übungsgründen habe ich diese Webseite nur mit HTML und CSS nachgebaut.",
+        description: "Dieses Projekt entstand als Übung, um meine Frontend-Fähigkeiten zu verbessern. Die Webseite wurde komplett mit HTML und CSS nachgebaut, ohne Frameworks oder zusätzliche Tools. Dabei lag mein Fokus auf sauberem Code.",
         media: [
             {
                 type: "image",

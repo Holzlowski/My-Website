@@ -38,7 +38,7 @@ export const threeDProjects = [
                 videoId: "rwiGuym6VLI"  
             }
         ],
-        description: "Mit Blender und dem Grease Pencil erstellt. Ein magisches Labor voller Tränke, Bücher, mystischer Gegenstände und kleinen Easter Eggs. Niemand weiß, was der Alchemist hier wirklich braut."
+        description: "Dies wurde mit Blender und dem Grease Pencil erstellt. Ein magisches Labor voller Tränke, Bücher, mystischer Gegenstände und versteckter Easter Eggs. Niemand weiß so genau, was der Alchemist hier wirklich braut."
     },
     {
         title: "Das Dorf ",
@@ -52,7 +52,7 @@ export const threeDProjects = [
                 videoId: "P_Zf9Ou7EHk"
             }
         ],
-        description: "Ebenfalls in Blender mit Grease Pencil erstellt. Irgendwo hier lebt der Alchemist, während die anderen Dorfbewohner dabei sind, alles für das nächste Fest vorzubereiten."
+        description: "Auch dieses Motiv wurde mit Blender und dem Grease Pencil erstellt und zusätzlich animiert. Hier lebt der geheimnisvolle Alchemist, während die Dorfbewohner emsig das nächste Fest vorbereiten und das Dorf zum Leben erwacht."
     },
     {
         title: "Das Haus",
@@ -66,7 +66,7 @@ export const threeDProjects = [
                 videoId: "itsc93CjdkU"
             }
         ],
-        description: "Ein kleiner Teil des großen Dorfes. Hier faziniert mich am meisten die Mischung aus 3D-Design und 2D-Grease Pencil Elementen, die dem Ganzen einen einzigartigen Look verleihen."
+        description: "Ein kleiner Teil des großen Dorfes. Besonders fasziniert mich die Kombination aus 3D-Design und 2D-Grease-Pencil-Elementen, die der Szene einen einzigartigen, lebendigen Look verleihen. In dem Haus serviert ein Frosch köstliches Gebäck."
     },
     {
         title: "Meine eigene Trinkpackung",
@@ -80,17 +80,17 @@ export const threeDProjects = [
                 videoId: "V9kREiAzmvE" 
             }
         ],
-        description: "Mein erster Versuch mit Grease Pencil in Blender. Geschmack: Sonnenschein mit Bohnen. Welche eine kleine Anlehnung an die Rocket Beans darstellen soll, aber mit charmanten Hinterteilen."
+        description: "Mein erster Versuch mit dem Grease Pencil in Blender. Geschmack „Sonnenschein mit Bohnen“. Die Bohnen sind eine kleine Hommage an die Rocket Beans mit charmanten körperlichen Eigenschaften."
     },
     {
         title: "Coole Topfpflanzen",
         image: Topfpflanzen,
-        description: "In dieser simplen Szene habe ich mit den verschiedenen Modifiern und Effekten herumexperimentiert. Links wurde ein Lichteffekt genutzt und rechts wurden die Blätter verpixelt."
+        description: "In dieser einfachen Szene habe ich mit verschiedenen Modifikatoren und Effekten experimentiert. Auf der linken Seite kommt ein Lichteffekt zum Einsatz, während die Blätter rechts verpixelt wurden."
     },
     {
         title: "Lecker Schokokuchen",
         image: Schokokuchen2,
-        description: "Hier wurde wieder der Grease-Pencil benutzt, um ein leckeres Stück Schokokuchen zu gestalten. Außerdem habe ich hier mit Outlines herumgespielt, um einen Toon-Look zu erzielen."
+        description: "Mit 3D-Objekten und dem Grease Pencil habe ich hier ein leckeres Stück Schokokuchen gestaltet. Zusätzlich habe ich mit Outlines experimentiert, um einen ansprechenden Toon-Look zu erzeugen."
     },
     {
         title: "Der Oger",
@@ -104,7 +104,7 @@ export const threeDProjects = [
                 videoId: "tebHxohfFnI"
             }
         ],
-        description: "Hier habe ich einen Kurs von Grant Abbitt gefolgt, um meine Fähigkeiten im Charakterdesign zu verbessern. Das Resultat ist ein stampfender Oger, der mich ein wenig an Shrek erinnert."
+        description: "Ich habe einen Kurs von Grant Abbitt verfolgt, um meine Fähigkeiten im Charakterdesign zu verbessern. Das Ergebnis ist ein stampfender Oger, der mich ein wenig an Shrek erinnert."
     },
     {
         title: "Orao Dust",
@@ -118,7 +118,7 @@ export const threeDProjects = [
                 src: OraoSketch
             }
         ],
-        description: "Einst der Hauptcharakter meiner Geschichte Westria. Damals hatte ich versucht, ihn in 3D zu modellieren, leider habe ich das Projekt nicht weiterverfolgt. Aber es hat bis dahin Spaß gemacht."
+        description: "Einst der Hauptcharakter unseres Mangas. Ich habe versucht, ihn in 3D zu modellieren, doch das Projekt habe ich nicht weiterverfolgt. Trotzdem hat mir die Arbeit bis dahin viel Spaß gemacht."
     },
     {
         title: "Der Mecha",
@@ -132,28 +132,28 @@ export const threeDProjects = [
                 videoId: "WkC2ECLgoMA"
             }
         ],
-        description: "Dieser Mecha gehörte ebenfalls zum Kurs, aus dem auch der Oger stammt. Jedoch habe ich da mit der Beleuchtung und dem Schattenwurf herumexperimentieren können."
+        description: "Dieser Mecha entstand ebenfalls im Kurs, aus dem auch der Oger stammt. Dabei habe ich besonders mit Beleuchtung und Schattenwurf experimentiert, um die Wirkung des Modells zu verbessern."
     },
     {
         title: "Die kleine Hütte",
         image: LittleShag,
-        description: "Eine kleine gemütliche Hütte im Low-Poly-Stil. Jedoch sollte man aufpassen, was in der umliegende Dunkelheit lauert."
+        description: "Eine gemütliche, kleine Hütte im Low-Poly-Stil. Doch Vorsicht: In der umliegenden Dunkelheit könnte das Unerwartete lauern."
     },
     {
         title: "Der Heldenbaum",
         image: HeroTree,
-        description: "Ein kleiner Baum inmitten eines dunklen Waldes. Der letzte seiner Art. Das Licht der Abenddämmerung lässt sein Blätterkleid leuchten, wie Feuer."
+        description: "Ein kleiner Baum mitten im dunklen Wald. Der letzte seiner Art. Das Licht der Abenddämmerung lässt sein Blätterkleid wie flammendes Feuer leuchten."
     },
     {
         title: "Die weite Ebene",
         image: Landscape,
-        description: "Eine weitläufige Landschaft mit sanften Hügeln, einer Teil einer Ruine und sehr viel Gras. So viel Gras. Ich habe noch nie soviel Gras in einer Szene gehabt."
+        description: "Eine weitläufige Landschaft mit sanften Hügeln, einer alten Ruine und ganz viel Gras. Wirklich, so viel Gras hatte ich in keiner Szene zuvor!"
     },
     
     {
         title: "Das Kamehaus",
         image: Kamehaus2,
-        description: "Ich liebe Animes und mit Dragonball hat alles angefangen. Ich habe mir oft vorgestellt im Haus von Muten Roshi zu leben. Genau deshalb habe ich diese Szene erstellt."
+        description: "Meine Liebe zu Animes hat mit Dragonball begonnen. Ich habe mir oft vorgestellt, wie es wohl wäre, im Haus von Muten Roshi zu leben. Genau deshalb habe ich diese Szene erstellt."
     },
     {
         title: "Der Froschkrieger",
@@ -167,12 +167,12 @@ export const threeDProjects = [
                 src: FrogArt
             }
         ],
-        description: "Ich folge auf Instagram einem Künstler mit dem Namen Robbiegoldieart. Dieser hatte eine coole Froschfigur erstellt, die ich unbedingt in 3D nachmodelliert Wollte."
+        description: "Auf Instagram folge ich dem Künstler Robbiegoldieart, der eine coole Froschfigur geschaffen hat. Diese wollte ich unbedingt in 3D nachmodellieren und so entstand dieser Froschkrieger."
     },
     {
         title: "Die erste Tür",
         image: FirstDoor,
-        description: "Als der NFT-Hype los ging, wollte mein Bruder unbedingt da mitmachen und mit mir Türen erstellen, die in verschiedene Welten führen. Dies sollte die Anfangstür sein."
+        description: "Als der NFT-Hype begann, wollte mein Bruder unbedingt mitmachen und wir haben gemeinsam Türen entworfen, die in verschiedene Welten führen. Diese hier ist die erste Tür unserer Reihe."
     },
     {
         title: "Das fliegende Auto",
@@ -186,7 +186,7 @@ export const threeDProjects = [
                 videoId: "gbYjRPkMysE"
             }
         ],
-        description: "Dies gehörte auch zu einem Blender Kurs, den ich spannend fand. Dabei habe ich aber das Auto komplett neu gestaltet und diesem einem schnittigen Look verpasst. Vorsicht Stein!"
+        description: "Dieses Projekt entstand im Rahmen eines Blender-Kurses, den ich sehr spannend fand. Das Auto habe ich komplett neu gestaltet und ihm einen schnittigen Look verpasst. Vorsicht, Stein!"
     },
     {
         title: "Die Würfel",
@@ -200,7 +200,7 @@ export const threeDProjects = [
                 src: Dice1
             }
         ],
-        description: "Da ich ein Pen & Paper Spieler bin, liebe ich natürlich Würfel in jeder Farbe und Form. Hier habe ich versucht, sie so realistisch wie möglich aussehen zu lassen."
+        description: "Als begeisterter Pen-&-Paper-Spieler liebe ich Würfel in allen Farben und Formen. Bei diesem Projekt habe ich versucht, sie so realistisch wie möglich darzustellen."
     },
     {
         title: "Die unendliche Armee",
@@ -214,7 +214,7 @@ export const threeDProjects = [
                 videoId: "aeLoxsGNOIU"
             }
         ],
-        description: "Eine kleine Armee aus Low-Poly verschiedenen Modellen, die bereit für den Kampf sind. Hier habe ich es mit After Effects geschafft, einen unendlichen Strom dieser Maschinen zu erzeugen."
+        description: "Eine kleine Low-Poly-Armee aus verschiedenen Modellen, bereit für den Kampf. Mit After Effects habe ich einen scheinbar unendlichen Strom dieser Maschinen erschaffen."
     },
     {
         title: "Die Murmeln",
@@ -228,16 +228,16 @@ export const threeDProjects = [
                 videoId: "nTdlzHPiMaE" 
             }
         ],
-        description: "Dies war eines meiner ersten Projekte in Cinema4D. Ich mag den Glanz der Perlen sehr und fand spannend mit Kraftffeldern zu arbeiten."
+        description: "Eines meiner ersten Projekte in Cinema4D. Ich liebe den Glanz der Perlen und fand es spannend, mit Kraftfeldern zu experimentieren."
     },
     {
         title: "Meine Initialen",
         image: DH,
-        description: "Dieses schöne Stück Kunst habe ich in Cinema4D erstellt. Ich habe meine Initialien noch nie so cool gesehen."
+        description: "Dieses coole Kunstwerk habe ich in Cinema4D erstellt. So stylisch habe ich meine Initialen bisher noch nie gesehen."
     },
     {
         title: "Der Donut",
         image: Donut,
-        description: "Die meisten, die mit Blender anfangen, erstellen aus guten Gründen einen Donut. Ich liebe die Waldmeister-Glasur mit den Streuseln so sehr."
+        description: "Fast jeder, der mit Blender startet, macht aus gutem Grund einen Donut. Ich liebe besonders die Waldmeister-Glasur mit den bunten Streuseln."
     }
 ];

@@ -7,7 +7,7 @@ const ProgrammingPage = () => {
             projects={programmingProjects}
             pageTitle="Programming Projects"
             pageDescription={[
-                "Hier sind einige meiner Programmierprojekte, die ich im Laufe der Zeit erstellt habe. Im Verlauf meines Studiums habe ich noch viele andere Projekte erstellt (z.B. in Java), die ich hier nicht aufgelistet habe. Diese sind jedoch einige meiner Favoriten und zeigen meine Fähigkeiten in der Programmierung."
+                "Hier findest du eine Auswahl meiner Programmierprojekte. Im Laufe meines Studiums und darüber hinaus habe ich viele weitere Projekte umgesetzt, von Java-Anwendungen bis hin zu Games und Tools."
             ]}
             cardsPerRow={3}
         />

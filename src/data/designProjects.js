@@ -31,27 +31,27 @@ export const designProjects = [
     {
         title: "Double Exposure",
         image: HolzLinks,
-        description: "Hier habe ich einen Double Exposure Effekt angewendet und dabei natürlich einen Wald im Hintergrund verwendet."
+        description: "In diesem Projekt habe ich einen Double-Exposure-Effekt umgesetzt, bei dem zwei Bilder kreativ miteinander kombiniert werden. Dabei habe ich natürlich einen Wald als Hintergrund verwendet."
     },
     {
         title: "Ragna Holzbrock",
         image: HolzMitte,
-        description: "Ich habe die Serie Vikings sehr gerne geschaut und um ein Teil der Vikings-Welt zu sein habe ich dieses Bild erstellt."
+        description: "Inspiriert von der Serie Vikings, die ich sehr gerne geschaut habe, wollte ich selbst Teil dieser Welt sein. Aus dieser Idee entstand dieses Bild, das mich selbst im Stil der Wikinger darstellt."
     },
     {
-        title: "David",
+        title: "Ich",
         image: HolzRechts,
-        description: "Dieses Bild wurde in Amsterdam gemacht, als ich dort mein Praktikum gemacht habe. Hier habe ich das Bild ein wenig mit Photoshop bearbeitet."
+        description: "Dieses Bild entstand während meines Praktikums in Amsterdam. Anschließend habe ich es leicht in Photoshop bearbeitet, um Farben und Stimmung hervorzuheben."
     },
     {
         title: "God of Holz",
         image: GodOfHolz,
-        description: "Ein guter Freund von mir und ich lieben die God of War Spiele. Deshalb haben wir uns gedacht: Lass uns unsere eigene Geschichte erzählen."
+        description: "Ein guter Freund und ich sind große Fans der God of War-Reihe. Also dachten wir uns: Warum nicht unsere eigene Geschichte erzählen?"
     },
     {
         title: "Jelly Ghosts",
         image: JellyGhosts,
-        description: "Diese wunderschönen Geisterquallen wurden in Photoshop gezeichnet. Sie kamen bei Avatar: Legende von Korra vor."
+        description: "Diese leuchtenden Geisterquallen wurden in Photoshop illustriert und sind inspiriert von einer Szene aus Avatar: Die Legende von Korra."
     },
     {
         title: "Eisen Holz",
@@ -70,7 +70,7 @@ export const designProjects = [
                 videoId: "oimwZd_Vcrc"
             }
         ],
-        description: "Da ich Planeten und das Universum in dem wir leben, faszinierend finde, wollte ich meine eigenen kleinen Welten erschaffen. Auch wenn es so aussieht ist dieser Planet 2D und in After Effects animiert worden."
+        description: "Meine Faszination für Planeten und das Universum hat mich dazu inspiriert, meine eigenen kleinen Welten zu erschaffen. Auch wenn es vielleicht anders wirkt, ist dieser Planet komplett in 2D gestaltet und in After Effects animiert worden."
     },
     {
         title: "Planet B",
@@ -84,7 +84,7 @@ export const designProjects = [
                 videoId: "w-PCxjmjv9M"
             }
         ],
-        description: "Ein kleines 2D Animations-Projekt, das ich ebenfalls in After Effects realisiert habe."
+        description: "Ein weiteres 2D-Animationsprojekt, das ich in After Effects umgesetzt habe. Dabei habe ich mit verschiedenen Animationstechniken experimentiert, um dem Planeten Leben einzuhauchen."
     },
     {
         title: "Planet Z",
@@ -98,7 +98,7 @@ export const designProjects = [
                 videoId: "-wYsQumsLDY"
             }
         ],
-        description: "Der letzte Planet der Reihe und mein Favorit. Ich hoffe wirklich, dass ich in Zukunft noch mehr solcher Projekte machen kann. "
+        description: "Der letzte Planet meiner kleinen Reihe und gleichzeitig mein Favorit. Ich hoffe, in Zukunft noch mehr solcher kreativen 2D-Animationsprojekte umsetzen zu können."
     },
     {
         title: "Tango Flyer",
@@ -120,12 +120,12 @@ export const designProjects = [
                 src: Tango4,
             }
         ],
-        description: "Meine Abschlussarbeit für den Mediengestalter. Hier war meine Aufgabe Flyer für eine Tanzschule zu erstellen, wobei ich die 4 Aspekte des Tangos berücksichtigt sollte."
+        description: "Meine Abschlussarbeit als Mediengestalter bestand darin, Flyer für eine Tanzschule zu entwerfen. Dabei sollte ich die vier zentralen Aspekte des Tangos visuell und gestalterisch in das Design einfließen lassen."
     },
     {
         title: "Grinsekatze Playmat",
         image: GrinsekatzePlaymat,
-        description: "Meine Freundin wollte unbedingt eine eigene Playmat für Disney Lorcana haben. Also habe ich ihr eine erstellt, die sie dann auch drucken lassen hat. Ich finde sie ist sehr schön geworden. Das Bild ist KI-generiert, aber ich habe es noch etwas in Photoshop angepasst und die Schrift und Bereiche hinzugefügt."
+        description: "Meine Freundin wollte unbedingt eine eigene Playmat für Disney Lorcana haben. Also habe ich ihr eine erstellt, die wir dann auch drucken lassen haben. Ich finde sie ist sehr schön geworden. Das Bild ist KI-generiert, aber ich habe es noch etwas in Photoshop angepasst und die Schrift und Bereiche hinzugefügt."
     },
     {
         title: "Taco Tuesday",
@@ -136,15 +136,15 @@ export const designProjects = [
             },
             {
                 type: "youtube",
-                videoId: "FMWzJazaWT4" 
+                videoId: "FMWzJazaWT4"
             }
         ],
-        description: "weil ich es lustig fand, bin ich hier einem Tutorial für After Effects gefolgt. Es hat sehr viel Spaß gemacht und das Ergebnis sieht super aus."
+        description: "Aus Spaß habe ich diesem After-Effects-Tutorial gefolgt, weil ich die Idee einfach lustig fand. Es hat unglaublich viel Spaß gemacht, und ich bin mit dem Ergebnis richtig zufrieden."
     },
     {
         title: "Der Wächter des Waldes",
         image: WoodGod,
-        description: "Ein weiteres Bild, das ich in Photoshop erstellt habe. Hier habe ich versucht, einen Effekt, den ich in einem anderen Bild gesehen habe, nachzuahmen."
+        description: "Ein weiteres Bild, das ich in Photoshop erstellt habe. Dabei habe ich versucht, einen Effekt nachzuahmen, den ich zuvor in einem anderen Artwork entdeckt hatte."
     },
     {
         title: "Paralax Zoom",
@@ -158,17 +158,17 @@ export const designProjects = [
                 videoId: "5tzC_ApqlxM"
             },
         ],
-        description: "Ein kurzer Clip, wo ein Parallax Effekt mit einem netten Zoom-Effekt kombiniert wurde. Das Foto der jungen Frau, stammt von meinem französischen Freund, der es mir freundlicherweise zur Verfügung gestellt hat."
+        description: "Ein kurzer Clip, in dem ich einen Parallax-Effekt mit einem sanften Zoom kombiniert habe. Das Foto der jungen Frau stammt von meinem französischen Freund, der es mir freundlicherweise zur Verfügung gestellt hat."
     },
     {
-        title: "Orb",
+        title: "Holzorb am Himmel",
         media: [
             {
                 type: "image",
                 src: Orb,
             }
         ],
-        description: "das ist wieder nur eine kleine Photoshop Spielerei bei der ich mir unbedingt ein Hello Kitty Rucksack geben wollte."
+        description: "Eine kleine Photoshop-Spielerei, bei der ich mir unbedingt einen Hello-Kitty-Rucksack verpassen wollte, einfach nur zum Spaß."
     },
     {
         title: "Spirit of Skap",
@@ -182,7 +182,7 @@ export const designProjects = [
                 videoId: "3rPRMex3jQ4"
             }
         ],
-        description: "So sollte damals der Manga heißen, an dem ich und ein guter Freund gearbeitet haben. Dafür hatten wir extra kleine Animation als kleinen Teaser überlegt. Er hat die Zeichnungen gemacht und ich habe sie animiert. Leider haben wir uns zerstritten und das Projekt aufgegeben. Doch daraus wird nun Westria"
+        description: "So sollte ursprünglich der Manga heißen, an dem ein guter Freund und ich gearbeitet haben. Als kleinen Teaser hatten wir sogar eine kurze Animation geplant. Er hat die Zeichnungen erstellt und ich habe sie animiert. Leider haben wir das Projekt nach einem Streit aufgegeben, doch die Idee lebt nun in einem neuen Westria Projekt weiter."
     },
     {
         title: "Erstes Pen & Paper Logo",
@@ -196,7 +196,7 @@ export const designProjects = [
                 videoId: "ahwfdHtgoTc"
             }
         ],
-        description: "Das erste Logo meiner Pen & Paper Gruppe auf Youtube samt Animation. Wir spielen seit Jahren zusammen und haben schon viele Abenteuer erlebt. Und weil ich es einfach ausprobieren wollte, habe ich das Logo gleich dafür genutzt, um ein Audio Visualizer zu erstellen."
+        description: "Das erste Logo unserer Pen-&-Paper-Gruppe auf YouTube, inklusive einer kleinen Animation. Unsere Gruppe spielt schon seit Jahren zusammen und hat viele Abenteuer erlebt. Aus Neugier habe ich das Logo zusätzlich genutzt, um einen Audio-Visualizer zu erstellen."
     },
     {
         title: "Randwachen Truppe",
@@ -210,12 +210,12 @@ export const designProjects = [
                 videoId: "Jja2aNzmj_g"
             }
         ],
-        description: "Ein Animation, die die vollständige Truppe der Charaktere meiner Pen & Paper Gruppe, aus meiner Randwachen Kampagne zeigt. Dieses Abenteuer läuft nun schon seit einigen Jahren und hat schon viel Veränderungen durchmachen müssen."
+        description: "Eine Animation, die alle Charaktere meiner Pen-&-Paper-Gruppe aus der Randwachen-Kampagne zeigt. Dieses Abenteuer läuft nun schon seit mehreren Jahren und hat im Laufe der Zeit viele spannende Veränderungen erlebt."
     },
     {
         title: "2021",
         image: Jahreszahl,
-        description: "Hier hatte ich einfach Lust das neue Jahr mit einem schönen Design zu begrüßen. Ich mag die Farben."
+        description: "Ein kleines Design, das ich erstellt habe, um das neue Jahr zu begrüßen. Besonders die Farben gefallen mir sehr."
     },
     {
         title: "Retusche",
@@ -233,13 +233,13 @@ export const designProjects = [
                 src: BelkauBearbeitet,
             }
         ],
-        description: "Das Entfernen von Objekten oder das Restaurieren von alten Bildern macht mir besonders Spaß."
+        description: "Das Entfernen störender Objekte oder das Restaurieren alter Fotos gehört zu den Aufgaben, die mir besonders Spaß machen."
     },
     {
         title: "Apfel",
         image: Apfel,
-        description: "Das ist mein aller erster Versuch gewesen in Photoshop mit einem Tablet zu zeichnen."
+        description: "Das war mein allererster Versuch, in Photoshop mit einem Grafiktablet zu zeichnen. Dabei habe ich die Grundlagen des digitalen Malens gelernt."
     },
-    
-    
+
+
 ];
