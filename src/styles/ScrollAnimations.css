@@ -1,0 +1,94 @@
+/* Scroll Animationen für Bilder */
+
+.scroll-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.scroll-fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-fade-up-delayed {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+  transition-delay: 0.2s;
+}
+
+.scroll-fade-up-delayed.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-fade-up-stagger {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.scroll-fade-up-stagger.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Gestaffelte Animation für Galerie-Bilder */
+.scroll-fade-up-stagger:nth-child(1).visible {
+  transition-delay: 0.1s;
+}
+
+.scroll-fade-up-stagger:nth-child(2).visible {
+  transition-delay: 0.2s;
+}
+
+.scroll-fade-up-stagger:nth-child(3).visible {
+  transition-delay: 0.3s;
+}
+
+.scroll-fade-up-stagger:nth-child(4).visible {
+  transition-delay: 0.4s;
+}
+
+.scroll-fade-up-stagger:nth-child(5).visible {
+  transition-delay: 0.5s;
+}
+
+.scroll-fade-up-stagger:nth-child(6).visible {
+  transition-delay: 0.6s;
+}
+
+/* Alternative Animationen */
+.scroll-slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.7s ease-out;
+}
+
+.scroll-slide-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-slide-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.7s ease-out;
+}
+
+.scroll-slide-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-scale-up {
+  opacity: 0;
+  transform: scale(0.9) translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.scroll-scale-up.visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}

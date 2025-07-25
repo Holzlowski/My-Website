@@ -1,5 +1,7 @@
 import { Container, Row, Col, Carousel, Card, Modal } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
+import useScrollAnimation from '../../hooks/useScrollAnimation';
+import '../../styles/ScrollAnimations.css';
 import './Projectssection.css';
 
 const ProjectsSection = (
@@ -14,6 +16,12 @@ const ProjectsSection = (
     const [selectedImages, setSelectedImages] = useState([]);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [selectedTitle, setSelectedTitle] = useState('');
+    
+    // Scroll-Animation für den Titel-Bereich
+    const [titleRef, titleVisible] = useScrollAnimation({ threshold: 0.3 });
+    
+    // Scroll-Animation für die Projekt-Cards
+    const [projectsRef, projectsVisible] = useScrollAnimation({ threshold: 0.1 });
 
     const handleImageClick = (project, imageIndex = 0) => {
         // Sammle alle Bilder des Projekts (keine YouTube Videos)
@@ -68,7 +76,7 @@ const ProjectsSection = (
 
     return (
         <Container className="projects-container">
-            <div >
+            <div ref={titleRef} className={`scroll-fade-up ${titleVisible ? 'visible' : ''}`}>
                 <h2>{pageTitle}</h2>
                 {Array.isArray(pageDescription) ? (
                     pageDescription.map((paragraph, index) => (
@@ -78,9 +86,14 @@ const ProjectsSection = (
                     <p>{pageDescription}</p>
                 )}
             </div>
-            <Row>
+            <Row ref={projectsRef}>
                 {projects.map((project, index) => (
-                    <Col key={index} md={12 / cardsPerRow}>
+                    <Col 
+                        key={index} 
+                        md={12 / cardsPerRow}
+                        className={`scroll-fade-up-stagger ${projectsVisible ? 'visible' : ''}`}
+                        style={{ animationDelay: `${index * 0.1}s` }}
+                    >
                         <Card className="mb-4 hover-effect" style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
                             {project.media ? (
                                 // Mehrere Medien - zeige Carousel
