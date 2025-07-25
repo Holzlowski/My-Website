@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Meine-Webseite/static/css/main.e074145c.css",
-    "main.js": "/Meine-Webseite/static/js/main.fe257201.js",
+    "main.js": "/Meine-Webseite/static/js/main.39efef5e.js",
     "static/media/Belkau_bearbeitet.jpg": "/Meine-Webseite/static/media/Belkau_bearbeitet.780279a1f182ca3b1442.jpg",
     "static/media/Example.jpg": "/Meine-Webseite/static/media/Example.03a1121722a30aa5b2bf.jpg",
     "static/media/GrinsekatzePlaymat.jpg": "/Meine-Webseite/static/media/GrinsekatzePlaymat.16a9a1218d34dc6a378c.jpg",
@@ -90,10 +90,10 @@
     "static/media/Orao.JPG": "/Meine-Webseite/static/media/Orao.58ee22c5ea0f3504237e.JPG",
     "index.html": "/Meine-Webseite/index.html",
     "main.e074145c.css.map": "/Meine-Webseite/static/css/main.e074145c.css.map",
-    "main.fe257201.js.map": "/Meine-Webseite/static/js/main.fe257201.js.map"
+    "main.39efef5e.js.map": "/Meine-Webseite/static/js/main.39efef5e.js.map"
   },
   "entrypoints": [
     "static/css/main.e074145c.css",
-    "static/js/main.fe257201.js"
+    "static/js/main.39efef5e.js"
   ]
 }
