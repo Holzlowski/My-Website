@@ -12,46 +12,37 @@ const ContentSection = () => {
           <div className="content-card">
             <h2>Willkommen in meinem Wald</h2>
             <h4>Schön, dass du dich hierher verlaufen hast.</h4>
-            <h5>Hey, ich bin David Holz.</h5>
+            <h4>Hey, ich bin David Holz.</h4>
             <p>
-              Nicht der Erfinder von Midjourney, aber definitiv jemand mit viel Kreativität und Begeisterung für alles, was spannend klingt.
-              Ich bin ein großer Träumer mit vielen Ideen, manchmal vielleicht zu viele mit zu wenig Zeit. Trotzdem habe ich es geschafft, einige von ihnen tatsächlich umzusetzen.
-              Und genau diese Projekte möchte ich hier mit dir teilen.
+              Nicht der Erfinder von Midjourney, aber jemand mit einer Menge Kreativität und Begeisterung für alles, was spannend klingt.
+              Ich bin ein Träumer mit vielen Ideen, manchmal vielleicht zu viele, aber einige davon habe ich bereits umgesetzt.
+              Und genau diese Projekte möchte ich hier gerne mit dir teilen.
             </p>
-
+            <h5>Wer ich bin</h5>
             <p>
-              Meine größte Leidenschaft ist es, neue Welten zu erschaffen und sie irgendwie lebendig zu machen.
-              Ob in 2D, 3D, als Spiel oder einfach nur auf Papier, es geht mir immer darum, etwas Eigenes zum Leben zu erwecken.
-              Ich erschaffe nicht nur Welten ich tauche auch sehr gerne in andere ein, sei es durch Spiele, Filme, Bücher oder Pen & Paper,
-              wobei ich meistens als Spielleiter unterwegs bin.
+              Ich bin in Stendal geboren und aufgewachsen, aber bin auch oft in Berlin anzutreffen.
+              Dort habe ich studiert, Freunde gefunden und meine Freundin. Stendal ist Heimat, Berlin ist Liebe.
+              Meine größte Leidenschaft ist es, neue Welten zu erschaffen und sie zum Leben zu erwecken.
+              Ob in 2D, 3D, als Spiel oder einfach auf Papier, es geht mir immer darum, etwas Eigenes zu gestalten.
+              Gleichzeitig liebe ich es, in andere Welten einzutauchen: durch Spiele, Filme, Bücher oder Pen & Paper, wo ich oft die Rolle des Spielleiters einnehme.
             </p>
-
+            <h5>Mein Weg</h5>
             <p>
-              Irgendwann in meinem Leben habe ich, wie wahrscheinlich viele andere auch, gesagt: „Ich mach irgendwas mit Medien.“
-              Also habe ich eine Ausbildung zum Mediengestalter angefangen und erfolgreich abgeschlossen.
-              Aber das war mir nicht genug. Obwohl ich früher dachte, dass ich zu doof zum Studieren bin (und ich sogar mal wegen Mathe in der 7. Klasse sitzen geblieben bin),
-              habe ich mich an ein Studium gewagt: Medieninformatik.
-              Und was soll ich sagen, ich habe nicht nur den Bachelor, sondern auch den Master geschafft.
-              Damit habe ich mir selbst bewiesen, dass man manchmal einfach an sich glauben muss.
-              Und ja, ich liebe das Programmieren. Auch wenn es mich manchmal an den Rand der Verzweiflung bringt.
-              Mein 10-jähriges Ich würde niemals glauben, dass ich heute Spiele programmieren kann.
-              Außerdem liebe ich es, Neues zu lernen, und ich will zeigen, dass man alles schaffen kann, wenn man dranbleibt.
+              Wie viele andere habe ich irgendwann gesagt: „Ich mach was mit Medien.“ Also begann ich eine Ausbildung zum Mediengestalter und schloss sie erfolgreich ab. Aber das war nur der Anfang.
+              Obwohl ich früher dachte, dass ich nicht geeignet bin fürs Studieren (Fun Fact: Ich bin in der 7. Klasse wegen Mathe sitzen geblieben), habe ich ein Studium in Medieninformatik gewagt und nicht nur den Bachelor, sondern auch den Master geschafft.
+              Für mich der Beweis, dass man alles erreichen kann, wenn man dranbleibt und an sich glaubt.
+              Heute programmiere ich Spiele und liebe es, Neues zu lernen.
+              Mein 10-jähriges Ich wäre bestimmt stolz!
             </p>
-
-            <p>P.S. Manche meiner guten Freunde nennen mich einfach Holz und weil ich meinen Nachnamen so sehr mag,
+            <h5>Warum Holz?</h5>
+            <p>
+              Manche meiner guten Freunde nennen mich einfach Holz und weil ich meinen Nachnamen so sehr mag,
               fühl ich eine gewisse Verbundenheit zu allem, was mit Holz zu tun hat.
               <img
                 src={baumLogo}
                 alt="Baum Logo"
                 className="inline-logo"
               />
-            </p>
-
-            <h5>Momentane Situation</h5>
-            <p>
-              Die Welt verändert sich gerade rasend schnell, manchmal habe ich das Gefühl, kaum hinterherzukommen.
-              Der Arbeitsmarkt ist momentan echt hart, und es ist gar nicht so leicht, einen Job zu finden, obwohl ich mein Bestes gebe.
-              Aber eins ist sicher: <br></br>Aufgeben ist keine Option.
             </p>
           </div>
           <div className="content-image">
