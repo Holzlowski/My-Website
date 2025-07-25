@@ -10,12 +10,6 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     animation: counterRotate 20s linear infinite;
-    /* Explizite Transform-Origin für konsistentes Rendering */
-    transform-origin: center center;
-    /* Force hardware acceleration für bessere Performance */
-    will-change: transform;
-    /* Vermeide Subpixel-Rendering-Probleme */
-    transform-style: preserve-3d;
 }
 
 .avatar-center {
@@ -25,13 +19,6 @@
     height: auto;
     filter: drop-shadow(0 8px 32px rgb(0, 0, 0));
     animation: floating 3s ease-in-out infinite;
-    /* Explizite Transform-Origin für den Avatar */
-    transform-origin: center center;
-    /* Anti-Aliasing für bessere Bildqualität */
-    image-rendering: -webkit-optimize-contrast;
-    /* Vermeide Browser-spezifische Rendering-Unterschiede */
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
 }
 
 /* ==============================================
@@ -110,12 +97,8 @@
 }
 
 @keyframes counterRotate {
-    0% { 
-        transform: translate(-50%, -50%) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
-    }
-    100% { 
-        transform: translate(-50%, -50%) rotateY(-360deg) rotateX(0deg) rotateZ(0deg);
-    }
+    0% { transform: translate(-50%, -50%) rotateY(0deg); }
+    100% { transform: translate(-50%, -50%) rotateY(-360deg); }
 }
 
 @keyframes rotate3D {
