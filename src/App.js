@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './components/Navigation/Navbar';
+import SocialSidebar from './components/SocialSidebar/SocialSidebar';
 import HeroSection from './components/HeroSection/HeroSection';
 import ContentSection from './components/ContentSection/ContentSection';
 import BackgroundImage from './components/BackgroundImage/BackgroundImage';
@@ -31,6 +32,9 @@ function App() {
           <Route path="/3D-Design" element={<ThreeDPage />} />
           <Route path="/westria" element={<WestriaPage />} />
         </Routes>
+        
+        {/* Social Media Sidebar - immer sichtbar */}
+        <SocialSidebar />
       </Router>
     </>
   );
