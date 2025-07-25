@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './components/Navigation/Navbar';
 import SocialSidebar from './components/SocialSidebar/SocialSidebar';
 import HeroSection from './components/HeroSection/HeroSection';
@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Router basename="/Meine-Webseite">
+      <Router>
         {/* Navigation */}
         <NavigationBar className="fixed-navbar" />
         <Routes>
