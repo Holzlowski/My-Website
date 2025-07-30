@@ -41,7 +41,7 @@ export const threeDProjects = [
         description: "Dies wurde mit Blender und dem Grease Pencil erstellt. Ein magisches Labor voller Tränke, Bücher, mystischer Gegenstände und versteckter Easter Eggs. Niemand weiß so genau, was der Alchemist hier wirklich braut."
     },
     {
-        title: "Das Dorf ",
+        title: "Das Dorf",
         media:[
             {
                 type: "image",

@@ -1,13 +1,17 @@
+import { useTranslation } from 'react-i18next';
 import ProjectsSection from '../../components/ProjectsSection/ProjectsSection';
-import { designProjects } from '../../data/designProjects';
+import { useTranslatedProjects } from '../../hooks/useTranslatedProjects';
 
 const DigitalArt = () => {
+    const { t } = useTranslation();
+    const { designProjects: translatedProjects } = useTranslatedProjects();
+    
     return (
         <ProjectsSection
-            projects={designProjects}
-            pageTitle="Digital Art"
+            projects={translatedProjects}
+            pageTitle={t('projects.digitalart.title')}
             pageDescription={[
-                "Während meiner Ausbildung zum Mediengestalter habe ich Photoshop für mich entdeckt und erste kreative Projekte umgesetzt. In meinem Praktikum hatte ich außerdem die Gelegenheit, mit After Effects zu experimentieren und so mein digitales Repertoire zu erweitern."
+                t('projects.digitalart.description')
             ]}
             cardsPerRow={3}
         />

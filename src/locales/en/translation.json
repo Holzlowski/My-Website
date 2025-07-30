@@ -1,0 +1,312 @@
+{
+  "navigation": {
+    "home": "Home",
+    "programming": "Programming",
+    "gamedev": "Game Development",
+    "digitalart": "Digital Art",
+    "3ddesign": "3D Design",
+    "westria": "Westria"
+  },
+  "hero": {
+    "loading": "Loading images...",
+    "title": "David Holz",
+    "subtitle": "Portfolio & Projects"
+  },
+  "projects": {
+    "programming": {
+      "title": "Programming Projects",
+      "description": "Here you can find a selection of my programming projects. Throughout my studies and beyond, I have implemented many more projects, from Java applications to games and tools."
+    },
+    "gamedev": {
+      "title": "Game Development Projects",
+      "description": "Since I discovered games like Zelda: Ocarina of Time, Final Fantasy, or Kingdom Hearts, I have been fascinated by the world of video games. I always wanted to know how games are made. During my studies, I finally had the opportunity to dive into development myself. I want to continue working on games in the future, as I still have countless ideas waiting to be brought to life."
+    },
+    "digitalart": {
+      "title": "Digital Art Projects",
+      "description": "During my training as a media designer, I discovered Photoshop and implemented my first creative projects. In my internship, I also had the opportunity to experiment with After Effects and thus expand my digital repertoire."
+    },
+    "3d": {
+      "title": "3D Design Projects",
+      "description": "Even as a child, I was fascinated by 3D models and animations. During my studies, I then dealt intensively with 3D design and modeling and continuously expanded my knowledge. Blender particularly caught my interest."
+    },
+    "loading": "Loading images..."
+  },
+  "content": {
+    "welcome": "Welcome to my Forest",
+    "subtitle": "Nice that you found your way here.",
+    "greeting": "Hey, I'm David Holz.",
+    "intro": "Not the inventor of Midjourney, but someone with a lot of creativity and enthusiasm for everything that sounds exciting. I'm a dreamer with many ideas, sometimes maybe too many, but I've already implemented some of them. And these are exactly the projects I'd like to share with you here.",
+    "whoami_title": "Who I am",
+    "whoami_text": "I was born and raised in Stendal, but I'm also often found in Berlin. That's where I studied, found friends and my girlfriend. Stendal is home, Berlin is love. My greatest passion is creating new worlds and bringing them to life. Whether in 2D, 3D, as a game or simply on paper, it's always about creating something of my own. At the same time, I love diving into other worlds: through games, movies, books or pen & paper, where I often take on the role of game master.",
+    "journey_title": "My Journey",
+    "journey_text": "Like many others, I once said: 'I'll do something with media.' So I started training as a media designer and completed it successfully. But that was just the beginning. Although I used to think I wasn't suited for studying (Fun fact: I had to repeat 7th grade because of math), I dared to study media informatics and not only completed my bachelor's but also my master's degree. For me, this is proof that you can achieve anything if you stick with it and believe in yourself. Today I program games and love learning new things. My 10-year-old self would definitely be proud!",
+    "why_holz_title": "Why Holz?",
+    "why_holz_text": "Some of my good friends just call me Holz and because I love my last name so much, I feel a certain connection to everything related to wood."
+  },
+  "westria": {
+    "title": "WESTRIA",
+    "subtitle": "Western meets Fantasy",
+    "intro": "Welcome to Westria, a world I have worked on for many years and which continues to evolve to this day. Originally, the story was supposed to be told as a manga, together with a very good friend who could draw incredibly talented. Unfortunately, we had a falling out, but I didn't want to just give up all the effort and ideas. That's why I decided to make our shared story my very own and now continue telling it in written form.",
+    "world": {
+      "title": "The World",
+      "description": "Westria is a land where endless deserts stretch out, water is as precious as gold, and wild magic blows over the dunes. Here the Rocacci, small cat creatures, roam through the sand sea to distribute water, while the Goater, tough goat people from the mountains, eke out their grumpy existence as bartenders."
+    },
+    "stories": {
+      "title": "Stories",
+      "description": "The history of Westria spans countless years and is interwoven with secrets and legends buried deep in the sand. The land and its inhabitants have endured many trials to become what they are today. But this narrative focuses on a girl from the Dust tribe. Her name is Orelia."
+    },
+    "characters": {
+      "orelia": {
+        "title": "Orelia Dust",
+        "description": "A young girl who has left her tribe behind and now travels through the merciless desert with her faithful camel ostrich and companion Kasu. In search of a mysterious place that she has only seen in her dreams so far."
+      },
+      "djagami": {
+        "title": "Djagami",
+        "description": "A shadow under the scorching sun, his face hidden behind a mask showing the eerie visage of a moon crow. With mysterious powers he roams the desert and knows secrets that others wouldn't even dare to dream of. Not far from Maginoa, the city of a thousand wonders, his paths cross with those of Orelia."
+      }
+    }
+  },
+  "projectData": {
+    "design": {
+      "double-exposure": {
+        "title": "Double Exposure",
+        "description": "In this project, I implemented a double exposure effect that creatively combines two images. Of course, I used a forest as the background."
+      },
+      "ragna-holzbrock": {
+        "title": "Ragna Holzbrock",
+        "description": "Inspired by the Vikings series, which I really enjoyed watching, I wanted to be part of this world myself. This idea gave birth to this image that depicts me in the style of the Vikings."
+      },
+      "ich": {
+        "title": "Me",
+        "description": "This image was taken during my internship in Amsterdam. Afterwards, I slightly edited it in Photoshop to enhance colors and mood."
+      },
+      "god-of-holz": {
+        "title": "God of Holz",
+        "description": "A good friend and I are big fans of the God of War series. So we thought: Why not tell our own story?"
+      },
+      "jelly-ghosts": {
+        "title": "Jelly Ghosts",
+        "description": "These glowing ghost jellyfish were illustrated in Photoshop and are inspired by a scene from Avatar: The Legend of Korra."
+      },
+      "eisen-holz": {
+        "title": "Iron Wood",
+        "description": "I miss the time when Halil and I worked together on our manga. Halil, if you're reading this, please come back 😂"
+      },
+      "planet-a": {
+        "title": "Planet A",
+        "description": "My fascination with planets and the universe inspired me to create my own little worlds. Even though it might look different, this planet is completely designed in 2D and animated in After Effects."
+      },
+      "planet-b": {
+        "title": "Planet B",
+        "description": "Another 2D animation project that I implemented in After Effects. I experimented with different animation techniques to bring the planet to life."
+      },
+      "planet-z": {
+        "title": "Planet Z", 
+        "description": "The third planet in my little animation series. Each planet has its own personality and story."
+      },
+      "tango-flyer": {
+        "title": "Tango Flyer",
+        "description": "My final thesis as a media designer consisted of designing flyers for a dance school. I had to visually and design-wise incorporate the four central aspects of tango into the design."
+      },
+      "grinsekatze-playmat": {
+        "title": "Cheshire Cat Playmat",
+        "description": "My girlfriend really wanted her own playmat for Disney Lorcana. So I created one for her, which we then had printed. I think it turned out very beautiful. The image is AI-generated, but I adjusted it a bit in Photoshop and added the text and areas."
+      },
+      "taco-tuesday": {
+        "title": "Taco Tuesday",
+        "description": "For fun, I followed this After Effects tutorial because I just found the idea amusing. It was incredibly fun, and I'm really satisfied with the result."
+      },
+      "der-wachter-des-waldes": {
+        "title": "The Forest Guardian",
+        "description": "Another image I created in Photoshop. I tried to replicate an effect I had discovered in another artwork before."
+      },
+      "paralax-zoom": {
+        "title": "Parallax Zoom",
+        "description": "A short clip where I combined a parallax effect with a gentle zoom. The photo of the young woman is from my French friend, who kindly provided it to me."
+      },
+      "holzorb-am-himmel": {
+        "title": "Wood Orb in the Sky",
+        "description": "A little Photoshop playfulness where I absolutely wanted to give myself a Hello Kitty backpack, just for fun."
+      },
+      "spirit-of-skap": {
+        "title": "Spirit of Skap",
+        "description": "This is what the manga that a good friend and I worked on was originally supposed to be called. As a little teaser, we even planned a short animation. He created the drawings and I animated them. Unfortunately, we abandoned the project after an argument, but the idea now lives on in a new Westria project."
+      },
+      "erstes-pen-paper-logo": {
+        "title": "First Pen & Paper Logo",
+        "description": "The first logo of our Pen & Paper group on YouTube, including a small animation. Our group has been playing together for years and has experienced many adventures. Out of curiosity, I additionally used the logo to create an audio visualizer."
+      },
+      "randwachen-truppe": {
+        "title": "Border Guard Troop",
+        "description": "An animation showing all characters from my Pen & Paper group from the Border Guard campaign. This adventure has been running for several years now and has experienced many exciting changes over time."
+      },
+      "2021": {
+        "title": "2021",
+        "description": "A small design I created to welcome the new year. I particularly like the colors."
+      },
+      "retusche": {
+        "title": "Retouching",
+        "description": "Removing disturbing objects or restoring old photos are among the tasks I particularly enjoy."
+      },
+      "apfel": {
+        "title": "Apple",
+        "description": "This was my very first attempt at drawing in Photoshop with a graphics tablet. I learned the basics of digital painting."
+      }
+    },
+    "threed": {
+      "das-alchemielabor": {
+        "title": "The Alchemy Laboratory",
+        "description": "This was created with Blender and Grease Pencil. A magical laboratory full of potions, books, mystical objects and hidden easter eggs. Nobody really knows what the alchemist is actually brewing here."
+      },
+      "das-dorf": {
+        "title": "The Village",
+        "description": "This motif was also created with Blender and Grease Pencil and additionally animated. Here lives the mysterious alchemist, while the villagers busily prepare the next festival and the village comes to life."
+      },
+      "das-haus": {
+        "title": "The House",
+        "description": "A small part of the big village. I'm particularly fascinated by the combination of 3D design and 2D Grease Pencil elements, which give the scene a unique, lively look. In the house, a frog serves delicious pastries."
+      },
+      "meine-eigene-trinkpackung": {
+        "title": "My Own Drink Package",
+        "description": "A 3D design project for a personalized beverage packaging, created in Blender."
+      },
+      "coole-topfpflanzen": {
+        "title": "Cool Potted Plants",
+        "description": "In this simple scene, I experimented with various modifiers and effects. On the left side, a light effect is used, while the leaves on the right were pixelated."
+      },
+      "lecker-schokokuchen": {
+        "title": "Delicious Chocolate Cake",
+        "description": "With 3D objects and Grease Pencil, I created a delicious piece of chocolate cake here. Additionally, I experimented with outlines to create an appealing toon look."
+      },
+      "der-oger": {
+        "title": "The Ogre",
+        "description": "I followed a course by Grant Abbitt to improve my character design skills. The result is a stomping ogre that reminds me a bit of Shrek."
+      },
+      "orao-dust": {
+        "title": "Orao Dust",
+        "description": "Once the main character of our manga. I tried to model him in 3D, but I didn't pursue the project further. Still, the work up to that point was a lot of fun."
+      },
+      "der-mecha": {
+        "title": "The Mecha",
+        "description": "This mecha also originated from the same course as the ogre. I particularly experimented with lighting and shadow casting to improve the model's impact."
+      },
+      "die-kleine-hütte": {
+        "title": "The Little Hut",
+        "description": "A cozy, small hut in low-poly style. But beware: the unexpected might lurk in the surrounding darkness."
+      },
+      "der-heldenbaum": {
+        "title": "The Hero Tree",
+        "description": "A small tree in the middle of the dark forest. The last of its kind. The light of dusk makes its foliage glow like flaming fire."
+      },
+      "die-weite-ebene": {
+        "title": "The Wide Plain",
+        "description": "An expansive landscape with gentle hills, an old ruin, and lots and lots of grass. Really, I had never had so much grass in a scene before!"
+      },
+      "das-kamehaus": {
+        "title": "The Kame House",
+        "description": "My love for anime began with Dragon Ball. I often imagined what it would be like to live in Master Roshi's house. That's exactly why I created this scene."
+      },
+      "der-froschkrieger": {
+        "title": "The Frog Warrior",
+        "description": "On Instagram, I follow the artist Robbiegoldieart, who created a cool frog figure. I really wanted to remodel this in 3D, and so this frog warrior was born."
+      },
+      "die-erste-tur": {
+        "title": "The First Door",
+        "description": "When the NFT hype began, my brother really wanted to participate, and we designed doors together that lead to different worlds. This is the first door in our series."
+      },
+      "das-fliegende-auto": {
+        "title": "The Flying Car",
+        "description": "This project was created as part of a Blender course that I found very exciting. I completely redesigned the car and gave it a sleek look. Watch out, stone!"
+      },
+      "die-wurfel": {
+        "title": "The Dice",
+        "description": "As an enthusiastic pen & paper player, I love dice in all colors and shapes. In this project, I tried to represent them as realistically as possible."
+      },
+      "die-unendliche-armee": {
+        "title": "The Infinite Army",
+        "description": "A small low-poly army of various models, ready for battle. With After Effects, I created a seemingly infinite stream of these machines."
+      },
+      "die-murmeln": {
+        "title": "The Marbles",
+        "description": "One of my first projects in Cinema4D. I love the shine of the pearls and found it exciting to experiment with force fields."
+      },
+      "meine-initialen": {
+        "title": "My Initials",
+        "description": "I created this cool artwork in Cinema4D. I've never seen my initials look so stylish before."
+      },
+      "der-donut": {
+        "title": "The Donut",
+        "description": "Almost everyone who starts with Blender makes a donut for good reason. I especially love the woodruff glaze with the colorful sprinkles."
+      }
+    },
+    "gamedev": {
+      "arkmon": {
+        "title": "Arkmon",
+        "description": "The idea for this game came to me in a dream where I was playing a Pokémon-like game. I then tried to bring this dream to reality. Arkmon is a Pokémon-inspired game with original creatures and mechanics that I developed in Unity."
+      },
+      "could-it-be-more-unreal": {
+        "title": "Could It Be More Unreal?",
+        "description": "This project was created for the IMI Showtime. Our goal was to develop a gameplay demo in the then brand-new Unreal Engine 5 and showcase the latest features. My focus was on level architecture, working intensively with Megascans and the Lumen lighting system."
+      },
+      "dwarf-digger": {
+        "title": "Dwarf Digger",
+        "description": "In this game, players take on the role of a female dwarf who digs for valuable resources in a mine. Dwarf Digger combines puzzle and strategy elements: only those who use their tools and abilities cleverly reach the deepest levels of the mine."
+      },
+      "escape-the-pandemic": {
+        "title": "Escape The Pandemic",
+        "description": "This mobile game was created during the Corona pandemic. Players explore the level by moving their phone and must solve various puzzles in a laboratory to find the antidote to the virus."
+      },
+      "gravity-galaxy": {
+        "title": "Gravity Galaxy", 
+        "description": "This playable prototype was created as part of my master's thesis and explores the possibilities of gravity in an intergalactic setting. Inspired by Mario Galaxy, the goal was to explore different planetary shapes."
+      },
+      "hungry-games": {
+        "title": "Hungry Games",
+        "description": "This multiplayer game was developed for the IMI Showtime. Up to 32 players take on the role of animals that fight each other with weapons and special abilities. The winner is the animal that devours the most opponents."
+      },
+      "my-first-rpg": {
+        "title": "My First RPG",
+        "description": "This project was created as part of a course I used to learn the basics of RPG development. I implemented central mechanics like level-ups, collectible power-ups, and level transitions, gaining valuable experience in game development."
+      },
+      "tank-raider": {
+        "title": "Tank Raider",
+        "description": "An action-packed game where players control a tank fighting through a battlefield full of enemy tanks and mysterious creatures. Thanks to the implemented random level generation, each game is a new experience."
+      },
+      "animals": {
+        "title": "Animals",
+        "description": "This project was part of my bachelor thesis and served to deepen my knowledge of computer game AI. The animal AI has properties like field of vision, smell, and hunger. Their behavior adapts dynamically, depending on how they feel or how the wind blows."
+      }
+    },
+    "programming": {
+      "pnp-planner": {
+        "title": "PnP Planner",
+        "description": "An interactive Figma prototype for planning and managing Pen & Paper sessions. I was significantly involved from ideation through conception to final implementation of the prototype."
+      },
+      "spell-dashboard": {
+        "title": "Spell Dashboard",
+        "description": "A dashboard project I worked on during my time at the Fraunhofer Institute. This tool allows creating individual widgets to visualize sensor data in real time. It also enables coordination and mobilization of volunteer first responders in emergency situations."
+      },
+      "meine-webseite": {
+        "title": "My Website",
+        "description": "My portfolio website, developed with React and Bootstrap. It showcases my projects from 3D design, programming, and digital art as well as interactive galleries."
+      },
+      "password-manager": {
+        "title": "Password Manager",
+        "description": "A web project for secure password management, including encryption and secure storage. The implementation was done with Angular for the frontend and Firebase for database connection."
+      },
+      "drum-kit": {
+        "title": "Drum Kit",
+        "description": "An interactive web drum kit that allows users to play various drum sounds, combine them, and try out their own beats."
+      },
+      "tindog": {
+        "title": "TinDog",
+        "description": "This project was created as an exercise to improve my frontend skills. The website was completely rebuilt with HTML and CSS, without frameworks or additional tools. My focus was on clean code."
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Loading error",
+    "retry": "Try again"
+  }
+}

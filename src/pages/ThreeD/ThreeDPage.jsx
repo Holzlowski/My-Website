@@ -1,13 +1,17 @@
+import { useTranslation } from 'react-i18next';
 import ProjectsSection from '../../components/ProjectsSection/ProjectsSection';
-import { threeDProjects } from '../../data/threeDProjects';
+import { useTranslatedProjects } from '../../hooks/useTranslatedProjects';
 
 const ThreeDPage = () => {
+    const { t } = useTranslation();
+    const { threeDProjects: translatedProjects } = useTranslatedProjects();
+    
     return (
         <ProjectsSection 
-            projects={threeDProjects}
-            pageTitle="3D Design & Modeling"
+            projects={translatedProjects}
+            pageTitle={t('projects.3d.title')}
             pageDescription={[
-                "Schon als Kind haben mich 3D-Modelle und Animationen fasziniert. Im Studium habe ich mich dann intensiv mit 3D-Design und -Modellierung beschäftigt und mein Wissen stetig erweitert. Dabei hat es mir Blender besonders angetan."
+                t('projects.3d.description')
             ]}
             cardsPerRow={3}
         />

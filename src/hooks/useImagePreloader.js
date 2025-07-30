@@ -95,6 +95,11 @@ export const useImagePreloader = (imageUrls, options = {}) => {
 export const extractImagesFromProjects = (projects) => {
     const images = [];
     
+    // Sicherstellen, dass projects ein Array ist
+    if (!Array.isArray(projects)) {
+        return images;
+    }
+    
     projects.forEach(project => {
         // Hauptbild
         if (project.image) {

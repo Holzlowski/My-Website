@@ -1,13 +1,17 @@
+import { useTranslation } from 'react-i18next';
 import ProjectsSection from '../../components/ProjectsSection/ProjectsSection';
-import { gameDevelopmentProjects } from '../../data/gameDevelopmentProjects';
+import { useTranslatedProjects } from '../../hooks/useTranslatedProjects';
 
 const GameDevelopmentPage = () => {
+    const { t } = useTranslation();
+    const { gameDevelopmentProjects: translatedProjects } = useTranslatedProjects();
+    
     return (
         <ProjectsSection 
-            projects={gameDevelopmentProjects}
-            pageTitle="Game Development"
+            projects={translatedProjects}
+            pageTitle={t('projects.gamedev.title')}
             pageDescription={[
-                "Seit ich Spiele wie Zelda: Ocarina of Time, Final Fantasy oder Kingdom Hearts entdeckt habe, bin ich von der Welt der Videospiele fasziniert. Schon immer wollte ich wissen, wie Spiele entstehen. Im Studium hatte ich dann endlich die Möglichkeit, selbst in die Entwicklung einzutauchen. Auch in Zukunft möchte ich weiter an Spielen arbeiten, denn ich habe noch unzählige Ideen, die darauf warten, zum Leben erweckt zu werden."
+                t('projects.gamedev.description')
             ]}
             cardsPerRow={3}
         />

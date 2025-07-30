@@ -1,13 +1,17 @@
+import { useTranslation } from 'react-i18next';
 import ProjectsSection from '../../components/ProjectsSection/ProjectsSection';
-import { programmingProjects } from '../../data/programmingProjects';
+import { useTranslatedProjects } from '../../hooks/useTranslatedProjects';
 
 const ProgrammingPage = () => {
+    const { t } = useTranslation();
+    const { programmingProjects: translatedProjects } = useTranslatedProjects();
+    
     return (
         <ProjectsSection 
-            projects={programmingProjects}
-            pageTitle="Programming Projects"
+            projects={translatedProjects}
+            pageTitle={t('projects.programming.title')}
             pageDescription={[
-                "Hier findest du eine Auswahl meiner Programmierprojekte. Im Laufe meines Studiums und darüber hinaus habe ich viele weitere Projekte umgesetzt, von Java-Anwendungen bis hin zu Games und Tools."
+                t('projects.programming.description')
             ]}
             cardsPerRow={3}
         />

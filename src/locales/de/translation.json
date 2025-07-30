@@ -1,0 +1,312 @@
+{
+  "navigation": {
+    "home": "Home",
+    "programming": "Programmierung",
+    "gamedev": "Game Development",
+    "digitalart": "Digital Art",
+    "3ddesign": "3D Design",
+    "westria": "Westria"
+  },
+  "hero": {
+    "loading": "Bilder laden...",
+    "title": "David Holz",
+    "subtitle": "Portfolio & Projekte"
+  },
+  "projects": {
+    "programming": {
+      "title": "Programming Projects",
+      "description": "Hier findest du eine Auswahl meiner Programmierprojekte. Im Laufe meines Studiums und darüber hinaus habe ich viele weitere Projekte umgesetzt, von Java-Anwendungen bis hin zu Games und Tools."
+    },
+    "gamedev": {
+      "title": "Game Development Projects",
+      "description": "Seit ich Spiele wie Zelda: Ocarina of Time, Final Fantasy oder Kingdom Hearts entdeckt habe, bin ich von der Welt der Videospiele fasziniert. Schon immer wollte ich wissen, wie Spiele entstehen. Im Studium hatte ich dann endlich die Möglichkeit, selbst in die Entwicklung einzutauchen. Auch in Zukunft möchte ich weiter an Spielen arbeiten, denn ich habe noch unzählige Ideen, die darauf warten, zum Leben erweckt zu werden."
+    },
+    "digitalart": {
+      "title": "Digital Art Projects",
+      "description": "Während meiner Ausbildung zum Mediengestalter habe ich Photoshop für mich entdeckt und erste kreative Projekte umgesetzt. In meinem Praktikum hatte ich außerdem die Gelegenheit, mit After Effects zu experimentieren und so mein digitales Repertoire zu erweitern."
+    },
+    "3d": {
+      "title": "3D Design Projects",
+      "description": "Schon als Kind haben mich 3D-Modelle und Animationen fasziniert. Im Studium habe ich mich dann intensiv mit 3D-Design und -Modellierung beschäftigt und mein Wissen stetig erweitert. Dabei hat es mir Blender besonders angetan."
+    },
+    "loading": "Bilder laden..."
+  },
+  "content": {
+    "welcome": "Willkommen in meinem Wald",
+    "subtitle": "Schön, dass du dich hierher verlaufen hast.",
+    "greeting": "Hey, ich bin David Holz.",
+    "intro": "Nicht der Erfinder von Midjourney, aber jemand mit einer Menge Kreativität und Begeisterung für alles, was spannend klingt. Ich bin ein Träumer mit vielen Ideen, manchmal vielleicht zu viele, aber einige davon habe ich bereits umgesetzt. Und genau diese Projekte möchte ich hier gerne mit dir teilen.",
+    "whoami_title": "Wer ich bin",
+    "whoami_text": "Ich bin in Stendal geboren und aufgewachsen, aber bin auch oft in Berlin anzutreffen. Dort habe ich studiert, Freunde gefunden und meine Freundin. Stendal ist Heimat, Berlin ist Liebe. Meine größte Leidenschaft ist es, neue Welten zu erschaffen und sie zum Leben zu erwecken. Ob in 2D, 3D, als Spiel oder einfach auf Papier, es geht mir immer darum, etwas Eigenes zu gestalten. Gleichzeitig liebe ich es, in andere Welten einzutauchen: durch Spiele, Filme, Bücher oder Pen & Paper, wo ich oft die Rolle des Spielleiters einnehme.",
+    "journey_title": "Mein Weg",
+    "journey_text": "Wie viele andere habe ich irgendwann gesagt: 'Ich mach was mit Medien.' Also begann ich eine Ausbildung zum Mediengestalter und schloss sie erfolgreich ab. Aber das war nur der Anfang. Obwohl ich früher dachte, dass ich nicht geeignet bin fürs Studieren (Fun Fact: Ich bin in der 7. Klasse wegen Mathe sitzen geblieben), habe ich ein Studium in Medieninformatik gewagt und nicht nur den Bachelor, sondern auch den Master geschafft. Für mich der Beweis, dass man alles erreichen kann, wenn man dranbleibt und an sich glaubt. Heute programmiere ich Spiele und liebe es, Neues zu lernen. Mein 10-jähriges Ich wäre bestimmt stolz!",
+    "why_holz_title": "Warum Holz?",
+    "why_holz_text": "Manche meiner guten Freunde nennen mich einfach Holz und weil ich meinen Nachnamen so sehr mag, fühl ich eine gewisse Verbundenheit zu allem, was mit Holz zu tun hat."
+  },
+  "westria": {
+    "title": "WESTRIA",
+    "subtitle": "Western meets Fantasy",
+    "intro": "Willkommen in Westria, einer Welt, an der ich über viele Jahre gearbeitet habe und die sich bis heute weiterentwickelt. Ursprünglich sollte die Geschichte als Manga erzählt werden, gemeinsam mit einem sehr guten Freund, der unglaublich talentiert zeichnen konnte. Leider haben wir uns zerstritten, doch wollte ich all die Mühe und Ideen nicht einfach aufgeben. Deshalb habe ich beschlossen, aus unserer gemeinsamen Geschichte meine ganz eigene zu machen und sie nun in Schriftform weiterzuerzählen.",
+    "world": {
+      "title": "Die Welt",
+      "description": "Westria ist ein Land, in dem sich endlose Wüsten ausbreiten, Wasser kostbar wie Gold ist und wilde Magie über die Dünen weht. Hier streifen die Rocacci, kleine Katzenwesen, durch das Sandmeer, um Wasser zu verteilen, während die Goater, zähe Ziegenmenschen aus den Bergen, ihr mürrisches Dasein als Barkeeper fristen."
+    },
+    "stories": {
+      "title": "Geschichten",
+      "description": "Die Geschichte Westrias spannt sich über unzählige Jahre und ist durchzogen von Geheimnissen und Legenden, die tief im Sand vergraben liegen. Das Land und seine Bewohner haben viele Prüfungen durchlebt, um das zu werden, was sie heute sind. Doch diese Erzählung richtet ihren Blick auf ein Mädchen aus dem Stamm der Dust. Ihr Name ist Orelia."
+    },
+    "characters": {
+      "orelia": {
+        "title": "Orelia Dust",
+        "description": "Ein junges Mädchen, das ihren Stamm hinter sich gelassen hat und nun mit ihrem treuen Kamelstrauß und Begleiter Kasu durch die gnadenlose Wüste zieht. Auf der Suche nach einem geheimnisvollen Ort, den sie bisher nur in ihren Träumen gesehen hat."
+      },
+      "djagami": {
+        "title": "Djagami",
+        "description": "Ein Schatten unter der sengenden Sonne, sein Gesicht verborgen hinter einer Maske, die das schaurige Antlitz einer Mondkrähe zeigt. Mit geheimnisvollen Kräften durchstreift er die Wüste und kennt Geheimnisse, von denen andere nicht einmal zu träumen wagen. Unweit von Maginoa, der Stadt der tausend Wunder, kreuzen sich seine Wege mit denen Orelias."
+      }
+    }
+  },
+  "projectData": {
+    "design": {
+      "double-exposure": {
+        "title": "Double Exposure",
+        "description": "In diesem Projekt habe ich einen Double-Exposure-Effekt umgesetzt, bei dem zwei Bilder kreativ miteinander kombiniert werden. Dabei habe ich natürlich einen Wald als Hintergrund verwendet."
+      },
+      "ragna-holzbrock": {
+        "title": "Ragna Holzbrock", 
+        "description": "Inspiriert von der Serie Vikings, die ich sehr gerne geschaut habe, wollte ich selbst Teil dieser Welt sein. Aus dieser Idee entstand dieses Bild, das mich selbst im Stil der Wikinger darstellt."
+      },
+      "ich": {
+        "title": "Ich",
+        "description": "Dieses Bild entstand während meines Praktikums in Amsterdam. Anschließend habe ich es leicht in Photoshop bearbeitet, um Farben und Stimmung hervorzuheben."
+      },
+      "god-of-holz": {
+        "title": "God of Holz",
+        "description": "Ein guter Freund und ich sind große Fans der God of War-Reihe. Also dachten wir uns: Warum nicht unsere eigene Geschichte erzählen?"
+      },
+      "jelly-ghosts": {
+        "title": "Jelly Ghosts",
+        "description": "Diese leuchtenden Geisterquallen wurden in Photoshop illustriert und sind inspiriert von einer Szene aus Avatar: Die Legende von Korra."
+      },
+      "eisen-holz": {
+        "title": "Eisen Holz",
+        "description": "Ich vermisse die Zeit, in der Halil und ich gemeinsam an unseren Manga gearbeitet haben. Halil, falls du das liest, kommt bitte zurück 😂"
+      },
+      "planet-a": {
+        "title": "Planet A",
+        "description": "Meine Faszination für Planeten und das Universum hat mich dazu inspiriert, meine eigenen kleinen Welten zu erschaffen. Auch wenn es vielleicht anders wirkt, ist dieser Planet komplett in 2D gestaltet und in After Effects animiert worden."
+      },
+      "planet-b": {
+        "title": "Planet B", 
+        "description": "Ein weiteres 2D-Animationsprojekt, das ich in After Effects umgesetzt habe. Dabei habe ich mit verschiedenen Animationstechniken experimentiert, um dem Planeten Leben einzuhauchen."
+      },
+      "planet-z": {
+        "title": "Planet Z",
+        "description": "Der dritte Planet in meiner kleinen Animationsserie. Jeder Planet hat seine eigene Persönlichkeit und Geschichte."
+      },
+      "tango-flyer": {
+        "title": "Tango Flyer",
+        "description": "Meine Abschlussarbeit als Mediengestalter bestand darin, Flyer für eine Tanzschule zu entwerfen. Dabei sollte ich die vier zentralen Aspekte des Tangos visuell und gestalterisch in das Design einfließen lassen."
+      },
+      "grinsekatze-playmat": {
+        "title": "Grinsekatze Playmat",
+        "description": "Meine Freundin wollte unbedingt eine eigene Playmat für Disney Lorcana haben. Also habe ich ihr eine erstellt, die wir dann auch drucken lassen haben. Ich finde sie ist sehr schön geworden. Das Bild ist KI-generiert, aber ich habe es noch etwas in Photoshop angepasst und die Schrift und Bereiche hinzugefügt."
+      },
+      "taco-tuesday": {
+        "title": "Taco Tuesday",
+        "description": "Aus Spaß habe ich diesem After-Effects-Tutorial gefolgt, weil ich die Idee einfach lustig fand. Es hat unglaublich viel Spaß gemacht, und ich bin mit dem Ergebnis richtig zufrieden."
+      },
+      "der-wachter-des-waldes": {
+        "title": "Der Wächter des Waldes",
+        "description": "Ein weiteres Bild, das ich in Photoshop erstellt habe. Dabei habe ich versucht, einen Effekt nachzuahmen, den ich zuvor in einem anderen Artwork entdeckt hatte."
+      },
+      "paralax-zoom": {
+        "title": "Paralax Zoom",
+        "description": "Ein kurzer Clip, in dem ich einen Parallax-Effekt mit einem sanften Zoom kombiniert habe. Das Foto der jungen Frau stammt von meinem französischen Freund, der es mir freundlicherweise zur Verfügung gestellt hat."
+      },
+      "holzorb-am-himmel": {
+        "title": "Holzorb am Himmel",
+        "description": "Eine kleine Photoshop-Spielerei, bei der ich mir unbedingt einen Hello-Kitty-Rucksack verpassen wollte, einfach nur zum Spaß."
+      },
+      "spirit-of-skap": {
+        "title": "Spirit of Skap",
+        "description": "So sollte ursprünglich der Manga heißen, an dem ein guter Freund und ich gearbeitet haben. Als kleinen Teaser hatten wir sogar eine kurze Animation geplant. Er hat die Zeichnungen erstellt und ich habe sie animiert. Leider haben wir das Projekt nach einem Streit aufgegeben, doch die Idee lebt nun in einem neuen Westria Projekt weiter."
+      },
+      "erstes-pen-paper-logo": {
+        "title": "Erstes Pen & Paper Logo",
+        "description": "Das erste Logo unserer Pen-&-Paper-Gruppe auf YouTube, inklusive einer kleinen Animation. Unsere Gruppe spielt schon seit Jahren zusammen und hat viele Abenteuer erlebt. Aus Neugier habe ich das Logo zusätzlich genutzt, um einen Audio-Visualizer zu erstellen."
+      },
+      "randwachen-truppe": {
+        "title": "Randwachen Truppe",
+        "description": "Eine Animation, die alle Charaktere meiner Pen-&-Paper-Gruppe aus der Randwachen-Kampagne zeigt. Dieses Abenteuer läuft nun schon seit mehreren Jahren und hat im Laufe der Zeit viele spannende Veränderungen erlebt."
+      },
+      "2021": {
+        "title": "2021",
+        "description": "Ein kleines Design, das ich erstellt habe, um das neue Jahr zu begrüßen. Besonders die Farben gefallen mir sehr."
+      },
+      "retusche": {
+        "title": "Retusche",
+        "description": "Das Entfernen störender Objekte oder das Restaurieren alter Fotos gehört zu den Aufgaben, die mir besonders Spaß machen."
+      },
+      "apfel": {
+        "title": "Apfel",
+        "description": "Das war mein allererster Versuch, in Photoshop mit einem Grafiktablet zu zeichnen. Dabei habe ich die Grundlagen des digitalen Malens gelernt."
+      }
+    },
+    "threed": {
+      "das-alchemielabor": {
+        "title": "Das Alchemielabor",
+        "description": "Dies wurde mit Blender und dem Grease Pencil erstellt. Ein magisches Labor voller Tränke, Bücher, mystischer Gegenstände und versteckter Easter Eggs. Niemand weiß so genau, was der Alchemist hier wirklich braut."
+      },
+      "das-dorf": {
+        "title": "Das Dorf",
+        "description": "Auch dieses Motiv wurde mit Blender und dem Grease Pencil erstellt und zusätzlich animiert. Hier lebt der geheimnisvolle Alchemist, während die Dorfbewohner emsig das nächste Fest vorbereiten und das Dorf zum Leben erwacht."
+      },
+      "das-haus": {
+        "title": "Das Haus",
+        "description": "Ein kleiner Teil des großen Dorfes. Besonders fasziniert mich die Kombination aus 3D-Design und 2D-Grease-Pencil-Elementen, die der Szene einen einzigartigen, lebendigen Look verleihen. In dem Haus serviert ein Frosch köstliches Gebäck."
+      },
+      "meine-eigene-trinkpackung": {
+        "title": "Meine eigene Trinkpackung",
+        "description": "Ein 3D-Designprojekt für eine personalisierte Getränkeverpackung, erstellt in Blender."
+      },
+      "coole-topfpflanzen": {
+        "title": "Coole Topfpflanzen",
+        "description": "In dieser einfachen Szene habe ich mit verschiedenen Modifikatoren und Effekten experimentiert. Auf der linken Seite kommt ein Lichteffekt zum Einsatz, während die Blätter rechts verpixelt wurden."
+      },
+      "lecker-schokokuchen": {
+        "title": "Lecker Schokokuchen",
+        "description": "Mit 3D-Objekten und dem Grease Pencil habe ich hier ein leckeres Stück Schokokuchen gestaltet. Zusätzlich habe ich mit Outlines experimentiert, um einen ansprechenden Toon-Look zu erzeugen."
+      },
+      "der-oger": {
+        "title": "Der Oger",
+        "description": "Ich habe einen Kurs von Grant Abbitt verfolgt, um meine Fähigkeiten im Charakterdesign zu verbessern. Das Ergebnis ist ein stampfender Oger, der mich ein wenig an Shrek erinnert."
+      },
+      "orao-dust": {
+        "title": "Orao Dust",
+        "description": "Einst der Hauptcharakter unseres Mangas. Ich habe versucht, ihn in 3D zu modellieren, doch das Projekt habe ich nicht weiterverfolgt. Trotzdem hat mir die Arbeit bis dahin viel Spaß gemacht."
+      },
+      "der-mecha": {
+        "title": "Der Mecha",
+        "description": "Dieser Mecha entstand ebenfalls im Kurs, aus dem auch der Oger stammt. Dabei habe ich besonders mit Beleuchtung und Schattenwurf experimentiert, um die Wirkung des Modells zu verbessern."
+      },
+      "die-kleine-hütte": {
+        "title": "Die kleine Hütte",
+        "description": "Eine gemütliche, kleine Hütte im Low-Poly-Stil. Doch Vorsicht: In der umliegenden Dunkelheit könnte das Unerwartete lauern."
+      },
+      "der-heldenbaum": {
+        "title": "Der Heldenbaum",
+        "description": "Ein kleiner Baum mitten im dunklen Wald. Der letzte seiner Art. Das Licht der Abenddämmerung lässt sein Blätterkleid wie flammendes Feuer leuchten."
+      },
+      "die-weite-ebene": {
+        "title": "Die weite Ebene",
+        "description": "Eine weitläufige Landschaft mit sanften Hügeln, einer alten Ruine und ganz viel Gras. Wirklich, so viel Gras hatte ich in keiner Szene zuvor!"
+      },
+      "das-kamehaus": {
+        "title": "Das Kamehaus",
+        "description": "Meine Liebe zu Animes hat mit Dragonball begonnen. Ich habe mir oft vorgestellt, wie es wohl wäre, im Haus von Muten Roshi zu leben. Genau deshalb habe ich diese Szene erstellt."
+      },
+      "der-froschkrieger": {
+        "title": "Der Froschkrieger",
+        "description": "Auf Instagram folge ich dem Künstler Robbiegoldieart, der eine coole Froschfigur geschaffen hat. Diese wollte ich unbedingt in 3D nachmodellieren und so entstand dieser Froschkrieger."
+      },
+      "die-erste-tur": {
+        "title": "Die erste Tür",
+        "description": "Als der NFT-Hype begann, wollte mein Bruder unbedingt mitmachen und wir haben gemeinsam Türen entworfen, die in verschiedene Welten führen. Diese hier ist die erste Tür unserer Reihe."
+      },
+      "das-fliegende-auto": {
+        "title": "Das fliegende Auto",
+        "description": "Dieses Projekt entstand im Rahmen eines Blender-Kurses, den ich sehr spannend fand. Das Auto habe ich komplett neu gestaltet und ihm einen schnittigen Look verpasst. Vorsicht, Stein!"
+      },
+      "die-wurfel": {
+        "title": "Die Würfel",
+        "description": "Als begeisterter Pen-&-Paper-Spieler liebe ich Würfel in allen Farben und Formen. Bei diesem Projekt habe ich versucht, sie so realistisch wie möglich darzustellen."
+      },
+      "die-unendliche-armee": {
+        "title": "Die unendliche Armee",
+        "description": "Eine kleine Low-Poly-Armee aus verschiedenen Modellen, bereit für den Kampf. Mit After Effects habe ich einen scheinbar unendlichen Strom dieser Maschinen erschaffen."
+      },
+      "die-murmeln": {
+        "title": "Die Murmeln",
+        "description": "Eines meiner ersten Projekte in Cinema4D. Ich liebe den Glanz der Perlen und fand es spannend, mit Kraftfeldern zu experimentieren."
+      },
+      "meine-initialen": {
+        "title": "Meine Initialen",
+        "description": "Dieses coole Kunstwerk habe ich in Cinema4D erstellt. So stylisch habe ich meine Initialen bisher noch nie gesehen."
+      },
+      "der-donut": {
+        "title": "Der Donut",
+        "description": "Fast jeder, der mit Blender startet, macht aus gutem Grund einen Donut. Ich liebe besonders die Waldmeister-Glasur mit den bunten Streuseln."
+      }
+    },
+    "gamedev": {
+      "arkmon": {
+        "title": "Arkmon",
+        "description": "Die Idee zu diesem Spiel kam mir in einem Traum, in dem ich ein Pokémon-ähnliches Spiel gespielt habe. Daraufhin habe ich versucht, diesen Traum in die Realität umzusetzen. Arkmon ist ein Pokémon-inspiriertes Spiel mit eigenen Kreaturen und Mechaniken, das ich in Unity entwickelt habe."
+      },
+      "could-it-be-more-unreal": {
+        "title": "Could It Be More Unreal?",
+        "description": "Dieses Projekt entstand für die IMI-Showtime. Unser Ziel war es, eine Gameplay-Demo in der damals brandneuen Unreal Engine 5 zu entwickeln und die neuesten Features zu präsentieren. Mein Fokus lag auf der Level-Architektur, wobei ich intensiv mit Megascans und dem Beleuchtungssystem Lumen gearbeitet habe."
+      },
+      "dwarf-digger": {
+        "title": "Dwarf Digger",
+        "description": "In diesem Spiel schlüpfen die Spieler in die Rolle einer Zwergin, die in einer Mine nach wertvollen Ressourcen gräbt. Dwarf Digger kombiniert Puzzle- und Strategie-Elemente: Nur wer seine Werkzeuge und Fähigkeiten clever einsetzt, erreicht die tiefsten Ebenen der Mine."
+      },
+      "escape-the-pandemic": {
+        "title": "Escape The Pandemic", 
+        "description": "Dieses mobile Spiel entstand während der Corona-Pandemie. Die Spieler erkunden das Level, indem sie ihr Handy bewegen, und müssen in einem Labor verschiedene Rätsel lösen, um das Gegenmittel gegen das Virus zu finden."
+      },
+      "gravity-galaxy": {
+        "title": "Gravity Galaxy",
+        "description": "Dieser spielbare Prototyp entstand im Rahmen meiner Masterarbeit und untersucht die Möglichkeiten von Schwerkraft in einem intergalaktischen Setting. Inspiriert von Mario Galaxy war das Ziel, unterschiedliche Planetenformen zu erkunden."
+      },
+      "hungry-games": {
+        "title": "Hungry Games",
+        "description": "Dieses Multiplayer-Spiel wurde für die IMI-Showtime entwickelt. Bis zu 32 Spieler schlüpfen in die Rolle von Tieren, die sich mit Waffen und speziellen Fähigkeiten bekämpfen. Gewinner ist das Tier, das die meisten Gegner verspeist."
+      },
+      "my-first-rpg": {
+        "title": "My First RPG",
+        "description": "Dieses Projekt entstand im Rahmen eines Kurses, den ich genutzt habe, um die Grundlagen der RPG-Entwicklung zu erlernen. Dabei habe ich zentrale Mechaniken wie Level-Ups, sammelbare Power-Ups und Leveltransitions umgesetzt und konnte so wertvolle Erfahrungen in der Spieleentwicklung sammeln."
+      },
+      "tank-raider": {
+        "title": "Tank Raider",
+        "description": "Ein actionreiches Spiel, in dem die Spieler einen Panzer steuern, der sich durch ein Kampffeld voller feindlicher Panzer und mysteriöser Kreaturen kämpft. Dank der implementierten zufälligen Level-Generierung ist jedes Spiel ein neues Erlebnis."
+      },
+      "animals": {
+        "title": "Animals",
+        "description": "Dieses Projekt war Teil meiner Bachelorarbeit und diente dazu, mein Wissen über Computerspiel-KI zu vertiefen. Die KI der Tiere verfügt über Eigenschaften wie Sichtfeld, Geruch und Hunger. Ihr Verhalten passt sich dynamisch an, etwa abhängig davon, wie sie sich fühlen oder wie der Wind weht."
+      }
+    },
+    "programming": {
+      "pnp-planner": {
+        "title": "PnP Planner",
+        "description": "Ein interaktiver Figma-Prototyp zur Planung und Verwaltung von Pen-&-Paper-Runden. Ich war von der Ideenfindung über die Konzeption bis hin zur finalen Umsetzung des Prototyps maßgeblich beteiligt."
+      },
+      "spell-dashboard": {
+        "title": "Spell Dashboard",
+        "description": "Ein Dashboard-Projekt, an dem ich während meiner Zeit beim Fraunhofer Institut mitgearbeitet habe. Mit diesem Tool können individuelle Widgets erstellt werden, um Sensordaten in Echtzeit zu visualisieren. Zudem ermöglicht es die Koordination und Mobilisierung freiwilliger Ersthelfer in Gefahrensituationen."
+      },
+      "meine-webseite": {
+        "title": "Meine Webseite",
+        "description": "Meine Portfolio-Webseite, entwickelt mit React und Bootstrap. Sie zeigt meine Projekte aus 3D-Design, Programmierung und digitaler Kunst sowie interaktive Galerien."
+      },
+      "password-manager": {
+        "title": "Password Manager",
+        "description": "Ein Webprojekt zur sicheren Verwaltung von Passwörtern, inklusive Verschlüsselung und sicherer Speicherung. Die Implementierung erfolgte mit Angular für das Frontend und Firebase für die Datenbankanbindung."
+      },
+      "drum-kit": {
+        "title": "Drum Kit",
+        "description": "Ein interaktives Web-Drum-Kit, mit dem Nutzer verschiedene Schlagzeug-Sounds spielen, kombinieren und eigene Beats ausprobieren können."
+      },
+      "tindog": {
+        "title": "TinDog",
+        "description": "Dieses Projekt entstand als Übung, um meine Frontend-Fähigkeiten zu verbessern. Die Webseite wurde komplett mit HTML und CSS nachgebaut, ohne Frameworks oder zusätzliche Tools. Dabei lag mein Fokus auf sauberem Code."
+      }
+    }
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler beim Laden",
+    "retry": "Erneut versuchen"
+  }
+}
