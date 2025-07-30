@@ -1,6 +1,7 @@
 import { Container, Row, Col, Carousel, Card, Modal } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import useScrollAnimation from '../../hooks/useScrollAnimation';
+import { useImagePreloader, extractImagesFromProjects } from '../../hooks/useImagePreloader';
 import '../../styles/ScrollAnimations.css';
 import './Projectssection.css';
 
@@ -16,6 +17,17 @@ const ProjectsSection = (
     const [selectedImages, setSelectedImages] = useState([]);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [selectedTitle, setSelectedTitle] = useState('');
+    
+    // Extrahiere alle Bilder aus den Projekten
+    const allImages = extractImagesFromProjects(projects);
+    
+    // Preload alle Bilder
+    const { imagesLoaded, loadedImages, loadingProgress, totalImages } = useImagePreloader(allImages, {
+        timeout: 10000, // 10 Sekunden für viele Bilder
+        onProgress: (loaded, total, progress) => {
+            console.log(`Loading progress: ${progress}% (${loaded}/${total})`);
+        }
+    });
     
     // Scroll-Animation für den Titel-Bereich
     const [titleRef, titleVisible] = useScrollAnimation({ threshold: 0.3 });
@@ -76,6 +88,20 @@ const ProjectsSection = (
 
     return (
         <Container className="projects-container">
+            {/* Loading Overlay */}
+            {!imagesLoaded && (
+                <div className="loading-overlay">
+                    <div className="loading-spinner"></div>
+                    <p>Bilder laden... ({loadedImages}/{totalImages})</p>
+                    <div className="loading-progress-bar">
+                        <div 
+                            className="loading-progress-fill" 
+                            style={{ width: `${loadingProgress}%` }}
+                        ></div>
+                    </div>
+                </div>
+            )}
+            
             <div ref={titleRef} className={`scroll-fade-up ${titleVisible ? 'visible' : ''}`}>
                 <h2>{pageTitle}</h2>
                 {Array.isArray(pageDescription) ? (
