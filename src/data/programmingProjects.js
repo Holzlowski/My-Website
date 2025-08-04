@@ -1,4 +1,4 @@
-import SpellDashboard1 from '../assets/images/programming/SpellDashboard1.jpg';
+import SpellDashboard1 from '../assets/images/programming/SpellDashboard1.png';
 import SpellDashboard2 from '../assets/images/programming/SpellDashboard2.png';
 import PnPPlaner from '../assets/images/programming/PnPPlaner.png';
 import TinDog from '../assets/images/programming/TinDog.png';
