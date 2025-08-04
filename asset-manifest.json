@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/My-Website/static/css/main.e747fc0d.css",
-    "main.js": "/My-Website/static/js/main.ca5640c6.js",
+    "main.js": "/My-Website/static/js/main.549e2d64.js",
     "static/media/Belkau_bearbeitet.jpg": "/My-Website/static/media/Belkau_bearbeitet.780279a1f182ca3b1442.jpg",
     "static/media/Example.jpg": "/My-Website/static/media/Example.03a1121722a30aa5b2bf.jpg",
     "static/media/GrinsekatzePlaymat.jpg": "/My-Website/static/media/GrinsekatzePlaymat.16a9a1218d34dc6a378c.jpg",
     "static/media/David.jpg": "/My-Website/static/media/David.c00ca257a8e038074925.jpg",
     "static/media/little Shag.png": "/My-Website/static/media/little Shag.db631e6681f17b4f6479.png",
     "static/media/Belkau_unbearbeitet.jpg": "/My-Website/static/media/Belkau_unbearbeitet.5cd29eb0496fa65d3837.jpg",
+    "static/media/SpellDashboard1.png": "/My-Website/static/media/SpellDashboard1.94af7d03e3abc6c6b706.png",
     "static/media/Äpfel3D.jpg": "/My-Website/static/media/Äpfel3D.b32fa2605109f9030f75.jpg",
     "static/media/RandwachenTruppe.png": "/My-Website/static/media/RandwachenTruppe.455c6388b38788a7bd17.png",
     "static/media/PlanetZ.png": "/My-Website/static/media/PlanetZ.b0af30b944d6900bf56c.png",
@@ -32,7 +33,6 @@
     "static/media/Donut.jpg": "/My-Website/static/media/Donut.1bd61cad2ed2dff8078f.jpg",
     "static/media/SpiritOfSkap.png": "/My-Website/static/media/SpiritOfSkap.6b226d61280f918645fb.png",
     "static/media/Wüste.png": "/My-Website/static/media/Wüste.7a7fd9e3edb70bb0657f.png",
-    "static/media/SpellDashboard1.jpg": "/My-Website/static/media/SpellDashboard1.b98d467d9c2e0ffe8ce0.jpg",
     "static/media/Programmieren.png": "/My-Website/static/media/Programmieren.892728cc0307a54cf9b8.png",
     "static/media/Army.png": "/My-Website/static/media/Army.a2858be314157884d945.png",
     "static/media/Träumer.png": "/My-Website/static/media/Träumer.1ab721754ebca5cf0ace.png",
@@ -90,10 +90,10 @@
     "static/media/Orao.JPG": "/My-Website/static/media/Orao.58ee22c5ea0f3504237e.JPG",
     "index.html": "/My-Website/index.html",
     "main.e747fc0d.css.map": "/My-Website/static/css/main.e747fc0d.css.map",
-    "main.ca5640c6.js.map": "/My-Website/static/js/main.ca5640c6.js.map"
+    "main.549e2d64.js.map": "/My-Website/static/js/main.549e2d64.js.map"
   },
   "entrypoints": [
     "static/css/main.e747fc0d.css",
-    "static/js/main.ca5640c6.js"
+    "static/js/main.549e2d64.js"
   ]
 }
