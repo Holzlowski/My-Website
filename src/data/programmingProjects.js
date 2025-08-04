@@ -30,7 +30,8 @@ export const programmingProjects = [
                 type: "image",
                 src: SpellDashboard2
             }
-        ]
+        ],
+        link: "https://www.fokus.fraunhofer.de/de/espri/projekte/spell.html"
     },
     {
         title: "Meine Webseite",

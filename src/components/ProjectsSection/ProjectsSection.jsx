@@ -178,7 +178,7 @@ const ProjectsSection = (
                                 </Card.Text>
                                 {project.link && (
                                     <Card.Link href={project.link} target="_blank" rel="noopener noreferrer">
-                                        Link zum Projekt
+                                        {project.title === "Spell Dashboard" ? project.link : "Link zum Projekt"}
                                     </Card.Link>
                                 )}
                             </Card.Body>
