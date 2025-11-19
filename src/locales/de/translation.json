@@ -301,6 +301,14 @@
       "tindog": {
         "title": "TinDog",
         "description": "Dieses Projekt entstand als Übung, um meine Frontend-Fähigkeiten zu verbessern. Die Webseite wurde komplett mit HTML und CSS nachgebaut, ohne Frameworks oder zusätzliche Tools. Dabei lag mein Fokus auf sauberem Code."
+      },
+      "family-tracker": {
+        "title": "Family Tracker",
+        "description": "Eine Web-App zur Visualisierung besuchter Länder auf einer interaktiven Weltkarte. Nutzer können durch Eingabe eines Landes dieses farbig markieren lassen, um bereits besuchte Länder zu tracken. Die Anwendung unterstützt mehrere Benutzerprofile und speichert alle Daten persistent in einer PostgreSQL-Datenbank. Entwickelt mit Node.js und PostgreSQL."
+      },
+      "keeper-notes": {
+        "title": "Keeper Notes",
+        "description": "Eine Notiz-App inspiriert von Google Keep. Nutzer können Notizen erstellen, bearbeiten und organisieren. Das Projekt wurde mit React entwickelt und nutzt Local Storage zur Datenpersistenz."
       }
     }
   },

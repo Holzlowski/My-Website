@@ -300,7 +300,15 @@
       },
       "tindog": {
         "title": "TinDog",
-        "description": "This project was created as an exercise to improve my frontend skills. The website was completely rebuilt with HTML and CSS, without frameworks or additional tools. My focus was on clean code."
+        "description": "This project was created as an exercise to improve my frontend skills. The website was built entirely with HTML and CSS, without frameworks or additional tools. My focus was on clean code."
+      },
+      "family-tracker": {
+        "title": "Family Tracker",
+        "description": "A web app for visualizing visited countries on an interactive world map. Users can enter a country name to mark it with a color, allowing them to track countries they have already visited. The application supports multiple user profiles and persistently stores all data in a PostgreSQL database. Built with Node.js and PostgreSQL."
+      },
+      "keeper-notes": {
+        "title": "Keeper Notes",
+        "description": "A note-taking app inspired by Google Keep. Users can create, edit, and organize notes. The project was built with React and uses Local Storage for data persistence."
       }
     }
   },
