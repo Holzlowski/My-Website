@@ -36,6 +36,7 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className={`rotating-cards ${imagesLoaded ? 'loaded' : 'loading'}`}>
         <div className='card-orbit'>
+          {/* Avatar mit Gegen-Rotation um statisch zu bleiben */}
           <div className="avatar-wrapper">
             <img 
               src={avatarImage} 
