@@ -2,6 +2,7 @@ import { Container, Row, Col, Carousel, Card, Modal } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import useScrollAnimation from '../../hooks/useScrollAnimation';
 import { useImagePreloader, extractImagesFromProjects } from '../../hooks/useImagePreloader';
+import ProgressiveImage from '../ProgressiveImage/ProgressiveImage';
 import '../../styles/ScrollAnimations.css';
 import './Projectssection.css';
 
@@ -141,15 +142,14 @@ const ProjectsSection = (
                                             </div>
                                         ) : (
                                             // Normale Bilder
-                                            <img
+                                            <ProgressiveImage
                                                 className="d-block w-100"
                                                 src={mediaItem.src}
                                                 alt={`${project.title} - Bild ${mediaIndex + 1}`}
                                                 style={{ 
                                                     height: '250px', 
                                                     objectFit: 'cover',
-                                                    objectPosition: 'center',
-                                                    cursor: 'pointer'  // ✅ Zeiger-Cursor für klickbare Bilder
+                                                    objectPosition: 'center'
                                                 }}
                                                 onClick={() => handleImageClick(project, mediaIndex)}
                                             />
@@ -158,15 +158,14 @@ const ProjectsSection = (
                                 ))}
                             </Carousel>
                             ) : (
-                                // Einzelnes Bild - normale Card.Img
-                                <Card.Img
-                                    variant="top"
+                                // Einzelnes Bild - mit ProgressiveImage
+                                <ProgressiveImage
                                     src={project.image}
                                     alt={project.title}
                                     style={{ 
                                         height: '250px', 
-                                        objectFit: 'cover',
-                                        cursor: 'pointer'  // ✅ Zeiger-Cursor für klickbare Bilder
+                                        width: '100%',
+                                        objectFit: 'cover'
                                     }}
                                     onClick={() => handleImageClick(project)}
                                 />
@@ -209,7 +208,7 @@ const ProjectsSection = (
                 <Modal.Body className="text-center p-0" style={{ position: 'relative' }}>
                     {selectedImages.length > 0 && (
                         <>
-                            <img
+                            <ProgressiveImage
                                 src={selectedImages[currentImageIndex]}
                                 alt={`${selectedTitle} - Bild ${currentImageIndex + 1}`}
                                 style={{
