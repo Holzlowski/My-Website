@@ -1,10 +1,10 @@
 import React from 'react';
 import avatarImage from '../../assets/images/Träumer.png';
-import karte1 from '../../assets/images/skillkarten/Wüstensand.png';
-import karte2 from '../../assets/images/skillkarten/Alchemielabor.png';
+import karte1 from '../../assets/images/skillkarten/Wüstensand.jpg';
+import karte2 from '../../assets/images/skillkarten/Alchemielabor.jpg';
 import karte3 from '../../assets/images/skillkarten/Äpfel3D.jpg';
-import karte4 from '../../assets/images/skillkarten/GravityPlanet.png';
-import karte5 from '../../assets/images/skillkarten/Programmieren.png';
+import karte4 from '../../assets/images/skillkarten/GravityPlanet.jpg';
+import karte5 from '../../assets/images/skillkarten/Programmieren.jpg';
 import { useImagePreloader } from '../../hooks/useImagePreloader';
 import './HeroSection.css';
 

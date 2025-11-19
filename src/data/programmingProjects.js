@@ -1,13 +1,13 @@
-import SpellDashboard1 from '../assets/images/programming/SpellDashboard1.png';
-import SpellDashboard2 from '../assets/images/programming/SpellDashboard2.png';
-import PnPPlaner from '../assets/images/programming/PnPPlaner.png';
-import TinDog from '../assets/images/programming/TinDog.png';
-import TinDog2 from '../assets/images/programming/TinDog2.png';
-import TinDog3 from '../assets/images/programming/TinDog3.png';
-import PWM1 from '../assets/images/programming/PWM1.png';
-import PWM2 from '../assets/images/programming/PWM2.png';
-import DrumKit from '../assets/images/programming/DrumKit.png';
-import MeineWebseite from '../assets/images/programming/MeineWebseite.png';
+import SpellDashboard1 from '../assets/images/programming/SpellDashboard1.jpg';
+import SpellDashboard2 from '../assets/images/programming/SpellDashboard2.jpg';
+import PnPPlaner from '../assets/images/programming/PnPPlaner.jpg';
+import TinDog from '../assets/images/programming/TinDog.jpg';
+import TinDog2 from '../assets/images/programming/TinDog2.jpg';
+import TinDog3 from '../assets/images/programming/TinDog3.jpg';
+import PWM1 from '../assets/images/programming/PWM1.jpg';
+import PWM2 from '../assets/images/programming/PWM2.jpg';
+import DrumKit from '../assets/images/programming/DrumKit.jpg';
+import MeineWebseite from '../assets/images/programming/MeineWebseite.jpg';
 
 
 

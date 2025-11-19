@@ -1,29 +1,29 @@
 // Alle 3D-Design Bilder importieren
-import Village from '../assets/images/threeD-design/Bilder/Village.png';
-import Topfpflanzen from '../assets/images/threeD-design/Bilder/Topfpflanzen.png';
-import Schokokuchen2 from '../assets/images/threeD-design/Bilder/Schokokuchen2.png';
-import Packung from '../assets/images/threeD-design/Bilder/Packung.png';
+import Village from '../assets/images/threeD-design/Bilder/Village.jpg';
+import Topfpflanzen from '../assets/images/threeD-design/Bilder/Topfpflanzen.jpg';
+import Schokokuchen2 from '../assets/images/threeD-design/Bilder/Schokokuchen2.jpg';
+import Packung from '../assets/images/threeD-design/Bilder/Packung.jpg';
 import Orao from '../assets/images/threeD-design/Bilder/Orao.JPG';
-import Oger from '../assets/images/threeD-design/Bilder/Oger.png';
-import Mecka from '../assets/images/threeD-design/Bilder/Mecha.png';
-import LittleShag from '../assets/images/threeD-design/Bilder/little Shag.png';
+import Oger from '../assets/images/threeD-design/Bilder/Oger.jpg';
+import Mecka from '../assets/images/threeD-design/Bilder/Mecha.jpg';
+import LittleShag from '../assets/images/threeD-design/Bilder/little Shag.jpg';
 import Landscape from '../assets/images/threeD-design/Bilder/Landscape.jpg';
 import Kamehaus2 from '../assets/images/threeD-design/Bilder/Kamehaus2.jpg';
-import HeroTree from '../assets/images/threeD-design/Bilder/Hero Tree.png';
+import HeroTree from '../assets/images/threeD-design/Bilder/Hero Tree.jpg';
 import Haus from '../assets/images/threeD-design/Bilder/Haus.jpg';
 import FirstDoor from '../assets/images/threeD-design/Bilder/FirstDoor.jpg';
 import Donut from '../assets/images/threeD-design/Bilder/Donut.jpg';
-import Dice2 from '../assets/images/threeD-design/Bilder/Dice2.png';
-import Army from '../assets/images/threeD-design/Bilder/Army.png';
-import Alchemielabor from '../assets/images/threeD-design/Bilder/Alchemielabor.png';
-import Frog from '../assets/images/threeD-design/Bilder/Frog.png';
-import FlyingCar from '../assets/images/threeD-design/Bilder/Flying Car.png';
+import Dice2 from '../assets/images/threeD-design/Bilder/Dice2.jpg';
+import Army from '../assets/images/threeD-design/Bilder/Army.jpg';
+import Alchemielabor from '../assets/images/threeD-design/Bilder/Alchemielabor.jpg';
+import Frog from '../assets/images/threeD-design/Bilder/Frog.jpg';
+import FlyingCar from '../assets/images/threeD-design/Bilder/Flying Car.jpg';
 import DH from '../assets/images/threeD-design/Bilder/DH.jpg';
 import Murmeln from '../assets/images/threeD-design/Bilder/Murmeln.jpg';
 
-import OraoSketch from '../assets/images/threeD-design/ZweitBilder/OraoRef.jpeg';
-import FrogArt from '../assets/images/threeD-design/ZweitBilder/Frog.PNG';
-import Dice1 from '../assets/images/threeD-design/ZweitBilder/Dice1.png';
+import OraoSketch from '../assets/images/threeD-design/ZweitBilder/OraoRef.jpg';
+import FrogArt from '../assets/images/threeD-design/ZweitBilder/Frog.jpg';
+import Dice1 from '../assets/images/threeD-design/ZweitBilder/Dice1.jpg';
 
 export const threeDProjects = [
     {

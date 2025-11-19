@@ -1,8 +1,8 @@
-import Animals from '../assets/images/gameDevelopment/Animals.png';
+import Animals from '../assets/images/gameDevelopment/Animals.jpg';
 import Arkmon from '../assets/images/gameDevelopment/Arkmon Logo.jpg';
 import CouldItBeMoreUnreal from '../assets/images/gameDevelopment/CouldItBeMoreUnreal.jpg';
 import DwarfDiggerLogo from '../assets/images/gameDevelopment/DwarfDiggerLogo.jpg';
-import DwarfDiggerPicture from '../assets/images/gameDevelopment/DwarfDigger.png';
+import DwarfDiggerPicture from '../assets/images/gameDevelopment/DwarfDigger.jpg';
 import EscapeThePandemic from '../assets/images/gameDevelopment/EscapeThePandemic.jpg';
 import GravityGalaxy from '../assets/images/gameDevelopment/GravityGalaxy.jpg';
 import HungryGames from '../assets/images/gameDevelopment/HungryGames.jpg';

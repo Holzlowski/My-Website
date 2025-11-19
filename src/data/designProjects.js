@@ -2,28 +2,28 @@ import HolzLinks from '../assets/images/digitalArt/DerHolz.jpg';
 import HolzMitte from '../assets/images/digitalArt/RagnaHolzbrock.jpg';
 import HolzRechts from '../assets/images/digitalArt/David.jpg';
 import GodOfHolz from '../assets/images/digitalArt/GodOfHolz.jpg';
-import JellyGhosts from '../assets/images/digitalArt/JellyGhosts.PNG';
+import JellyGhosts from '../assets/images/digitalArt/JellyGhosts.jpg';
 import EisenHolz from '../assets/images/digitalArt/IronWood.jpg';
 import Jahreszahl from '../assets/images/digitalArt/2021.jpg';
 import BildBearbeitung from '../assets/images/digitalArt/Example.jpg';
 import BelkauUnbearbeitet from '../assets/images/digitalArt/Belkau_unbearbeitet.jpg';
 import BelkauBearbeitet from '../assets/images/digitalArt/Belkau_bearbeitet.jpg';
-import Apfel from '../assets/images/digitalArt/Apfel.PNG';
+import Apfel from '../assets/images/digitalArt/Apfel.jpg';
 import Orb from '../assets/images/digitalArt/Orb.jpg';
 import WoodGod from '../assets/images/digitalArt/WoodGod.jpg';
-import ParalaxEffekt from '../assets/images/digitalArt/ParalaxEffekt.png';
+import ParalaxEffekt from '../assets/images/digitalArt/ParalaxEffekt.jpg';
 import SpiritOfSkap from '../assets/images/digitalArt/SpiritOfSkap.png';
-import PnPLogo from '../assets/images/digitalArt/PnPLogo.png';
-import RandwachenTruppe from '../assets/images/digitalArt/RandwachenTruppe.png';
-import PlanetA from '../assets/images/digitalArt/PlanetA.png';
-import PlanetB from '../assets/images/digitalArt/PlanetB.png';
-import PlanetZ from '../assets/images/digitalArt/PlanetZ.png';
+import PnPLogo from '../assets/images/digitalArt/PnPLogo.jpg';
+import RandwachenTruppe from '../assets/images/digitalArt/RandwachenTruppe.jpg';
+import PlanetA from '../assets/images/digitalArt/PlanetA.jpg';
+import PlanetB from '../assets/images/digitalArt/PlanetB.jpg';
+import PlanetZ from '../assets/images/digitalArt/PlanetZ.jpg';
 import Tango from '../assets/images/digitalArt/Tango.jpg';
 import Tango2 from '../assets/images/digitalArt/Tango2.jpg';
 import Tango3 from '../assets/images/digitalArt/Tango3.jpg';
 import Tango4 from '../assets/images/digitalArt/Tango4.jpg';
 import GrinsekatzePlaymat from '../assets/images/digitalArt/GrinsekatzePlaymat.jpg';
-import TacoTuesday from '../assets/images/digitalArt/TacoTuesday.png';
+import TacoTuesday from '../assets/images/digitalArt/TacoTuesday.jpg';
 
 
 
