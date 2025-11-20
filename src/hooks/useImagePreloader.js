@@ -54,7 +54,9 @@ export const useImagePreloader = (imageUrls, options = {}) => {
                         onProgress(loadedCount, totalImages, progress);
                     }
                     
-                    console.warn(`Failed to load image: ${src}`);
+                    if (process.env.NODE_ENV === 'development') {
+                        console.warn(`Failed to load image: ${src}`);
+                    }
                     resolve({ success: false, index, src });
                 };
                 
@@ -73,7 +75,9 @@ export const useImagePreloader = (imageUrls, options = {}) => {
 
         // Fallback Timeout
         const fallbackTimer = setTimeout(() => {
-            console.log('Image preloading timeout reached');
+            if (process.env.NODE_ENV === 'development') {
+                console.log('Image preloading timeout reached');
+            }
             setImagesLoaded(true);
             if (onComplete) {
                 onComplete([]);

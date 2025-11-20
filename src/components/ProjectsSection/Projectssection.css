@@ -1,3 +1,5 @@
+@import '../../styles/Animations.css';
+
 .projects-container {
     margin-top: 5rem;
     position: relative;
@@ -67,11 +69,6 @@
     background: linear-gradient(90deg, #007bff, #28a745);
     border-radius: 3px;
     transition: width 0.2s ease;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }
 
 .projects-container p {

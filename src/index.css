@@ -1,3 +1,59 @@
+/* CSS Variables for consistent styling */
+:root {
+  /* Spacing Scale */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --spacing-2xl: 50px;
+  --spacing-3xl: 80px;
+  
+  /* Avatar & Character Sizes */
+  --avatar-size: 500px;
+  --avatar-size-tablet: 400px;
+  --avatar-size-mobile: 300px;
+  --card-orbit-size: 600px;
+  --card-orbit-size-mobile: 400px;
+  --skill-card-width: 150px;
+  --skill-card-height: 200px;
+  
+  /* Image Heights */
+  --project-card-height: 250px;
+  --project-card-height-tablet: 200px;
+  --project-card-height-mobile: 180px;
+  
+  /* Z-Index Scale */
+  --z-background: -1;
+  --z-content: 1;
+  --z-header: 1000;
+  --z-sidebar: 1000;
+  --z-modal: 9999;
+  
+  /* Transitions */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+  --transition-slow: 0.5s;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 25px;
+  --radius-full: 50%;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-bg-hover: rgba(255, 255, 255, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-blur: blur(10px);
+}
+
 /* CSS Reset für einen sauberen Start */
 * {
   margin: 0;

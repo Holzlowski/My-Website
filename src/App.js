@@ -1,14 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavigationBar from './components/Navigation/Navbar';
-import SocialSidebar from './components/SocialSidebar/SocialSidebar';
-import HeroSection from './components/HeroSection/HeroSection';
-import ContentSection from './components/ContentSection/ContentSection';
-import BackgroundImage from './components/BackgroundImage/BackgroundImage';
+import {
+  NavigationBar,
+  SocialSidebar,
+  HeroSection,
+  ContentSection,
+  BackgroundImage
+} from './components';
 import WestriaPage from './pages/Westria/WestriaPage';
-import ThreeDPage from './pages/ThreeD/ThreeDPage';
-import DigitalArt from './pages/DigitalArt/DigitalArtPage';
-import GameDevelopmentPage from './pages/GameDevelopment/GameDevelopmentPage';
-import ProgrammingPage from './pages/Programming/ProgrammingPage';
+import PortfolioPage from './pages/PortfolioPage';
 import './App.css';
 
 function App() {
@@ -24,16 +23,24 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              {/* Hintergrundbild */}
+              {/* Background Image */}
               <BackgroundImage />
               <HeroSection />
               <ContentSection />
             </>
           } />
-          <Route path="/Programming" element={<ProgrammingPage />} />
-          <Route path="/Game-Development" element={<GameDevelopmentPage />} />
-          <Route path="/DigitalArt" element={<DigitalArt />} />
-          <Route path="/3D-Design" element={<ThreeDPage />} />
+          <Route path="/Programming" element={
+            <PortfolioPage category="programmingProjects" translationKey="programming" />
+          } />
+          <Route path="/Game-Development" element={
+            <PortfolioPage category="gameDevelopmentProjects" translationKey="gamedev" />
+          } />
+          <Route path="/DigitalArt" element={
+            <PortfolioPage category="designProjects" translationKey="digitalart" />
+          } />
+          <Route path="/3D-Design" element={
+            <PortfolioPage category="threeDProjects" translationKey="3d" />
+          } />
           <Route path="/westria" element={<WestriaPage />} />
         </Routes>
         

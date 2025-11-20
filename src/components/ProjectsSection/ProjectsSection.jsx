@@ -1,7 +1,7 @@
-import { Container, Row, Col, Carousel, Card, Modal } from 'react-bootstrap';
+import { Container, Row, Col, Card, Modal } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
-import useScrollAnimation from '../../hooks/useScrollAnimation';
-import { useImagePreloader, extractImagesFromProjects } from '../../hooks/useImagePreloader';
+import PropTypes from 'prop-types';
+import { useScrollAnimation, useImagePreloader, extractImagesFromProjects } from '../../hooks';
 import ProgressiveImage from '../ProgressiveImage/ProgressiveImage';
 import '../../styles/ScrollAnimations.css';
 import './Projectssection.css';
@@ -26,7 +26,10 @@ const ProjectsSection = (
     const { imagesLoaded, loadedImages, loadingProgress, totalImages } = useImagePreloader(allImages, {
         timeout: 10000, // 10 Sekunden für viele Bilder
         onProgress: (loaded, total, progress) => {
-            console.log(`Loading progress: ${progress}% (${loaded}/${total})`);
+            // Silent loading - only log in development if needed
+            if (process.env.NODE_ENV === 'development') {
+                // console.log(`Loading progress: ${progress}% (${loaded}/${total})`);
+            }
         }
     });
     
@@ -65,6 +68,33 @@ const ProjectsSection = (
         setSelectedTitle('');
     };
 
+    // Keyboard-Navigation aktivieren
+    useEffect(() => {
+        if (!showModal) return;
+        
+        const handlePrevImage = () => {
+            setCurrentImageIndex(prev => 
+                prev === 0 ? selectedImages.length - 1 : prev - 1
+            );
+        };
+
+        const handleNextImage = () => {
+            setCurrentImageIndex(prev => 
+                prev === selectedImages.length - 1 ? 0 : prev + 1
+            );
+        };
+        
+        const handleKeyDown = (e) => {
+            if (e.key === 'ArrowLeft') handlePrevImage();
+            if (e.key === 'ArrowRight') handleNextImage();
+            if (e.key === 'Escape') handleCloseModal();
+        };
+        
+        document.addEventListener('keydown', handleKeyDown);
+        return () => document.removeEventListener('keydown', handleKeyDown);
+    }, [showModal, selectedImages.length]);
+
+    // Handler für Image Navigation (für Buttons)
     const handlePrevImage = () => {
         setCurrentImageIndex(prev => 
             prev === 0 ? selectedImages.length - 1 : prev - 1
@@ -76,20 +106,6 @@ const ProjectsSection = (
             prev === selectedImages.length - 1 ? 0 : prev + 1
         );
     };
-
-    const handleKeyDown = (e) => {
-        if (e.key === 'ArrowLeft') handlePrevImage();
-        if (e.key === 'ArrowRight') handleNextImage();
-        if (e.key === 'Escape') handleCloseModal();
-    };
-
-    // Keyboard-Navigation aktivieren
-    useEffect(() => {
-        if (showModal) {
-            document.addEventListener('keydown', handleKeyDown);
-            return () => document.removeEventListener('keydown', handleKeyDown);
-        }
-    }, [showModal, selectedImages]);
 
     return (
         <Container className="projects-container">
@@ -159,7 +175,7 @@ const ProjectsSection = (
                                 </Card.Text>
                                 {project.link && (
                                     <Card.Link href={project.link} target="_blank" rel="noopener noreferrer">
-                                        {project.title === "Spell Dashboard" ? project.link : "Link zum Projekt"}
+                                        {project.linkText || "Link zum Projekt"}
                                     </Card.Link>
                                 )}
                             </Card.Body>
@@ -175,8 +191,6 @@ const ProjectsSection = (
                 onHide={handleCloseModal} 
                 size="xl" 
                 centered
-                onKeyDown={handleKeyDown}
-                tabIndex={-1}
             >
                 <Modal.Header closeButton>
                     <Modal.Title>
@@ -215,6 +229,7 @@ const ProjectsSection = (
                                             zIndex: 10
                                         }}
                                         onClick={handlePrevImage}
+                                        aria-label="Vorheriges Bild"
                                     >
                                         ‹
                                     </button>
@@ -230,6 +245,7 @@ const ProjectsSection = (
                                             zIndex: 10
                                         }}
                                         onClick={handleNextImage}
+                                        aria-label="Nächstes Bild"
                                     >
                                         ›
                                     </button>
@@ -273,5 +289,33 @@ const ProjectsSection = (
         </Container>
     )
 }
+
+ProjectsSection.propTypes = {
+    projects: PropTypes.arrayOf(PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        image: PropTypes.string,
+        media: PropTypes.arrayOf(PropTypes.shape({
+            type: PropTypes.oneOf(['image', 'youtube']).isRequired,
+            src: PropTypes.string,
+            videoId: PropTypes.string
+        })),
+        link: PropTypes.string,
+        linkText: PropTypes.string
+    })),
+    pageTitle: PropTypes.string,
+    pageDescription: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.arrayOf(PropTypes.string)
+    ]),
+    cardsPerRow: PropTypes.number
+};
+
+ProjectsSection.defaultProps = {
+    projects: [],
+    pageTitle: 'Projekte',
+    pageDescription: 'Das sind meine Projekte!',
+    cardsPerRow: 3
+};
 
 export default ProjectsSection;

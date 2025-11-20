@@ -1,3 +1,5 @@
+@import '../../styles/Animations.css';
+
 .progressive-image-wrapper {
     display: block;
     width: 100%;
@@ -71,25 +73,7 @@
     z-index: 2;
 }
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 /* Fade-in Animation für geladene Bilder */
 .progressive-image.loaded {
     animation: fadeIn 0.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
