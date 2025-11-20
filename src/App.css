@@ -50,10 +50,11 @@ html {
    RESPONSIVE MOBILE PADDING
    ============================================== */
 
-/* Zusätzlicher Abstand am unteren Rand auf mobilen Geräten für Footer */
+/* Kein zusätzlicher Padding mehr - Footer ist statisch am Ende */
 @media (max-width: 768px) {
     body {
-        padding-bottom: 80px; /* Platz für Footer */
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     
     /* Content Sections zusätzlicher Abstand */

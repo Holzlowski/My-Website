@@ -1,33 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './SocialSidebar.css';
 
 const SocialSidebar = () => {
-    const [showFooter, setShowFooter] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            // Prüfe ob der Nutzer am Ende der Seite ist
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            const scrollHeight = document.documentElement.scrollHeight;
-            const clientHeight = document.documentElement.clientHeight;
-            
-            // Zeige Footer wenn weniger als 100px vom Ende entfernt
-            if (scrollTop + clientHeight >= scrollHeight - 100) {
-                setShowFooter(true);
-            } else {
-                setShowFooter(false);
-            }
-        };
-
-        // Nur auf mobilen Geräten aktivieren
-        if (window.innerWidth <= 768) {
-            window.addEventListener('scroll', handleScroll);
-            return () => window.removeEventListener('scroll', handleScroll);
-        }
-    }, []);
-
     return (
-        <div className={`social-bar ${showFooter ? 'show-footer' : ''}`}>
+        <div className="social-bar">
             {/* LinkedIn */}
             <a 
                 href="https://www.linkedin.com/in/david-holz" 

@@ -18,7 +18,7 @@ function App() {
         {/* Navigation */}
         <NavigationBar className="fixed-navbar" />
         
-        {/* Social Media Bar - unterhalb der Navbar */}
+        {/* Social Media Bar - Desktop sidebar, Mobile footer */}
         <SocialSidebar />
         
         <Routes>
@@ -36,6 +36,11 @@ function App() {
           <Route path="/3D-Design" element={<ThreeDPage />} />
           <Route path="/westria" element={<WestriaPage />} />
         </Routes>
+        
+        {/* Footer for Mobile - after all content */}
+        <div className="mobile-footer">
+          <SocialSidebar />
+        </div>
       </Router>
     </>
   );
