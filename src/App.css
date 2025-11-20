@@ -45,3 +45,21 @@ html {
     align-items: center;
     justify-content: center;
 }
+
+/* ==============================================
+   RESPONSIVE MOBILE PADDING
+   ============================================== */
+
+/* Zusätzlicher Abstand am unteren Rand auf mobilen Geräten für Footer */
+@media (max-width: 768px) {
+    body {
+        padding-bottom: 80px; /* Platz für Footer */
+    }
+    
+    /* Content Sections zusätzlicher Abstand */
+    .container,
+    .projects-container,
+    .content-section {
+        margin-bottom: 20px;
+    }
+}

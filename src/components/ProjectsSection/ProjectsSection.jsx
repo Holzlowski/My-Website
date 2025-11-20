@@ -33,8 +33,12 @@ const ProjectsSection = (
     // Scroll-Animation für den Titel-Bereich
     const [titleRef, titleVisible] = useScrollAnimation({ threshold: 0.3 });
     
-    // Scroll-Animation für die Projekt-Cards
-    const [projectsRef, projectsVisible] = useScrollAnimation({ threshold: 0.1 });
+    // Scroll-Animation für die Projekt-Cards - auf Mobile niedrigerer threshold
+    const isMobileView = typeof window !== 'undefined' && window.innerWidth <= 768;
+    const [projectsRef, projectsVisible] = useScrollAnimation({ 
+        threshold: isMobileView ? 0.01 : 0.1,
+        rootMargin: isMobileView ? '0px 0px 50px 0px' : '0px 0px -50px 0px'
+    });
 
     const handleImageClick = (project, imageIndex = 0) => {
         // Sammle alle Bilder des Projekts (keine YouTube Videos)
@@ -89,8 +93,8 @@ const ProjectsSection = (
 
     return (
         <Container className="projects-container">
-            {/* Loading Overlay */}
-            {!imagesLoaded && (
+            {/* Loading Overlay - DEAKTIVIERT */}
+            {false && !imagesLoaded && (
                 <div className="loading-overlay">
                     <div className="loading-spinner"></div>
                     <p>Bilder laden... ({loadedImages}/{totalImages})</p>
@@ -114,62 +118,40 @@ const ProjectsSection = (
                 )}
             </div>
             <Row ref={projectsRef}>
-                {projects.map((project, index) => (
+                {projects.map((project, index) => {
+                    // Bestimme das erste Bild
+                    const firstImage = project.image || (project.media && project.media.find(m => m.type === 'image')?.src);
+                    
+                    return (
                     <Col 
                         key={index} 
                         md={12 / cardsPerRow}
+                        xs={12}
                         className={`scroll-fade-up-stagger ${projectsVisible ? 'visible' : ''}`}
                         style={{ animationDelay: `${index * 0.1}s` }}
                     >
                         <Card className="mb-4 hover-effect" style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-                            {project.media ? (
-                                // Mehrere Medien - zeige Carousel
-                                 <Carousel indicators={true} controls={true} interval={null}>
-                                {project.media?.map((mediaItem, mediaIndex) => (
-                                    <Carousel.Item key={mediaIndex}>
-                                        {mediaItem.type === 'youtube' ? (
-                                            // YouTube Video einbetten
-                                            <div style={{ height: '250px', backgroundColor: '#000' }}>
-                                                <iframe
-                                                    width="100%"
-                                                    height="100%"
-                                                    src={`https://www.youtube.com/embed/${mediaItem.videoId}`}
-                                                    title={`${project.title} - Video ${mediaIndex + 1}`}
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                    allowFullScreen
-                                                    style={{ borderRadius: '0.375rem 0.375rem 0 0' }}
-                                                ></iframe>
-                                            </div>
-                                        ) : (
-                                            // Normale Bilder
-                                            <ProgressiveImage
-                                                className="d-block w-100"
-                                                src={mediaItem.src}
-                                                alt={`${project.title} - Bild ${mediaIndex + 1}`}
-                                                style={{ 
-                                                    height: '250px', 
-                                                    objectFit: 'cover',
-                                                    objectPosition: 'center'
-                                                }}
-                                                onClick={() => handleImageClick(project, mediaIndex)}
-                                            />
-                                        )}
-                                    </Carousel.Item>
-                                ))}
-                            </Carousel>
-                            ) : (
-                                // Einzelnes Bild - mit ProgressiveImage
-                                <ProgressiveImage
-                                    src={project.image}
-                                    alt={project.title}
-                                    style={{ 
-                                        height: '250px', 
-                                        width: '100%',
-                                        objectFit: 'cover'
-                                    }}
-                                    onClick={() => handleImageClick(project)}
-                                />
-                            )}
+                            <div style={{ 
+                                width: '100%', 
+                                height: '250px', 
+                                overflow: 'hidden', 
+                                backgroundColor: '#1a1a1a'
+                            }}>
+                                {firstImage && (
+                                    <img 
+                                        src={firstImage}
+                                        alt={project.title}
+                                        style={{
+                                            width: '100%',
+                                            height: '100%',
+                                            objectFit: 'cover',
+                                            display: 'block',
+                                            cursor: 'pointer'
+                                        }}
+                                        onClick={() => handleImageClick(project, 0)}
+                                    />
+                                )}
+                            </div>
                             <Card.Body>
                                 <Card.Title>{project.title}</Card.Title>
                                 <Card.Text className='project-description'>
@@ -183,7 +165,8 @@ const ProjectsSection = (
                             </Card.Body>
                         </Card>
                     </Col>
-                ))}
+                    );
+                })}
             </Row>
 
             {/* Lightbox Modal mit Galerie-Navigation */}

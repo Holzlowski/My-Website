@@ -34,6 +34,23 @@
   transform: translateY(0);
 }
 
+/* AUF MOBILE SCHNELLERE, KÜRZERE ANIMATION */
+@media (max-width: 768px) {
+  .scroll-fade-up,
+  .scroll-fade-up-delayed,
+  .scroll-fade-up-stagger {
+    transform: translateY(10px); /* Kürzere Distanz */
+    transition: all 0.3s ease-out; /* Schnellere Animation */
+  }
+  
+  .scroll-fade-up.visible,
+  .scroll-fade-up-delayed.visible,
+  .scroll-fade-up-stagger.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Gestaffelte Animation für Galerie-Bilder */
 .scroll-fade-up-stagger:nth-child(1).visible {
   transition-delay: 0.1s;

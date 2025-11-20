@@ -1,4 +1,5 @@
-.social-sidebar {
+/* Social Sidebar für Desktop - rechts an der Seite */
+.social-bar {
     position: fixed;
     right: 20px;
     top: 50%;
@@ -15,12 +16,12 @@
     transition: all 0.3s ease;
 }
 
-.social-sidebar:hover {
+.social-bar:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-50%) scale(1.05);
 }
 
-.social-icon {
+.social-bar-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +32,10 @@
     text-decoration: none;
     position: relative;
     overflow: hidden;
-    color: #333333; /* Statische dunkle Farbe */
+    color: #333333;
 }
 
-.social-icon::before {
+.social-bar-icon::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -45,68 +46,106 @@
     transition: all 0.3s ease;
 }
 
-.social-icon:hover::before {
+.social-bar-icon:hover::before {
     transform: scale(1);
     opacity: 0.2;
 }
 
-.social-icon svg {
+.social-bar-icon svg {
     width: 24px;
     height: 24px;
     z-index: 1;
     transition: all 0.3s ease;
 }
 
-.social-icon:hover svg {
+.social-bar-icon:hover svg {
     transform: scale(1.2);
 }
 
-/* Spezielle Hover-Farben für jedes soziale Netzwerk */
-.social-icon:nth-child(1):hover { /* LinkedIn */
+/* Spezielle Hover-Farben */
+.social-bar-icon:nth-child(1):hover { /* LinkedIn */
     color: #0077b5 !important;
 }
 
-.social-icon:nth-child(2):hover { /* Instagram */
+.social-bar-icon:nth-child(2):hover { /* Instagram */
     color: #e4405f !important;
 }
 
-.social-icon:nth-child(3):hover { /* YouTube */
+.social-bar-icon:nth-child(3):hover { /* YouTube */
     color: #ff0000 !important;
 }
 
-/* Mobile Anpassung */
+/* Mobile Anpassungen - Footer am unteren Rand */
 @media (max-width: 768px) {
-    .social-sidebar {
-        right: 10px;
-        gap: 10px;
-        padding: 10px 6px;
+    .social-bar {
+        /* Position ändern zu Footer */
+        position: fixed;
+        bottom: -100px; /* Initial versteckt */
+        left: 0;
+        right: 0;
+        top: auto;
+        transform: none;
+        
+        /* Layout horizontal */
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+        padding: 15px 0;
+        
+        /* Styling */
+        border-radius: 0;
+        background: rgba(33, 37, 41, 0.95);
+        backdrop-filter: blur(10px);
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        
+        /* Smooth transition */
+        transition: bottom 0.3s ease-in-out;
     }
     
-    .social-icon {
-        width: 35px;
-        height: 35px;
+    /* Footer anzeigen wenn am Ende der Seite */
+    .social-bar.show-footer {
+        bottom: 0;
     }
     
-    .social-icon svg {
-        width: 20px;
-        height: 20px;
+    .social-bar:hover {
+        transform: none;
+    }
+    
+    .social-bar-icon {
+        width: 45px;
+        height: 45px;
+        color: rgba(255, 255, 255, 0.9); /* Weiße Icons im Footer */
+    }
+    
+    .social-bar-icon::before {
+        display: none; /* Kein Hintergrund-Effekt im Footer */
+    }
+    
+    .social-bar-icon:hover {
+        color: #ffffff;
+    }
+    
+    .social-bar-icon svg {
+        width: 22px;
+        height: 22px;
     }
 }
 
-/* Sehr kleine Bildschirme */
 @media (max-width: 480px) {
-    .social-sidebar {
-        right: 5px;
-        gap: 8px;
+    .social-bar {
+        gap: 20px;
+        padding: 12px 0;
     }
     
-    .social-icon {
-        width: 30px;
-        height: 30px;
+    .social-bar-icon {
+        width: 40px;
+        height: 40px;
     }
     
-    .social-icon svg {
-        width: 18px;
-        height: 18px;
+    .social-bar-icon svg {
+        width: 20px;
+        height: 20px;
     }
 }

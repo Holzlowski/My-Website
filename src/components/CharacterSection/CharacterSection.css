@@ -101,10 +101,52 @@
 }
 
 /* Responsive Design */
+@media (max-width: 992px) {
+  .character-section {
+    min-height: auto;
+    max-height: none;
+  }
+  
+  .character-images {
+    min-height: auto;
+    max-height: none;
+    gap: 1rem; /* Reduzierter Gap */
+  }
+  
+  /* Orelia Bilder - reduziere Zoom um Überlappung zu vermeiden */
+  .character-image.zoomed {
+    transform: scale(1.5) translateY(-15px);
+  }
+  
+  .character-image.zoomed:hover {
+    transform: scale(1.5) translateY(-19px);
+  }
+}
+
+/* Mittlere Tablets - 2-Spalten Layout mit reduziertem Abstand */
+@media (max-width: 850px) {
+  .character-images {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .image-container {
+    min-height: auto;
+    margin-bottom: 0;
+  }
+  
+  /* Djagami Mitte Bild - stark reduzierter Abstand */
+  .character-image.djagami-zoomed {
+    margin-bottom: -200px;
+  }
+}
+
 @media (max-width: 768px) {
   .character-section {
     padding: 1.5rem;
     margin-bottom: 2rem;
+    min-height: auto;           /* Automatische Höhe */
+    max-height: none;           /* Kein Maximum */
   }
   
   .character-title {
@@ -118,5 +160,28 @@
   .character-images {
     grid-template-columns: 1fr;
     gap: 1rem;
+    min-height: auto;           /* Automatische Höhe */
+    max-height: none;           /* Kein Maximum */
+  }
+  
+  .image-container {
+    min-height: auto;           /* Automatische Höhe */
+    padding-bottom: 0;          /* Kein Padding unten */
+    margin-bottom: 0.5rem;      /* Reduzierter Abstand zwischen Containern */
+  }
+  
+  /* Djagami Mitte - reduziere das Bild selbst nach unten */
+  .character-image.djagami-zoomed {
+    display: block;
+    margin-bottom: -150px;      /* Negativer Margin um Platz zu reduzieren */
+  }
+  
+  /* Orelia Bilder - noch kleinerer Zoom für schmale Handys */
+  .character-image.zoomed {
+    transform: scale(1.3) translateY(-10px);
+  }
+  
+  .character-image.zoomed:hover {
+    transform: scale(1.3) translateY(-14px);
   }
 }

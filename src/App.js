@@ -17,6 +17,10 @@ function App() {
       <Router basename="/My-Website">
         {/* Navigation */}
         <NavigationBar className="fixed-navbar" />
+        
+        {/* Social Media Bar - unterhalb der Navbar */}
+        <SocialSidebar />
+        
         <Routes>
           <Route path="/" element={
             <>
@@ -32,9 +36,6 @@ function App() {
           <Route path="/3D-Design" element={<ThreeDPage />} />
           <Route path="/westria" element={<WestriaPage />} />
         </Routes>
-        
-        {/* Social Media Sidebar - immer sichtbar */}
-        <SocialSidebar />
       </Router>
     </>
   );

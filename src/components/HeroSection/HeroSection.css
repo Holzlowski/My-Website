@@ -231,3 +231,108 @@
 .rotating-cards.loading .avatar-wrapper {
     animation-play-state: paused;
 }
+
+/* ==============================================
+   RESPONSIVE DESIGN
+   ============================================== */
+
+/* Tablets und kleinere Desktops */
+@media (max-width: 1024px) {
+    .avatar-center {
+        width: 400px;
+        top: 40px;
+    }
+    
+    .rotating-cards {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .card-item {
+        width: 120px;
+        height: 160px;
+    }
+    
+    .card-1 { transform: translate(-50%, -50%) rotateY(0deg) translateZ(200px); }
+    .card-2 { transform: translate(-50%, -50%) rotateY(72deg) translateZ(200px); }
+    .card-3 { transform: translate(-50%, -50%) rotateY(144deg) translateZ(200px); }
+    .card-4 { transform: translate(-50%, -50%) rotateY(216deg) translateZ(200px); }
+    .card-5 { transform: translate(-50%, -50%) rotateY(288deg) translateZ(200px); }
+}
+
+/* Tablets im Hochformat */
+@media (max-width: 768px) {
+    .avatar-center {
+        width: 300px;
+        top: 30px;
+    }
+    
+    .rotating-cards {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .card-item {
+        width: 100px;
+        height: 133px;
+    }
+    
+    .card-1 { transform: translate(-50%, -50%) rotateY(0deg) translateZ(150px); }
+    .card-2 { transform: translate(-50%, -50%) rotateY(72deg) translateZ(150px); }
+    .card-3 { transform: translate(-50%, -50%) rotateY(144deg) translateZ(150px); }
+    .card-4 { transform: translate(-50%, -50%) rotateY(216deg) translateZ(150px); }
+    .card-5 { transform: translate(-50%, -50%) rotateY(288deg) translateZ(150px); }
+}
+
+/* Smartphones */
+@media (max-width: 576px) {
+    .avatar-center {
+        width: 220px;
+        top: 20px;
+    }
+    
+    .rotating-cards {
+        width: 300px;
+        height: 300px;
+        top: 45vh;
+    }
+    
+    .card-item {
+        width: 80px;
+        height: 106px;
+    }
+    
+    .card-1 { transform: translate(-50%, -50%) rotateY(0deg) translateZ(120px); }
+    .card-2 { transform: translate(-50%, -50%) rotateY(72deg) translateZ(120px); }
+    .card-3 { transform: translate(-50%, -50%) rotateY(144deg) translateZ(120px); }
+    .card-4 { transform: translate(-50%, -50%) rotateY(216deg) translateZ(120px); }
+    .card-5 { transform: translate(-50%, -50%) rotateY(288deg) translateZ(120px); }
+    
+    .avatar-wrapper {
+        top: 40%;
+    }
+}
+
+/* Sehr kleine Smartphones */
+@media (max-width: 400px) {
+    .avatar-center {
+        width: 180px;
+        top: 15px;
+    }
+    
+    .rotating-cards {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .card-item {
+        width: 65px;
+        height: 87px;
+    }
+    
+    .card-1 { transform: translate(-50%, -50%) rotateY(0deg) translateZ(100px); }
+    .card-2 { transform: translate(-50%, -50%) rotateY(72deg) translateZ(100px); }
+    .card-3 { transform: translate(-50%, -50%) rotateY(144deg) translateZ(100px); }
+    .card-4 { transform: translate(-50%, -50%) rotateY(216deg) translateZ(100px); }
+    .card-5 { transform: translate(-50%, -50%) rotateY(288deg) translateZ(100px); }
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './ProgressiveImage.css';
 
 const ProgressiveImage = ({ 
@@ -6,80 +6,33 @@ const ProgressiveImage = ({
     alt, 
     className = '', 
     style = {},
-    onClick,
-    placeholderColor = '#2a2a2a'
+    onClick
 }) => {
-    const [imgSrc, setImgSrc] = useState(null);
-    const [isLoading, setIsLoading] = useState(true);
-    const [hasError, setHasError] = useState(false);
-
-    useEffect(() => {
-        // Reset state when src changes
-        setIsLoading(true);
-        setHasError(false);
-        setImgSrc(null);
-
-        const img = new Image();
-        
-        img.onload = () => {
-            setImgSrc(src);
-            setIsLoading(false);
-        };
-
-        img.onerror = () => {
-            setHasError(true);
-            setIsLoading(false);
-        };
-
-        img.src = src;
-
-        // Cleanup
-        return () => {
-            img.onload = null;
-            img.onerror = null;
-        };
-    }, [src]);
-
     return (
         <div 
             className={`progressive-image-wrapper ${className}`}
             style={{
                 ...style,
-                backgroundColor: isLoading ? placeholderColor : 'transparent',
+                width: '100%',
                 position: 'relative',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                display: 'block'
             }}
         >
-            {isLoading && (
-                <div className="progressive-image-placeholder">
-                    <div className="progressive-image-spinner"></div>
-                </div>
-            )}
-            
-            {hasError && (
-                <div className="progressive-image-error">
-                    <span>⚠️ Bild konnte nicht geladen werden</span>
-                </div>
-            )}
-            
-            {imgSrc && (
-                <img
-                    src={imgSrc}
-                    alt={alt}
-                    className={`progressive-image ${isLoading ? 'loading' : 'loaded'}`}
-                    style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: style.objectFit || 'cover',
-                        objectPosition: style.objectPosition || 'center',
-                        opacity: isLoading ? 0 : 1,
-                        transition: 'opacity 0.5s ease-in-out',
-                        cursor: onClick ? 'pointer' : 'default'
-                    }}
-                    onClick={onClick}
-                    loading="lazy"
-                />
-            )}
+            <img
+                src={src}
+                alt={alt}
+                className="progressive-image"
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: style.objectFit || 'cover',
+                    objectPosition: style.objectPosition || 'center',
+                    cursor: onClick ? 'pointer' : 'default',
+                    display: 'block'
+                }}
+                onClick={onClick}
+            />
         </div>
     );
 };

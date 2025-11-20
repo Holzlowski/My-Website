@@ -75,3 +75,24 @@
     border-radius: 10px;                    /* Abgerundete Ecken */
     margin-top: 160px;
 }
+
+/* ==============================================
+   RESPONSIVE DESIGN
+   ============================================== */
+
+/* Tablets und Mobile - Bild ausblenden */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;             /* Stapeln statt nebeneinander */
+        gap: 1rem;
+    }
+    
+    .content-image {
+        display: none;                      /* Charakterbild auf Handy ausblenden */
+    }
+    
+    .content-card {
+        flex: 1;
+        width: 100%;
+    }
+}

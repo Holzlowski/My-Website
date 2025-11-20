@@ -6,7 +6,7 @@ export const useImagePreloader = (imageUrls, options = {}) => {
     const [loadingProgress, setLoadingProgress] = useState(0);
     
     const { 
-        timeout = 8000, // 8 Sekunden Timeout
+        timeout = 15000, // 15 Sekunden Timeout (erhöht von 8)
         priority = 'high',
         onProgress = null,
         onComplete = null 

@@ -1,8 +1,33 @@
 .progressive-image-wrapper {
-    display: flex;
+    display: block;
+    width: 100%;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    min-height: 250px; /* Mindesthöhe für Desktop */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Mobile Responsive Anpassungen */
+@media (max-width: 768px) {
+    .progressive-image-wrapper {
+        min-height: 200px !important;
+        max-height: 200px !important;
+        height: 200px !important;
+        width: 100% !important;
+        display: block !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .progressive-image-wrapper {
+        min-height: 180px !important;
+        max-height: 180px !important;
+        height: 180px !important;
+        width: 100% !important;
+        display: block !important;
+    }
 }
 
 .progressive-image-placeholder {

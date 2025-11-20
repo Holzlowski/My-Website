@@ -1,15 +1,39 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './SocialSidebar.css';
 
 const SocialSidebar = () => {
+    const [showFooter, setShowFooter] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            // Prüfe ob der Nutzer am Ende der Seite ist
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight;
+            const clientHeight = document.documentElement.clientHeight;
+            
+            // Zeige Footer wenn weniger als 100px vom Ende entfernt
+            if (scrollTop + clientHeight >= scrollHeight - 100) {
+                setShowFooter(true);
+            } else {
+                setShowFooter(false);
+            }
+        };
+
+        // Nur auf mobilen Geräten aktivieren
+        if (window.innerWidth <= 768) {
+            window.addEventListener('scroll', handleScroll);
+            return () => window.removeEventListener('scroll', handleScroll);
+        }
+    }, []);
+
     return (
-        <div className="social-sidebar">
+        <div className={`social-bar ${showFooter ? 'show-footer' : ''}`}>
             {/* LinkedIn */}
             <a 
                 href="https://www.linkedin.com/in/david-holz" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="social-icon"
+                className="social-bar-icon"
                 title="LinkedIn Profil"
             >
                 <svg viewBox="0 0 24 24" width="24" height="24">
@@ -22,7 +46,7 @@ const SocialSidebar = () => {
                 href="https://www.instagram.com/holzlowski/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="social-icon"
+                className="social-bar-icon"
                 title="Instagram Profil"
             >
                 <svg viewBox="0 0 24 24" width="24" height="24">
@@ -35,7 +59,7 @@ const SocialSidebar = () => {
                 href="https://www.youtube.com/@diepenpaperritter7001" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="social-icon"
+                className="social-bar-icon"
                 title="YouTube Kanal"
             >
                 <svg viewBox="0 0 24 24" width="24" height="24">
