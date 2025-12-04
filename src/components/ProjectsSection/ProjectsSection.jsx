@@ -15,8 +15,8 @@ const ProjectsSection = (
     }
 ) => {
     const [showModal, setShowModal] = useState(false);
-    const [selectedImages, setSelectedImages] = useState([]);
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [selectedMedia, setSelectedMedia] = useState([]);
+    const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
     const [selectedTitle, setSelectedTitle] = useState('');
     
     // Extrahiere alle Bilder aus den Projekten
@@ -43,28 +43,26 @@ const ProjectsSection = (
         rootMargin: isMobileView ? '0px 0px 50px 0px' : '0px 0px -50px 0px'
     });
 
-    const handleImageClick = (project, imageIndex = 0) => {
-        // Sammle alle Bilder des Projekts (keine YouTube Videos)
-        let images = [];
+    const handleImageClick = (project, mediaIndex = 0) => {
+        // Sammle alle Media Items (Bilder und Videos)
+        let media = [];
         
         if (project.media) {
-            images = project.media
-                .filter(item => item.type === 'image')
-                .map(item => item.src);
+            media = project.media;
         } else if (project.image) {
-            images = [project.image];
+            media = [{ type: 'image', src: project.image }];
         }
         
-        setSelectedImages(images);
-        setCurrentImageIndex(imageIndex);
+        setSelectedMedia(media);
+        setCurrentMediaIndex(mediaIndex);
         setSelectedTitle(project.title);
         setShowModal(true);
     };
 
     const handleCloseModal = () => {
         setShowModal(false);
-        setSelectedImages([]);
-        setCurrentImageIndex(0);
+        setSelectedMedia([]);
+        setCurrentMediaIndex(0);
         setSelectedTitle('');
     };
 
@@ -72,38 +70,38 @@ const ProjectsSection = (
     useEffect(() => {
         if (!showModal) return;
         
-        const handlePrevImage = () => {
-            setCurrentImageIndex(prev => 
-                prev === 0 ? selectedImages.length - 1 : prev - 1
+        const handlePrevMedia = () => {
+            setCurrentMediaIndex(prev => 
+                prev === 0 ? selectedMedia.length - 1 : prev - 1
             );
         };
 
-        const handleNextImage = () => {
-            setCurrentImageIndex(prev => 
-                prev === selectedImages.length - 1 ? 0 : prev + 1
+        const handleNextMedia = () => {
+            setCurrentMediaIndex(prev => 
+                prev === selectedMedia.length - 1 ? 0 : prev + 1
             );
         };
         
         const handleKeyDown = (e) => {
-            if (e.key === 'ArrowLeft') handlePrevImage();
-            if (e.key === 'ArrowRight') handleNextImage();
+            if (e.key === 'ArrowLeft') handlePrevMedia();
+            if (e.key === 'ArrowRight') handleNextMedia();
             if (e.key === 'Escape') handleCloseModal();
         };
         
         document.addEventListener('keydown', handleKeyDown);
         return () => document.removeEventListener('keydown', handleKeyDown);
-    }, [showModal, selectedImages.length]);
+    }, [showModal, selectedMedia.length]);
 
-    // Handler für Image Navigation (für Buttons)
-    const handlePrevImage = () => {
-        setCurrentImageIndex(prev => 
-            prev === 0 ? selectedImages.length - 1 : prev - 1
+    // Handler für Media Navigation (für Buttons)
+    const handlePrevMedia = () => {
+        setCurrentMediaIndex(prev => 
+            prev === 0 ? selectedMedia.length - 1 : prev - 1
         );
     };
 
-    const handleNextImage = () => {
-        setCurrentImageIndex(prev => 
-            prev === selectedImages.length - 1 ? 0 : prev + 1
+    const handleNextMedia = () => {
+        setCurrentMediaIndex(prev => 
+            prev === selectedMedia.length - 1 ? 0 : prev + 1
         );
     };
 
@@ -195,30 +193,54 @@ const ProjectsSection = (
                 <Modal.Header closeButton>
                     <Modal.Title>
                         {selectedTitle} 
-                        {selectedImages.length > 1 && (
+                        {selectedMedia.length > 1 && (
                             <span className="text-muted ms-2">
-                                ({currentImageIndex + 1} von {selectedImages.length})
+                                ({currentMediaIndex + 1} von {selectedMedia.length})
                             </span>
                         )}
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="text-center p-0" style={{ position: 'relative' }}>
-                    {selectedImages.length > 0 && (
+                <Modal.Body className="text-center p-0" style={{ position: 'relative', minHeight: '400px' }}>
+                    {selectedMedia.length > 0 && (
                         <>
-                            <ProgressiveImage
-                                src={selectedImages[currentImageIndex]}
-                                alt={`${selectedTitle} - Bild ${currentImageIndex + 1}`}
-                                style={{
-                                    maxWidth: '100%',
-                                    maxHeight: '80vh',
-                                    objectFit: 'contain'
-                                }}
-                            />
+                            {selectedMedia[currentMediaIndex]?.type === 'image' ? (
+                                <ProgressiveImage
+                                    src={selectedMedia[currentMediaIndex].src}
+                                    alt={`${selectedTitle} - Bild ${currentMediaIndex + 1}`}
+                                    style={{
+                                        maxWidth: '100%',
+                                        maxHeight: '80vh',
+                                        objectFit: 'contain'
+                                    }}
+                                />
+                            ) : selectedMedia[currentMediaIndex]?.type === 'youtube' ? (
+                                <div style={{ 
+                                    position: 'relative', 
+                                    paddingBottom: '56.25%', 
+                                    height: 0,
+                                    overflow: 'hidden'
+                                }}>
+                                    <iframe
+                                        style={{
+                                            position: 'absolute',
+                                            top: 0,
+                                            left: 0,
+                                            width: '100%',
+                                            height: '100%'
+                                        }}
+                                        src={`https://www.youtube.com/embed/${selectedMedia[currentMediaIndex].videoId}`}
+                                        title={selectedTitle}
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    />
+                                </div>
+                            ) : null}
                             
-                            {/* Navigation nur bei mehreren Bildern */}
-                            {selectedImages.length > 1 && (
+                            {/* Navigation nur bei mehreren Media Items */}
+                            {selectedMedia.length > 1 && (
                                 <>
-                                    {/* Vorheriges Bild */}
+                                    {/* Vorheriges Media */}
                                     <button
                                         className="btn btn-dark position-absolute"
                                         style={{
@@ -228,13 +250,13 @@ const ProjectsSection = (
                                             opacity: 0.8,
                                             zIndex: 10
                                         }}
-                                        onClick={handlePrevImage}
-                                        aria-label="Vorheriges Bild"
+                                        onClick={handlePrevMedia}
+                                        aria-label="Vorheriges Medium"
                                     >
                                         ‹
                                     </button>
                                     
-                                    {/* Nächstes Bild */}
+                                    {/* Nächstes Media */}
                                     <button
                                         className="btn btn-dark position-absolute"
                                         style={{
@@ -244,8 +266,8 @@ const ProjectsSection = (
                                             opacity: 0.8,
                                             zIndex: 10
                                         }}
-                                        onClick={handleNextImage}
-                                        aria-label="Nächstes Bild"
+                                        onClick={handleNextMedia}
+                                        aria-label="Nächstes Medium"
                                     >
                                         ›
                                     </button>
@@ -253,26 +275,44 @@ const ProjectsSection = (
                                     {/* Thumbnails am unteren Rand */}
                                     <div 
                                         className="position-absolute w-100 d-flex justify-content-center"
-                                        style={{ bottom: '10px', gap: '5px' }}
+                                        style={{ bottom: '10px', gap: '5px', zIndex: 10 }}
                                     >
-                                        {selectedImages.map((img, index) => (
-                                            <img
+                                        {selectedMedia.map((item, index) => (
+                                            <div
                                                 key={index}
-                                                src={img}
-                                                alt={`Thumbnail ${index + 1}`}
                                                 style={{
                                                     width: '50px',
                                                     height: '50px',
-                                                    objectFit: 'cover',
-                                                    border: index === currentImageIndex 
+                                                    border: index === currentMediaIndex 
                                                         ? '2px solid white' 
                                                         : '1px solid rgba(255,255,255,0.5)',
                                                     borderRadius: '4px',
                                                     cursor: 'pointer',
-                                                    opacity: index === currentImageIndex ? 1 : 0.7
+                                                    opacity: index === currentMediaIndex ? 1 : 0.7,
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    background: 'rgba(0,0,0,0.5)',
+                                                    color: 'white',
+                                                    fontSize: '20px'
                                                 }}
-                                                onClick={() => setCurrentImageIndex(index)}
-                                            />
+                                                onClick={() => setCurrentMediaIndex(index)}
+                                            >
+                                                {item.type === 'image' ? (
+                                                    <img
+                                                        src={item.src}
+                                                        alt={`Thumbnail ${index + 1}`}
+                                                        style={{
+                                                            width: '100%',
+                                                            height: '100%',
+                                                            objectFit: 'cover',
+                                                            borderRadius: '4px'
+                                                        }}
+                                                    />
+                                                ) : (
+                                                    '▶'
+                                                )}
+                                            </div>
                                         ))}
                                     </div>
                                 </>
@@ -281,7 +321,7 @@ const ProjectsSection = (
                     )}
                 </Modal.Body>
                 <Modal.Footer className="text-muted small">
-                    {selectedImages.length > 1 && (
+                    {selectedMedia.length > 1 && (
                         <span>Nutze ← → Pfeiltasten oder klicke die Buttons zur Navigation</span>
                     )}
                 </Modal.Footer>
