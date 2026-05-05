@@ -131,7 +131,7 @@ const ProjectsSection = (
                     <p>{pageDescription}</p>
                 )}
             </div>
-            <Row ref={projectsRef}>
+            <Row ref={projectsRef} className="projects-grid">
                 {projects.map((project, index) => {
                     // Bestimme das erste Bild
                     const firstImage = project.image || (project.media && project.media.find(m => m.type === 'image')?.src);
@@ -141,27 +141,15 @@ const ProjectsSection = (
                         key={index} 
                         md={12 / cardsPerRow}
                         xs={12}
-                        className={`scroll-fade-up-stagger ${projectsVisible ? 'visible' : ''}`}
+                        className={`project-col scroll-fade-up-stagger ${projectsVisible ? 'visible' : ''}`}
                         style={{ animationDelay: `${index * 0.1}s` }}
                     >
-                        <Card className="mb-4 hover-effect" style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-                            <div style={{ 
-                                width: '100%', 
-                                height: '250px', 
-                                overflow: 'hidden', 
-                                backgroundColor: '#1a1a1a'
-                            }}>
+                        <Card className="project-card mb-4 hover-effect">
+                            <div className="project-card-media">
                                 {firstImage && (
                                     <img 
                                         src={firstImage}
                                         alt={project.title}
-                                        style={{
-                                            width: '100%',
-                                            height: '100%',
-                                            objectFit: 'cover',
-                                            display: 'block',
-                                            cursor: 'pointer'
-                                        }}
                                         onClick={() => handleImageClick(project, 0)}
                                     />
                                 )}

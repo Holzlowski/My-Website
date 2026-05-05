@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background: #f5f2ea;
+    color: #1f2521;
 }
 
 html {
@@ -44,6 +46,18 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    isolation: isolate;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 50% 42%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 34%),
+        linear-gradient(180deg, rgba(8, 10, 9, 0.28) 0%, rgba(8, 10, 9, 0.08) 42%, rgba(245, 242, 234, 0.9) 100%);
+    pointer-events: none;
+    z-index: 0;
 }
 
 /* ==============================================

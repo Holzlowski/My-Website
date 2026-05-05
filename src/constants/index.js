@@ -26,7 +26,6 @@ export const IMAGE_SIZES = {
 // Social Media Links
 export const SOCIAL_LINKS = {
   LINKEDIN: 'https://www.linkedin.com/in/david-holz',
-  INSTAGRAM: 'https://www.instagram.com/holzlowski/',
   YOUTUBE: 'https://www.youtube.com/@diepenpaperritter7001'
 };
 

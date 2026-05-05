@@ -40,6 +40,14 @@
     "whoami_text": "I was born and raised in Stendal, but I'm also often found in Berlin. That's where I studied, found friends and my girlfriend. Stendal is home, Berlin is love. My greatest passion is creating new worlds and bringing them to life. Whether in 2D, 3D, as a game or simply on paper, it's always about creating something of my own. At the same time, I love diving into other worlds: through games, movies, books or pen & paper, where I often take on the role of game master.",
     "journey_title": "My Journey",
     "journey_text": "Like many others, I once said: 'I'll do something with media.' So I started training as a media designer and completed it successfully. But that was just the beginning. Although I used to think I wasn't suited for studying (Fun fact: I had to repeat 7th grade because of math), I dared to study media informatics and not only completed my bachelor's but also my master's degree. For me, this is proof that you can achieve anything if you stick with it and believe in yourself. Today I program games and love learning new things. My 10-year-old self would definitely be proud!",
+    "offer_title": "How I can help",
+    "offer_text": "I enjoy supporting creative and technical projects, especially when design, storytelling, and interactive media come together. I like turning a rough idea into something tangible.",
+    "offer_fullstack": "Fullstack development, frontend and backend",
+    "offer_figma": "Interactive prototypes in Figma",
+    "offer_games": "Game prototyping and Unity projects",
+    "offer_3d": "3D models, scenes, and visualizations",
+    "offer_storytelling": "Storytelling, worldbuilding, and creative concepts",
+    "offer_design": "Digital image editing",
     "why_holz_title": "Why Holz?",
     "why_holz_text": "Some of my good friends just call me Holz and because I love my last name so much, I feel a certain connection to everything related to wood."
   },
@@ -305,10 +313,6 @@
       "family-tracker": {
         "title": "Family Tracker",
         "description": "A web app for visualizing visited countries on an interactive world map. Users can enter a country name to mark it with a color, allowing them to track countries they have already visited. The application supports multiple user profiles and persistently stores all data in a PostgreSQL database. Built with Node.js and PostgreSQL."
-      },
-      "keeper-notes": {
-        "title": "Keeper Notes",
-        "description": "A note-taking app inspired by Google Keep. Users can create, edit, and organize notes. The project was built with React and uses Local Storage for data persistence."
       }
     }
   },

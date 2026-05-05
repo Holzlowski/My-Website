@@ -9,7 +9,6 @@ import PWM2 from '../assets/images/programming/PWM2.jpg';
 import DrumKit from '../assets/images/programming/DrumKit.jpg';
 import MeineWebseite from '../assets/images/programming/MeineWebseite.jpg';
 import FamilyTracker from '../assets/images/programming/FamilyTracker.jpg';
-import KeeperNotes from '../assets/images/programming/KeeperNotes.jpg';
 
 
 
@@ -83,11 +82,5 @@ export const programmingProjects = [
         title: "Family Tracker",
         description: "Eine Web-App zur Visualisierung besuchter Länder auf einer interaktiven Weltkarte. Nutzer können durch Eingabe eines Landes dieses farbig markieren lassen, um bereits besuchte Länder zu tracken. Die Anwendung unterstützt mehrere Benutzerprofile und speichert alle Daten persistent in einer PostgreSQL-Datenbank. Entwickelt mit Node.js und PostgreSQL.",
         image: FamilyTracker
-    },
-    {
-        title: "Keeper Notes",
-        description: "Eine minimalistische Notiz-App zum schnellen Erstellen und Verwalten von Notizen. Benutzer können neue Notizen anlegen und wieder entfernen, um ihre Gedanken organisiert zu halten. Entwickelt mit React.",
-        image: KeeperNotes,
-        link: "https://github.com/Holzlowski/Keeper_Notes"
     }
 ]

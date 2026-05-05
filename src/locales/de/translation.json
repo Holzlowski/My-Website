@@ -14,19 +14,19 @@
   },
   "projects": {
     "programming": {
-      "title": "Programming Projects",
+      "title": "Programmierprojekte",
       "description": "Hier findest du eine Auswahl meiner Programmierprojekte. Im Laufe meines Studiums und darüber hinaus habe ich viele weitere Projekte umgesetzt, von Java-Anwendungen bis hin zu Games und Tools."
     },
     "gamedev": {
-      "title": "Game Development Projects",
+      "title": "Spieleentwicklungsprojekte",
       "description": "Seit ich Spiele wie Zelda: Ocarina of Time, Final Fantasy oder Kingdom Hearts entdeckt habe, bin ich von der Welt der Videospiele fasziniert. Schon immer wollte ich wissen, wie Spiele entstehen. Im Studium hatte ich dann endlich die Möglichkeit, selbst in die Entwicklung einzutauchen. Auch in Zukunft möchte ich weiter an Spielen arbeiten, denn ich habe noch unzählige Ideen, die darauf warten, zum Leben erweckt zu werden."
     },
     "digitalart": {
-      "title": "Digital Art Projects",
+      "title": "Digitale Kunstprojekte",
       "description": "Während meiner Ausbildung zum Mediengestalter habe ich Photoshop für mich entdeckt und erste kreative Projekte umgesetzt. In meinem Praktikum hatte ich außerdem die Gelegenheit, mit After Effects zu experimentieren und so mein digitales Repertoire zu erweitern."
     },
     "3d": {
-      "title": "3D Design Projects",
+      "title": "3D-Design-Projekte",
       "description": "Schon als Kind haben mich 3D-Modelle und Animationen fasziniert. Im Studium habe ich mich dann intensiv mit 3D-Design und -Modellierung beschäftigt und mein Wissen stetig erweitert. Dabei hat es mir Blender besonders angetan."
     },
     "loading": "Bilder laden..."
@@ -40,6 +40,14 @@
     "whoami_text": "Ich bin in Stendal geboren und aufgewachsen, aber bin auch oft in Berlin anzutreffen. Dort habe ich studiert, Freunde gefunden und meine Freundin. Stendal ist Heimat, Berlin ist Liebe. Meine größte Leidenschaft ist es, neue Welten zu erschaffen und sie zum Leben zu erwecken. Ob in 2D, 3D, als Spiel oder einfach auf Papier, es geht mir immer darum, etwas Eigenes zu gestalten. Gleichzeitig liebe ich es, in andere Welten einzutauchen: durch Spiele, Filme, Bücher oder Pen & Paper, wo ich oft die Rolle des Spielleiters einnehme.",
     "journey_title": "Mein Weg",
     "journey_text": "Wie viele andere habe ich irgendwann gesagt: 'Ich mach was mit Medien.' Also begann ich eine Ausbildung zum Mediengestalter und schloss sie erfolgreich ab. Aber das war nur der Anfang. Obwohl ich früher dachte, dass ich nicht geeignet bin fürs Studieren (Fun Fact: Ich bin in der 7. Klasse wegen Mathe sitzen geblieben), habe ich ein Studium in Medieninformatik gewagt und nicht nur den Bachelor, sondern auch den Master geschafft. Für mich der Beweis, dass man alles erreichen kann, wenn man dranbleibt und an sich glaubt. Heute programmiere ich Spiele und liebe es, Neues zu lernen. Mein 10-jähriges Ich wäre bestimmt stolz!",
+    "offer_title": "Wobei ich helfen kann",
+    "offer_text": "Ich unterstütze gerne bei kreativen und technischen Projekten, besonders wenn Gestaltung, Storytelling und interaktive Medien zusammenkommen. Ich mag es, aus einer groben Idee etwas Greifbares zu machen.",
+    "offer_fullstack": "Fullstack-Entwicklung, Frontend und Backend",
+    "offer_figma": "Interaktive Prototypen in Figma",
+    "offer_games": "Game-Prototyping und Unity-Projekte",
+    "offer_3d": "3D-Modelle, Szenen und Visualisierungen",
+    "offer_storytelling": "Storytelling, Weltenbau und kreative Konzepte",
+    "offer_design": "Digitale Bildbearbeitung",
     "why_holz_title": "Warum Holz?",
     "why_holz_text": "Manche meiner guten Freunde nennen mich einfach Holz und weil ich meinen Nachnamen so sehr mag, fühl ich eine gewisse Verbundenheit zu allem, was mit Holz zu tun hat."
   },
@@ -305,10 +313,6 @@
       "family-tracker": {
         "title": "Family Tracker",
         "description": "Eine Web-App zur Visualisierung besuchter Länder auf einer interaktiven Weltkarte. Nutzer können durch Eingabe eines Landes dieses farbig markieren lassen, um bereits besuchte Länder zu tracken. Die Anwendung unterstützt mehrere Benutzerprofile und speichert alle Daten persistent in einer PostgreSQL-Datenbank. Entwickelt mit Node.js und PostgreSQL."
-      },
-      "keeper-notes": {
-        "title": "Keeper Notes",
-        "description": "Eine Notiz-App inspiriert von Google Keep. Nutzer können Notizen erstellen, bearbeiten und organisieren. Das Projekt wurde mit React entwickelt und nutzt Local Storage zur Datenpersistenz."
       }
     }
   },

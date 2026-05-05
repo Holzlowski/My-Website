@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import logoName from '../../assets/images/LogoName.png'; 
 import { Link } from 'react-router-dom';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
+import './Navbar.css';
 
 
 function NavigationBar() {

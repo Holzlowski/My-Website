@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Website/static/css/main.330c19c6.css",
-    "main.js": "/My-Website/static/js/main.73c32a5a.js",
+    "main.css": "/My-Website/static/css/main.1002c06d.css",
+    "main.js": "/My-Website/static/js/main.96f7376e.js",
     "static/media/Wald2.png": "/My-Website/static/media/Wald2.6d44168316dbcfa2a42b.png",
     "static/media/SpiritOfSkap.png": "/My-Website/static/media/SpiritOfSkap.6b226d61280f918645fb.png",
     "static/media/Wüste.png": "/My-Website/static/media/Wüste.7a7fd9e3edb70bb0657f.png",
@@ -23,7 +23,6 @@
     "static/media/CouldItBeMoreUnreal.jpg": "/My-Website/static/media/CouldItBeMoreUnreal.a4fe3f5d140b86c4fc60.jpg",
     "static/media/Landscape.jpg": "/My-Website/static/media/Landscape.4bdb75d505b2eff31f98.jpg",
     "static/media/Orb.jpg": "/My-Website/static/media/Orb.fe53d18ccdf1f3c82f5e.jpg",
-    "static/media/KeeperNotes.jpg": "/My-Website/static/media/KeeperNotes.fb478d211445988bb731.jpg",
     "static/media/Djagami.png": "/My-Website/static/media/Djagami.e6d0ab96a3f4ec8b2dcc.png",
     "static/media/RandwachenTruppe.jpg": "/My-Website/static/media/RandwachenTruppe.44e10a09b5b26f475f74.jpg",
     "static/media/MyFirstRPG.jpg": "/My-Website/static/media/MyFirstRPG.e7c6c84fcb769e7a08fc.jpg",
@@ -90,11 +89,11 @@
     "static/media/PnPPlaner.jpg": "/My-Website/static/media/PnPPlaner.62f20110690873f47d1a.jpg",
     "static/media/JellyGhosts.jpg": "/My-Website/static/media/JellyGhosts.73241aa54e82a5343673.jpg",
     "index.html": "/My-Website/index.html",
-    "main.330c19c6.css.map": "/My-Website/static/css/main.330c19c6.css.map",
-    "main.73c32a5a.js.map": "/My-Website/static/js/main.73c32a5a.js.map"
+    "main.1002c06d.css.map": "/My-Website/static/css/main.1002c06d.css.map",
+    "main.96f7376e.js.map": "/My-Website/static/js/main.96f7376e.js.map"
   },
   "entrypoints": [
-    "static/css/main.330c19c6.css",
-    "static/js/main.73c32a5a.js"
+    "static/css/main.1002c06d.css",
+    "static/js/main.96f7376e.js"
   ]
 }
