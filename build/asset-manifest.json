@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Website/static/css/main.1002c06d.css",
+    "main.css": "/My-Website/static/css/main.64f910b7.css",
     "main.js": "/My-Website/static/js/main.96f7376e.js",
     "static/media/Wald2.png": "/My-Website/static/media/Wald2.6d44168316dbcfa2a42b.png",
     "static/media/SpiritOfSkap.png": "/My-Website/static/media/SpiritOfSkap.6b226d61280f918645fb.png",
@@ -89,11 +89,11 @@
     "static/media/PnPPlaner.jpg": "/My-Website/static/media/PnPPlaner.62f20110690873f47d1a.jpg",
     "static/media/JellyGhosts.jpg": "/My-Website/static/media/JellyGhosts.73241aa54e82a5343673.jpg",
     "index.html": "/My-Website/index.html",
-    "main.1002c06d.css.map": "/My-Website/static/css/main.1002c06d.css.map",
+    "main.64f910b7.css.map": "/My-Website/static/css/main.64f910b7.css.map",
     "main.96f7376e.js.map": "/My-Website/static/js/main.96f7376e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1002c06d.css",
+    "static/css/main.64f910b7.css",
     "static/js/main.96f7376e.js"
   ]
 }

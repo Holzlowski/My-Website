@@ -36,6 +36,8 @@
 
 .projects-grid {
     align-items: stretch;
+    --bs-gutter-y: 2rem;
+    row-gap: 2rem;
 }
 
 .project-col {
