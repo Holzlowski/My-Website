@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Website/static/css/main.64f910b7.css",
-    "main.js": "/My-Website/static/js/main.288cb936.js",
+    "main.js": "/My-Website/static/js/main.ef377c50.js",
     "static/media/Wald2.png": "/My-Website/static/media/Wald2.6d44168316dbcfa2a42b.png",
     "static/media/SpiritOfSkap.png": "/My-Website/static/media/SpiritOfSkap.6b226d61280f918645fb.png",
     "static/media/Wüste.png": "/My-Website/static/media/Wüste.7a7fd9e3edb70bb0657f.png",
@@ -18,6 +18,8 @@
     "static/media/LogoName.png": "/My-Website/static/media/LogoName.b02672ab73b56077add0.png",
     "static/media/Ich.png": "/My-Website/static/media/Ich.3e47c78fb50d8f7189cd.png",
     "static/media/Orelia verletzt.png": "/My-Website/static/media/Orelia verletzt.2cd6681b4f8d6496aff1.png",
+    "static/media/PWM1.png": "/My-Website/static/media/PWM1.6db4ed6a79bac82855f8.png",
+    "static/media/PWM2.png": "/My-Website/static/media/PWM2.cc2ae8e2842309ba1e53.png",
     "static/media/Djagami_links.png": "/My-Website/static/media/Djagami_links.79f152d5e1d84434fcb3.png",
     "static/media/Djagami_rechts.png": "/My-Website/static/media/Djagami_rechts.ef10a08c979189dc4af0.png",
     "static/media/CouldItBeMoreUnreal.jpg": "/My-Website/static/media/CouldItBeMoreUnreal.a4fe3f5d140b86c4fc60.jpg",
@@ -60,12 +62,10 @@
     "static/media/GravityGalaxy.jpg": "/My-Website/static/media/GravityGalaxy.23b7ba1b117e79cfbdc3.jpg",
     "static/media/Army.jpg": "/My-Website/static/media/Army.9de1d61a147e1474d80e.jpg",
     "static/media/Animals.jpg": "/My-Website/static/media/Animals.38243ce680712a387a53.jpg",
-    "static/media/PWM1.jpg": "/My-Website/static/media/PWM1.569d9dc8f2aa23b9a8d8.jpg",
     "static/media/IronWood.jpg": "/My-Website/static/media/IronWood.bbbc91b4bd16817b0c63.jpg",
     "static/media/GravityPlanet.jpg": "/My-Website/static/media/GravityPlanet.8fbfec50c37a5c1168a7.jpg",
     "static/media/Oger.jpg": "/My-Website/static/media/Oger.46ba8beea93fb4903eeb.jpg",
     "static/media/GodOfHolz.jpg": "/My-Website/static/media/GodOfHolz.3c5ea474470060befe76.jpg",
-    "static/media/PWM2.jpg": "/My-Website/static/media/PWM2.348777e75ba0778284a3.jpg",
     "static/media/TinDog3.jpg": "/My-Website/static/media/TinDog3.62b8deead0a9a7dd5958.jpg",
     "static/media/Arkmon Logo.jpg": "/My-Website/static/media/Arkmon Logo.c36062b6af9737658ab6.jpg",
     "static/media/OraoRef.jpg": "/My-Website/static/media/OraoRef.036689cc79504d32c971.jpg",
@@ -90,10 +90,10 @@
     "static/media/JellyGhosts.jpg": "/My-Website/static/media/JellyGhosts.73241aa54e82a5343673.jpg",
     "index.html": "/My-Website/index.html",
     "main.64f910b7.css.map": "/My-Website/static/css/main.64f910b7.css.map",
-    "main.288cb936.js.map": "/My-Website/static/js/main.288cb936.js.map"
+    "main.ef377c50.js.map": "/My-Website/static/js/main.ef377c50.js.map"
   },
   "entrypoints": [
     "static/css/main.64f910b7.css",
-    "static/js/main.288cb936.js"
+    "static/js/main.ef377c50.js"
   ]
 }
