@@ -54,6 +54,7 @@
     height: 100%;
     transform-style: preserve-3d;
     animation: rotate3D 20s linear infinite;
+    animation-play-state: inherit;
 }
 
 .card-item {
@@ -227,8 +228,13 @@
 }
 
 .rotating-cards.loading .card-item,
-.rotating-cards.loading .avatar-wrapper {
+.rotating-cards.loading .avatar-wrapper,
+.rotating-cards.loading .card-orbit {
     animation-play-state: paused;
+}
+
+.rotating-cards.loaded .card-orbit {
+    animation-play-state: running;
 }
 
 /* ==============================================
