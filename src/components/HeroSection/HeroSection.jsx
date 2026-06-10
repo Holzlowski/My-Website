@@ -5,36 +5,13 @@ import karte2 from '../../assets/images/skillkarten/Alchemielabor.jpg';
 import karte3 from '../../assets/images/skillkarten/Äpfel3D.jpg';
 import karte4 from '../../assets/images/skillkarten/GravityPlanet.jpg';
 import karte5 from '../../assets/images/skillkarten/Programmieren.jpg';
-import { useImagePreloader } from '../../hooks/useImagePreloader';
 import './HeroSection.css';
 
 const HeroSection = () => {
-  const imageUrls = [avatarImage, karte1, karte2, karte3, karte4, karte5];
-  
-  // Verwende den neuen Hook
-  const { imagesLoaded, loadedImages, loadingProgress, totalImages } = useImagePreloader(imageUrls, {
-    timeout: 6000,
-    priority: 'high'
-  });
-
   return (
     <section className="hero-section fullscreen-bg">
-      {/* Loading Indicator */}
-      {!imagesLoaded && (
-        <div className="loading-overlay">
-          <div className="loading-spinner"></div>
-          <p>Bilder laden... ({loadedImages}/{totalImages})</p>
-          <div className="loading-progress-bar">
-            <div 
-              className="loading-progress-fill" 
-              style={{ width: `${loadingProgress}%` }}
-            ></div>
-          </div>
-        </div>
-      )}
-      
       {/* Main Content */}
-      <div className={`rotating-cards ${imagesLoaded ? 'loaded' : 'loading'}`}>
+      <div className="rotating-cards loaded">
         <div className='card-orbit'>
           {/* Avatar mit Gegen-Rotation um statisch zu bleiben */}
           <div className="avatar-wrapper">
