@@ -7,8 +7,10 @@
 /* Avatar Wrapper - Mit Gegen-Rotation um statisch zu bleiben */
 .avatar-wrapper {
     position: absolute;
-    top: 45%;
+    top: calc(45% + 50px);
     left: 50%;
+    width: 500px;
+    height: 750px;
     transform: translate(-50%, -50%);
     z-index: 0; /* Niedriger als Karten */
     animation: counterRotate 20s linear infinite;
@@ -17,9 +19,8 @@
 }
 
 .avatar-center {
-    position: relative;
-    top: 50px;
-    width: 500px;
+    display: block;
+    width: 100%;
     height: auto;
     filter: drop-shadow(0 8px 32px rgb(0, 0, 0));
     animation: floating 3s ease-in-out infinite;
@@ -244,8 +245,13 @@
 /* Tablets und kleinere Desktops */
 @media (max-width: 1024px) {
     .avatar-center {
+        width: 100%;
+    }
+
+    .avatar-wrapper {
+        top: calc(45% + 40px);
         width: 400px;
-        top: 40px;
+        height: 600px;
     }
     
     .rotating-cards {
@@ -268,8 +274,13 @@
 /* Tablets im Hochformat */
 @media (max-width: 768px) {
     .avatar-center {
+        width: 100%;
+    }
+
+    .avatar-wrapper {
+        top: calc(45% + 30px);
         width: 300px;
-        top: 30px;
+        height: 450px;
     }
     
     .rotating-cards {
@@ -292,8 +303,7 @@
 /* Smartphones */
 @media (max-width: 576px) {
     .avatar-center {
-        width: 220px;
-        top: 20px;
+        width: 100%;
     }
     
     .rotating-cards {
@@ -314,15 +324,22 @@
     .card-5 { transform: translate(-50%, -50%) rotateY(288deg) translateZ(120px); }
     
     .avatar-wrapper {
-        top: 40%;
+        top: calc(40% + 20px);
+        width: 220px;
+        height: 330px;
     }
 }
 
 /* Sehr kleine Smartphones */
 @media (max-width: 400px) {
     .avatar-center {
+        width: 100%;
+    }
+
+    .avatar-wrapper {
+        top: calc(40% + 15px);
         width: 180px;
-        top: 15px;
+        height: 270px;
     }
     
     .rotating-cards {
